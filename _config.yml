@@ -1,0 +1,40 @@
+---
+title: Base
+description: Jekyll base theme.
+# url: https://base-theme-dgp.netlify.app
+baseurl: 
+lang: en
+logo: 
+permalink: "/:title/"
+
+markdown: kramdown
+plugins:
+- jekyll-sitemap
+
+exclude:
+- vendor
+- ".bundle"
+- ".sass-cache"
+- config
+- Gemfile
+- Gemfile.lock
+- node_modules
+- log
+- tmp
+- Rakefile
+- package.json
+- CHANGELOG
+- LICENSE
+- README
+- "/docs"
+sass:
+  style: compressed
+
+livereload: true
+
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: blocks

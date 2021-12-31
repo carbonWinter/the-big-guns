@@ -1,0 +1,54 @@
+---
+label: Map
+hide_body: true
+fields:
+- name: block
+  type: text
+  config:
+    required: false
+  label: Block
+  hidden: true
+  default: map
+- name: api_key
+  type: text
+  config:
+    required: false
+  label: API Key
+- name: locations
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: address_1
+    type: text
+    config:
+      required: false
+    label: Address 1
+  - name: address_2
+    type: text
+    config:
+      required: false
+    label: Address 2
+  - name: latitude
+    type: text
+    config:
+      required: false
+    label: Latitude
+  - name: longitude
+    type: text
+    config:
+      required: false
+    label: Longitude
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Locations
+- name: marker
+  type: file
+  config:
+    maxSize: 64
+  label: Marker

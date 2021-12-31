@@ -1,0 +1,68 @@
+<section class="uk-contact-2 uk-section-large uk-padding-remove-bottom uk-position-relative uk-background-cover uk-background-{{ block.background.color | default: 'default' }}" 
+  style="{% if block.background.image %}background-image: url({% if block.background.image contains '#' %}{{ block.background.image }}{% else %}{{ block.background.image | absolute_url }}{% endif %});{% endif %}">
+  {%- if block.background.overlay.color != '' -%}
+    <div class="uk-position-cover" style="background: {{ block.background.overlay.color }}; opacity: {{ block.background.overlay.opacity | default: '0.6' }}"></div>
+  {%- endif -%}
+  <div class="uk-container uk-container-small uk-position-relative">
+
+    {% if block.heading and block.heading != empty %}
+      <div class="uk-section-heading-container uk-margin-large-bottom uk-container-small{% if block.align == 'center' %} uk-margin-auto{% endif %} uk-text-{{ block.align | default: 'left' }} uk-{{ block.color | default: 'dark' }}">
+        {% if block.superheading != empty %}
+          <div class="uk-section-superheading uk-margin-xsmall-bottom">{{ block.superheading }}</div>
+        {% endif %}        
+        {% if block.heading != empty %}
+          <h2 class="uk-section-heading uk-margin-remove-top uk-margin-remove-bottom">{{ block.heading }}</h2>
+        {% endif %}
+        {% if block.text != empty %}
+          <div class="uk-text-lead{% if block.heading %} uk-margin-xsmall-top{% endif %}">{{ block.text  }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="uk-grid-small uk-flex uk-flex-bottom uk-flex-center uk-child-width-expand@m" data-uk-grid data-uk-height-match="target: > * > .uk-match">
+      {% if block.hours.heading != '' %}
+        <div>
+          <div class="uk-card uk-card-default uk-card-body uk-match uk-text-center uk-text-left@m uk-text-content">
+            <h3 class="uk-text-uppercase uk-letter-spacing-medium uk-margin-medium-top uk-h5 uk-text-muted">{{ block.hours.heading }}</h3>
+            <ul class="uk-list uk-text-medium uk-margin-large-bottom uk-margin-medium-top">
+              {% for item in block.hours.hours %}
+                <li>{{ item }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      {% endif %}
+      {% if block.appointment.heading != '' %}
+        <div class="uk-width-contact-appointment">
+          <div class="uk-card uk-card-default uk-card-body uk-text-center uk-text-content">
+            <h3 class="uk-text-center uk-text-uppercase uk-letter-spacing-medium uk-margin-large-top uk-h5 uk-text-primary">{{ block.appointment.heading }}</h3>
+            {% if site.data.options.phone != '' %}
+              <div class="uk-margin-medium-top uk-text-medium uk-margin-large-bottom">
+                <a class="uk-link-text uk-h4" href="tel:{{ site.data.options.phone }}">{{ site.data.options.phone }}</a>
+              </div>
+            {% endif %}
+            {% if block.appointment.appointment_button %}
+              <div class="uk-margin-large-top uk-margin-large-bottom uk-text-center" data-uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true; delay: 400">
+                <a class="uk-button uk-button-primary" href="#" data-uk-toggle="target: #modal-appointment">Request an Appointment</a>
+              </div>
+            {% endif %}    
+            {% if block.appointment.button.url != '' %}
+              <div class="uk-margin-large-top uk-margin-large-bottom">
+                <a class="uk-button uk-button-primary" href="{{ block.appointment.button.url }}"{% if block.appointment.button.blank %} target="_blank" rel="noopener noreferrer" {% endif %}>{{ block.appointment.button.text }}</a>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+      {% if block.address.heading != '' %}
+        <div>
+          <div class="uk-card uk-card-default uk-card-body uk-match uk-text-center uk-text-right@m uk-text-content">
+            <h3 class="uk-text-uppercase uk-letter-spacing-medium uk-margin-medium-top uk-h5 uk-text-muted">{{ block.address.heading }}</h3>
+            <address class="uk-text-medium uk-margin-large-bottom uk-margin-medium-top">{{ block.address.address | markdownify }}</address>
+          </div>
+        </div>
+      {% endif %}
+    </div>
+
+  </div>
+</section>

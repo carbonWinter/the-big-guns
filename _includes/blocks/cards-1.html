@@ -1,0 +1,44 @@
+<section id="block-{{ forloop.index }}" class="uk-cards-1 uk-section-large uk-position-relative uk-background-cover uk-background-{{ block.background.color | default: 'default' }}" 
+  style="{% if block.background.image %}background-image: url({% if block.background.image contains '#' %}{{ block.background.image }}{% else %}{{ block.background.image | absolute_url }}{% endif %});{% endif %}">
+  {%- if block.background.overlay.color != '' -%}
+    <div class="uk-position-cover" style="background: {{ block.background.overlay.color }}; opacity: {{ block.background.overlay.opacity | default: '0.6' }}"></div>
+  {%- endif -%}
+  <div class="uk-container uk-position-relative uk-text-{{ block.align | default: 'left' }}">
+
+    {% if block.heading != empty or block.text != empty %}
+      <div class="uk-section-heading-container uk-margin-large-bottom uk-container-small{% if block.align == 'center' %} uk-margin-auto{% endif %} uk-{{ block.color | default: 'dark' }}">
+        {% if block.heading != empty %}
+          <h2 class="uk-section-heading uk-margin-remove-top uk-margin-remove-bottom">{{ block.heading }}</h2>
+        {% endif %}
+        {% if block.text != empty %}
+          <div class="uk-text-lead{% if block.heading %} uk-margin-xsmall-top{% endif %}">{{ block.text | markdownify  }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="uk-flex-center uk-grid-large uk-child-width-1-2s uk-child-width-1-{{ block.columns | default: '3' }}@m" data-uk-grid>
+      {% for card in block.cards %}
+        <div>
+          <div class="uk-grid-small uk-flex uk-flex-middle uk-{{ block.color | default: 'dark' }}" data-uk-grid>
+            {% if card.icon != empty %}
+              <div class="{% if block.align == 'center' %} uk-width-1-1{% else %}uk-width-auto{% endif %}">
+                <img src="{% if card.icon contains 'http' %}{{ card.icon }}{% else %}{{ card.icon | absolute_url }}{% endif %}" alt="{{ card.heading }}">
+              </div>
+            {% endif %}
+            <div class="uk-width-expand">
+              <h3 class="uk-margin-remove uk-h4 uk-letter-spacing-medium uk-line-height-one">{{ card.heading }}</h3>
+            </div>
+          </div>
+          {% if card.text != empty %}
+            <div class="uk-margin-medium-top uk-{{ block.color | default: 'dark' }} uk-text-content">{{ card.text }}</div>
+          {% endif %}
+          {% if card.button.url != empty %}
+            <div class="uk-margin-medium-top">
+              <a class="uk-button uk-button-default" href="{% if card.button.url contains 'http' %}{{ card.button.url }}{% else %}{{ card.button.url | relative_url }}{% endif %}">{{ card.button.text }}</a>
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

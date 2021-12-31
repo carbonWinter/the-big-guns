@@ -1,0 +1,176 @@
+---
+label: Data footer
+hide_body: true
+fields:
+- name: layout
+  type: select
+  default: layout-1
+  config:
+    required: false
+    options:
+    - layout-1
+    - layout-2
+    - layout-3
+    - layout-4
+    - layout-5
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Layout
+- name: address
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Address
+- name: hours
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Hours
+- name: copyright
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Copyright
+- name: privacy_link
+  type: field_group
+  config: {}
+  fields:
+  - name: text
+    type: text
+    config:
+      required: false
+    label: Text
+  - name: url
+    type: text
+    config:
+      required: false
+    label: URL
+  label: Privacy link
+- name: button_primary
+  type: field_group
+  config: {}
+  fields:
+  - name: text
+    type: text
+    config:
+      required: false
+    label: Text
+  - name: url
+    type: text
+    config:
+      required: false
+    label: URL
+  - name: blank
+    type: boolean
+    label: Blank
+    description: Open in new window.
+  label: Button primary
+- name: button_secondary
+  type: field_group
+  config: {}
+  fields:
+  - name: text
+    type: text
+    config:
+      required: false
+    label: Text
+  - name: url
+    type: text
+    config:
+      required: false
+    label: URL
+  - name: blank
+    type: boolean
+    label: Blank
+    description: Open in new window.
+  label: Button secondary
+- name: menus
+  type: field_group_list
+  fields:
+  - name: menu
+    type: field_group_list
+    fields:
+    - name: text
+      type: text
+      config:
+        required: false
+      label: Text
+    - name: url
+      type: text
+      config:
+        required: false
+      label: URL
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Links
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Menus
+- name: background
+  type: color
+  config:
+    required: false
+    color_format: Hex
+  label: Background
+  default: "#F0E8DF"
+  showOnly:
+    value: color
+- name: color
+  type: select
+  default: dark
+  config:
+    required: false
+    options:
+    - dark
+    - light
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Color
+- name: subfooter
+  type: field_group
+  config: {}
+  fields:
+  - name: background
+    type: color
+    label: Background
+    config:
+      required: false
+      color_format: Hex
+    default: "#000000"
+  - name: color
+    type: select
+    default: light
+    config:
+      required: false
+      options:
+      - dark
+      - light
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Color
+  label: Subfooter
+pages:
+- _data/footer.yml

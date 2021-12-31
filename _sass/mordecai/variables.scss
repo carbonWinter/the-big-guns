@@ -1,0 +1,85 @@
+
+
+
+// Global variables
+$base-h2-font-size-m:                            3rem;
+$base-h2-font-size:                              2.25rem;
+$base-h3-font-size:                             2.125rem;
+$base-h4-font-size:                             1.75rem;
+
+$global-background:                             #fff;
+
+$global-inverse-color:                          #fff;
+$inverse-global-color:                          rgba($global-inverse-color, 0.7);
+$inverse-base-color:                            $inverse-global-color;
+$inverse-base-link-color:                       $inverse-global-color;
+$global-border:                               #e5e5e5;
+
+$link-text-hover-color:                         lighten($global-color, 25%);
+
+$grid-divider-border:                           darken($global-border, 15%);
+
+$global-control-height:                         56px;
+$form-padding-horizontal:                       20px;
+
+$accordion-item-margin-top:                     0;
+$accordion-title-font-size:                     1.5rem;
+$accordion-title-line-height:                   1.4 !default;
+$accordion-title-color:                         $global-color;
+$accordion-title-hover-color:                   $global-primary-background;
+$accordion-content-margin-top:                  0;
+
+$button-font-size:                              1rem;
+$button-padding-horizontal:                     40px;
+$button-small-line-height:                      46px;
+
+$heading-large-font-size-l:                     5.25rem;
+
+$button-default-color:                          $global-dark-background;
+$button-default-border:                         $global-dark-background;
+$button-default-hover-border:                   $global-dark-background;
+$button-default-active-border:                  $global-dark-background;
+$button-default-hover-background:               $global-dark-background;
+$button-default-hover-color:                    #fff;
+$button-default-active-background:              $global-dark-background;
+
+// // Navigation variables
+$navbar-nav-item-height:                        120px;
+$navbar-nav-item-padding-horizontal:            25px;
+$navbar-nav-item-font-size:                     1.125rem;
+$inverse-navbar-nav-item-color:                 #fff;
+$inverse-navbar-nav-item-hover-color:           $global-secondary-background;
+$inverse-navbar-nav-item-onclick-color:         $global-secondary-background;
+$inverse-navbar-nav-item-active-color:          $global-secondary-background;
+$inverse-navbar-item-color:                     #fff;
+$inverse-navbar-toggle-color:                   #fff;
+$inverse-navbar-toggle-hover-color:             $global-secondary-background;
+
+$navbar-dropdown-width:                          250px;
+$navbar-dropdown-margin:                         -40px;
+$navbar-dropdown-padding:                        25px;
+$navbar-dropdown-background:                     rgba($global-background, 0.9);
+
+$navbar-dropdown-nav-item-color:                 darken($global-primary-background, 20%);
+$navbar-dropdown-nav-item-hover-color:           $global-secondary-background;
+$navbar-dropdown-nav-item-active-color:          $global-secondary-background;
+$navbar-dropdown-nav-font-size:                  0.938rem;
+
+$nav-primary-item-color:                 $global-primary-background;
+$nav-primary-item-hover-color:           $global-secondary-background;
+$nav-primary-item-active-color:          $global-secondary-background;
+$nav-primary-header-color:               $global-secondary-background;
+$nav-primary-sublist-item-color:         $global-primary-background;
+$nav-primary-sublist-item-hover-color:   $global-secondary-background;
+$nav-primary-sublist-item-active-color:  $global-secondary-background;
+
+$text-lead-font-size:                            1.5rem;
+$inverse-text-lead-color:                       #fff;
+
+$modal-dialog-width:                             800px;
+$modal-body-padding-horizontal:                  40px;
+$modal-body-padding-vertical:                    40px;
+
+$notification-width:                             430px;
+
+

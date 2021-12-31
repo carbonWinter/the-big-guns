@@ -1,0 +1,71 @@
+---
+theme: wintergreen
+logo_dark: "https://via.placeholder.com/333x94/fff"
+logo_light: "https://via.placeholder.com/333x94/fff"
+sticky_cta:
+blocks:
+fonts:
+  body: SFCompactDisplay
+  heading: SFCompactDisplay
+  navigation: SFCompactDisplay
+colors:
+  body: "#6E6C66"
+  heading: "#3B3831"
+  muted: "#aba89e"
+backgrounds:
+  primary: "#33B9C4"
+  secondary: "#FFCE04"
+  dark: "#151411"
+  muted: "#e3e2de"
+phone: 888-555-555-5556
+appointments:
+  client_id: '0000000'
+  client_name: Client xyz
+  services:
+  - Aesthetic Dentistry
+  - Cavity Fillings
+  - Cleaning, Exam & X-Ray
+  - Crowns & Bridges
+  - Emergency Visit
+  - Dentures Consultation
+  - Endodontics
+  - Gum Disease
+  - Holistic Dentistry
+  - Implant Consultation
+  - Invisalign Consultation
+  - Kid's Dentistry
+  - Laser Dentistry
+  - Oral Surgery
+  - Pro Teeth Whitening
+  - Sleep Apnea
+  - Sleep Dentistry
+  - Teeth Straightening
+  - TMJ Disorder
+  - Tooth Extraction
+  - Veneers
+  - All On 4 Implants
+  - Six Month Smiles
+  - Braces
+  - Fast Braces
+  - Wisdom Teeth
+  hours:
+  - "[7, 14]"
+  - "[7, 19]"
+  - "[7, 19]"
+  - "[7, 19]"
+  - "[7, 19]"
+  - "[7, 19]"
+  - "[7, 16]"
+offer:
+  heading: Default offer heading
+  subheading: Default offer subheading
+  disclaimer: Lorem ipsum disclaimer
+site_title: Base
+google_analytics: ''
+social:
+  facebook: "#"
+  linkedin: "#"
+  pinterest: "#"
+  twitter: "#"
+  yelp: "#"
+  youtube: "#"

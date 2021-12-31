@@ -1,0 +1,25 @@
+<section id="block-{{ forloop.index }}" class="uk-section uk-section-muted">
+  <div class="uk-container">
+    {% if block.heading != empty or block.text != empty %}
+      <div class="uk-margin-medium-bottom uk-container-small{% if block.align == 'center' %} uk-margin-auto{% endif %} uk-text-{{ block.align | default: 'left' }} uk-{{ block.color | default: 'dark' }}">
+        {% if image != empty %}
+          <img class="uk-margin-medium-bottom" data-src="{% if image contains 'http' %}{{ image }}{% else %}{{ image | absolute_url }}{% endif %}" data-width data-height src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-uk-img alt="{{ block.heading }}">
+        {% endif %}
+        
+        {% if block.heading != empty %}
+          <h2 class="uk-margin-remove">{{ block.heading }}</h2>
+        {% endif %}
+        {% if block.text != empty %}
+          <div class="uk-text-lead{% if block.heading %} uk-margin-top{% endif %}">{{ block.text | markdownify  }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+    <div class="{% if block.columns != '1' %}uk-child-width-1-2{% endif %} uk-child-width-1-{{ block.columns | default: '3' }}@m uk-grid-small{% if block.align == 'center' %} uk-flex uk-flex-center{% endif %}" data-uk-grid>
+      {% for image in block.images %}
+        <div class="uk-text-{{ block.align | default: 'left' }}">
+          <img  data-src="{% if image contains 'http' %}{{ image }}{% else %}{{ image | absolute_url }}{% endif %}" data-width data-height src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-uk-img alt="Gallery">
+        </div>
+      {% endfor %}    
+    </div>
+  </div>
+</section>

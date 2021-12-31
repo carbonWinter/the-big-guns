@@ -1,0 +1,67 @@
+<div class="uk-container uk-container-expand">
+  <div data-uk-navbar="dropbar: true; mode: click">
+    <div class="uk-navbar-left">
+      <a class="uk-navbar-item uk-logo" href="{{ "/" | relative_url }}">
+        {% if site.data.options.logo_light != '' or site.data.options.logo_dark != '' %}
+          {% if site.data.options.logo_light != '' %}
+            <img class="uk-logo-inverse" src="{{ site.data.options.logo_light | absolute_url }}" alt="{{ site.title }}">
+          {% endif %}
+          {% if site.data.options.logo_dark != '' %}
+            <img src="{{ site.data.options.logo_dark | absolute_url }}" alt="{{ site.title }}">
+          {% endif %}
+        {% else %}
+          {{ site.title }}
+        {% endif %}
+      </a>
+    </div>
+
+    <div class="uk-navbar-center"></div>
+
+    <div class="uk-navbar-right">
+      <ul class="uk-navbar-nav uk-visible@l">
+        <li>
+          <div class="uk-navbar-item"><a class="uk-button uk-button-default uk-button-min-width" href="#" data-uk-toggle="target: #modal-offer">Dental Offer</a></div>
+        </li>
+        <li>
+          <div class="uk-navbar-item"><a class="uk-button uk-button-primary-preserve uk-button-min-width" href="#" data-uk-toggle="target: #modal-appointment">Book Now</a></div>
+        </li>
+        {% if site.data.options.phone != '' %}
+          <li>
+            <a class="uk-link-phone uk-margin-large-right" href="tel:{{ site.data.options.phone }}">
+              <span class="uk-margin-small-right">Call us:</span>
+              {{ site.data.options.phone }}</a>
+          </li>
+        {% endif %}        
+        <li>
+          <a class="uk-link-primary" href="#" data-uk-navbar-toggle-icon="ratio: 1.5"></a>
+          <div class="uk-navbar-dropdown uk-dropbar-width-{{ site.data.navbar.menu_right.size }}">
+            <div class="uk-navbar-dropdown-grid uk-child-width-1-{{ site.data.navbar.menu_right.size }}" data-uk-grid>
+              {% for link in site.data.navbar.menu_right %}
+                <div>
+                  <ul class="uk-nav uk-navbar-dropdown-nav uk-text-right">
+                    <li class="uk-nav-header uk-text-right uk-text-bold">{{ link.text }}</li>
+                    {% for child in link.dropdown %}
+                      {% if child.url contains 'http' %}
+                          {% assign domain = '' %}
+                      {% else %}
+                          {% assign domain = '' | relative_url %}
+                      {% endif %}
+                      {% if child.url == page.url %}
+                          {% assign current = ' class="uk-active"' %}
+                      {% else %}
+                          {% assign current = null %}
+                      {% endif %}
+                      <li{{ current }}><a class="uk-flex-right" href="{{ domain }}{{ child.url }}" {% if child.blank %}target="_blank" rel="noopener" {% endif %}>{{ child.text }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <a class="uk-navbar-toggle uk-hidden@l" href="#nav-mobile" aria-label="Mobile Navigation" data-uk-navbar-toggle-icon="ratio: 1.5" data-uk-toggle></a>
+    </div>
+  </div>
+</div>

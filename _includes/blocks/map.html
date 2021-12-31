@@ -1,0 +1,83 @@
+<div>
+  <div id="map" style="height: 600px;" class="uk-width-1-1 uk-height-xlarge"></div>
+  <script src="https://maps.googleapis.com/maps/api/js?key={{ block.api_key }}&callback=initMap&libraries=&v=weekly" defer></script>
+  <script>
+    let map;
+
+    function initMap() {
+
+      var head = document.getElementsByTagName('head')[0];
+
+      // Save the original method
+      var insertBefore = head.insertBefore;
+
+      // Replace it!
+      head.insertBefore = function (newElement, referenceElement) {
+
+        if (newElement.href && ( newElement.href.indexOf('//fonts.googleapis.com/css?family=Roboto') > -1 || newElement.href.indexOf('//fonts.googleapis.com/css?family=Google+Sans+Text') > -1 )) {
+
+            return;
+        }
+
+        insertBefore.call(head, newElement, referenceElement);
+      };
+
+      map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: {{ block.locations[0].latitude }}, lng: {{ block.locations[0].longitude }} },
+        zoom: 15,
+        styles: [
+          {
+            "featureType": "poi",
+            "stylers": [
+              {
+                "visibility": "off"
+              }
+            ]
+          }        
+        ]
+      });
+
+      let markerURL = "{{ block.marker | default: '/assets/img/marker.png' }}";
+      
+      {% for location in block.locations %}
+      
+      {% assign parent_index = forloop.index %}
+      
+      const contentString{{forloop.index}} =
+        '<div id="content">' +
+        '<h4 class="uk-h5 uk-margin-remove">{{ location.name }}</h4>' +
+        '<div class="uk-margin-small-top">' +
+        '<div class="uk-text-bold">Address</div>' +
+        '<div class="uk-margin-xsmall-top">{{ location.address_1 }}<br>{{ location.address_2 }}</div>' +
+        "</div>" +
+        "</div>";
+      const infowindow{{forloop.index}} = new google.maps.InfoWindow({
+        content: contentString{{forloop.index}},
+      });
+      
+      let latLng{{forloop.index}} = new google.maps.LatLng({{ location.latitude }}, {{ location.longitude }});
+      let marker{{forloop.index}} = new google.maps.Marker({
+        position: latLng{{forloop.index}},
+        map: map,
+        icon: markerURL,
+        title: "{{ location.name }}",
+      });
+      
+        marker{{forloop.index}}.addListener("click", ()=>{
+        infowindow{{forloop.index}}.open(map, marker{{forloop.index}});
+        {% for closeLocation in block.locations %}
+          {% if parent_index == forloop.index %}
+            {% continue %}
+          {% endif %}
+          infowindow{{forloop.index}}.close();
+        {% endfor %}
+      }); 
+
+
+      {% endfor %}
+      
+      
+    }
+  </script>
+</div>
+

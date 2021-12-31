@@ -1,0 +1,38 @@
+<section id="block-{{ forloop.index }}" class="uk-images-1 uk-section-large uk-position-relative uk-background-cover uk-background-{{ block.background.color | default: 'default' }}" 
+  style="{% if block.background.image %}background-image: url({% if block.background.image contains '#' %}{{ block.background.image }}{% else %}{{ block.background.image | absolute_url }}{% endif %});{% endif %}">
+  {%- if block.background.overlay.color != '' -%}
+    <div class="uk-position-cover" style="background: {{ block.background.overlay.color }}; opacity: {{ block.background.overlay.opacity | default: '0.6' }}"></div>
+  {%- endif -%}
+  <div class="uk-container uk-position-relative uk-{{ block.color | default: 'dark' }}">
+
+    {% if block.heading and block.heading != empty %}
+      <div class="uk-section-heading-container uk-margin-large-bottom uk-container-small{% if block.align == 'center' %} uk-margin-auto{% endif %} uk-text-{{ block.align | default: 'left' }} uk-{{ block.color | default: 'dark' }}">
+        {% if block.superheading != empty %}
+          <div class="uk-section-superheading uk-margin-xsmall-bottom">{{ block.superheading }}</div>
+        {% endif %}        
+        {% if block.heading != empty %}
+          <h2 class="uk-section-heading uk-margin-remove-top uk-margin-remove-bottom">{{ block.heading }}</h2>
+        {% endif %}
+        {% if block.text != empty %}
+          <div class="uk-text-lead{% if block.heading %} uk-margin-xsmall-top{% endif %}">{{ block.text  }}</div>
+        {% endif %}
+        {% if block.copy != empty %}
+          <div class="uk-text-content uk-margin-medium-top">{{ block.copy | markdownify  }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+    <div class="uk-child-width-1-2 uk-child-width-{% if block.columns != 'expand' %}1-{% endif %}{{ block.columns | default: '3' }}@m uk-grid-{{ block.gutter | default: 'medium' }}{% if block.align == 'center' %} uk-flex uk-flex-center{% endif %}" data-uk-grid>
+      {% for image in block.images %}
+        <div class="uk-text-{{ block.align | default: 'left' }}">
+          {% if image.url != empty %}
+            <a href="{{ image.url }}" target="_blank" rel="noopener noreferrer">
+              <img data-src="{% if image.image contains 'http' %}{{ image.image }}{% else %}{{ image.image | absolute_url }}{% endif %}" data-width data-height src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-uk-img alt="Gallery">
+            </a>
+          {% else %}
+            <img data-src="{% if image.image contains 'http' %}{{ image.image }}{% else %}{{ image.image | absolute_url }}{% endif %}" data-width data-height src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-uk-img alt="Gallery">
+          {% endif %}
+        </div>
+      {% endfor %}    
+    </div>
+  </div>
+</section>

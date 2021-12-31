@@ -1,0 +1,282 @@
+---
+label: Page blocks
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+  default: blocks
+- type: text
+  name: title
+  label: Title
+- name: seo
+  type: include
+  config: {}
+  template: partial-seo
+  label: Seo
+- name: sticky_cta
+  type: boolean
+  label: Sticky CTA
+  description: Display sticky call to action on the page.
+- name: offer
+  type: field_group
+  config: {}
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: subheading
+    type: text
+    config:
+      required: false
+    label: Subheading
+  - name: disclaimer
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Disclaimer
+  label: Offer
+- name: header
+  type: field_group
+  config: {}
+  fields:
+  - name: height
+    type: select
+    default: none
+    config:
+      required: false
+      options:
+      - default
+      - medium
+      - large
+      - viewport
+      - none
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Height
+    description: Se to "none" to disable header.
+  - name: background
+    type: field_group
+    config: {}
+    fields:
+    - name: background_style
+      type: select
+      default: color
+      config:
+        required: false
+        options:
+        - color
+        - image
+        - video
+        - slider
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: Background
+    - name: background_color
+      type: color
+      label: Background color
+      config:
+        required: false
+        color_format: Hex
+      default: "#E2E2E2"
+      showOnly:
+        field: background_style
+        value: color
+    - name: background_image
+      type: file
+      config:
+        maxSize: 64
+      label: Background image
+    - name: background_video_file
+      type: file
+      config:
+        maxSize: 64
+      label: Background video file
+      showOnly:
+        field: background_style
+        value: video
+      description: Upload self hosted video.
+    - name: background_slider
+      type: image_gallery
+      config: {}
+      label: Background slider
+      showOnly:
+        field: background_style
+        value: slider
+    - name: overlay
+      type: select
+      default: none
+      config:
+        required: false
+        options:
+        - none
+        - gradient
+        - color
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: Overlay
+    - name: gradient
+      type: text
+      config:
+        required: false
+      label: Gradient
+      description: Enter gradient style.
+      showOnly:
+        field: overlay
+        value: gradient
+    - name: overlay_color
+      type: color
+      label: Overlay color
+      config:
+        required: false
+        color_format: Hex
+      default: 
+      showOnly:
+        field: overlay
+        value: color
+    - name: overlay_opacity
+      type: number
+      label: Overlay opacity
+      description: Enter a value between 0.1 and 1.
+      default: 0.7
+      required: true
+      config:
+        min: 0.1
+        max: 1
+        step: 
+      showOnly:
+        field: overlay
+        value: color
+    label: Background
+  - name: layout
+    type: select
+    default: centered
+    config:
+      required: false
+      options:
+      - centered
+      - left
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Layout
+  - name: color
+    type: select
+    default: dark
+    config:
+      required: false
+      options:
+      - dark
+      - light
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Color
+  - name: col_one
+    type: field_group
+    config: {}
+    fields:
+    - name: heading
+      type: text
+      config:
+        required: false
+      label: Heading
+    - name: text
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: Text
+    label: Col one
+  - name: col_two
+    type: field_group
+    config: {}
+    fields:
+    - name: heading
+      type: text
+      config:
+        required: false
+      label: Heading
+    - name: text
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: Text
+    label: Col two
+    showOnly:
+      field: layout
+      value: left
+  - name: page_navigation
+    type: field_group_list
+    fields:
+    - name: text
+      type: text
+      config:
+        required: false
+      label: Text
+    - name: id
+      type: text
+      config:
+        required: false
+      label: ID
+      description: Block ID.
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Page navigation
+  label: Hero
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types:
+  - before-after-1
+  - before-after-2
+  - cards-1
+  - cards-2
+  - contact-1
+  - cta-1
+  - faq-1
+  - gallery-1
+  - images-1
+  - map
+  - slider-1
+  - testimonials-1
+  - text-1
+  - video-1
+  config:
+    min: 
+    max: 
+pages:
+- cleaning-and-exam.md
+- dr.dimitri-salin.md
+- index.md
+- our-team.md
+- terms-of-use.md

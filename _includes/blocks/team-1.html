@@ -1,0 +1,56 @@
+<section id="block-{{ forloop.index }}" class="uk-cards-1 uk-section-large uk-position-relative uk-background-cover uk-background-{{ block.background.color | default: 'default' }}" 
+  style="{% if block.background.image %}background-image: url({% if block.background.image contains '#' %}{{ block.background.image }}{% else %}{{ block.background.image | absolute_url }}{% endif %});{% endif %}">
+  {%- if block.background.overlay.color != '' -%}
+    <div class="uk-position-cover" style="background: {{ block.background.overlay.color }}; opacity: {{ block.background.overlay.opacity | default: '0.6' }}"></div>
+  {%- endif -%}
+  <div class="uk-container uk-position-relative uk-text-{{ block.align | default: 'left' }}">
+
+    {% if block.heading != empty %}
+      <div class="uk-section-heading-container uk-margin-large-bottom uk-container-small{% if block.align == 'center' %} uk-margin-auto{% endif %} uk-text-{{ block.align | default: 'left' }} uk-{{ block.color | default: 'dark' }}">
+        {% if block.superheading != empty %}
+          <div class="uk-section-superheading uk-margin-xsmall-bottom">{{ block.superheading }}</div>
+        {% endif %}        
+        {% if block.heading != empty %}
+          <h2 class="uk-section-heading uk-margin-remove-top uk-margin-remove-bottom">{{ block.heading }}</h2>
+        {% endif %}
+        {% if block.text != empty %}
+          <div class="uk-text-lead{% if block.heading %} uk-margin-xsmall-top{% endif %}">{{ block.text  }}</div>
+        {% endif %}
+        {% if block.copy != empty %}
+          <div class="uk-text-content uk-margin-medium-top">{{ block.copy | markdownify  }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="uk-flex-center uk-grid-large uk-child-width-1-2s uk-child-width-1-{{ block.columns | default: '3' }}@m" data-uk-grid>
+      {% for card in block.team %}
+        <div>
+          {% if card.image != empty %}
+            <div class="uk-margin-medium-bottom{% if block.align == 'center' %} uk-text-center{% endif %}">
+              <img src="{% if card.image contains 'http' %}{{ card.image }}{% else %}{{ card.image | absolute_url }}{% endif %}" alt="{{ card.heading }}">
+            </div>
+          {% endif %}
+          <h3 class="uk-margin-remove uk-h4 uk-letter-spacing-medium uk-line-height-one">{{ card.name }}</h3>
+          {% if card.title != empty %}
+            <div class="uk-margin-xsmall-top uk-{{ block.color | default: 'dark' }} uk-team-1-title">{{ card.title }}</div>
+          {% endif %}
+          {% if card.copy != empty %}
+            <div class="uk-margin-top uk-{{ block.color | default: 'dark' }} uk-text-content">{{ card.copy }}</div>
+          {% endif %}
+          {% if card.button.url != empty %}
+            <div class="uk-margin-top">
+              <a class="uk-button uk-link-primary uk-button-link" href="{% if card.button.url contains 'http' %}{{ card.button.url }}{% else %}{{ card.button.url | relative_url }}{% endif %}">{{ card.button.text }}</a>
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+    {% if block.appointment_button%}
+      <div class="uk-margin-large-top uk-text-center" data-uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true; delay: 400">
+        <a class="uk-button uk-button-primary" href="#" data-uk-toggle="target: #modal-appointment">Request an Appointment</a>
+      </div>
+    {% endif %}    
+    
+  </div>
+</section>

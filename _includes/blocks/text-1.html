@@ -1,0 +1,43 @@
+<section id="block-{{ forloop.index }}" class="uk-section-large uk-position-relative uk-background-cover uk-background-{{ block.background.color | default: 'default' }}" 
+  style="{% if block.background.image %}background-image: url({% if block.background.image contains '#' %}{{ block.background.image }}{% else %}{{ block.background.image | absolute_url }}{% endif %});{% endif %}">
+  {%- if block.background.overlay.color != '' -%}
+    <div class="uk-position-cover" style="background: {{ block.background.overlay.color }}; opacity: {{ block.background.overlay.opacity | default: '0.6' }}"></div>
+  {%- endif -%}
+  <div class="uk-container uk-position-relative uk-{{ block.color | default: 'dark' }}">
+    {% if block.heading != empty or block.text != empty %}
+      <div class="uk-section-heading-container uk-margin-large-bottom uk-container-small{% if block.align == 'center' %} uk-margin-auto{% endif %} uk-text-{{ block.align | default: 'left' }}">
+        {% if block.superheading != empty %}
+          <div class="uk-section-superheading uk-margin-xsmall-bottom">{{ block.superheading }}</div>
+        {% endif %}        
+        {% if block.heading != empty %}
+          {% if block.heading_tag == 'H1' %}
+              <h1 class="uk-h2 uk-margin-remove uk-section-heading">{{ block.heading }}</h1>
+            {% else %}
+              <h2 class="uk-h2 uk-margin-remove uk-section-heading">{{ block.heading }}</h2>
+            {% endif %}
+        {% endif %}
+        {% if block.text != empty %}
+          <div class="uk-text-lead{% if block.heading %} uk-margin-xsmall-top{% endif %}">{{ block.text | markdownify  }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    {% if block.content != empty %}
+      <div class="{% if block.columns != '1' %}uk-column-1-2@s{% endif %} uk-column-1-{{ block.columns | default: '3' }}@l uk-text-content uk-text-justify">{{ block.content | markdownify }}</div>
+    {% endif %}    
+
+    {% if block.lists.size != 0 %}
+      <div class="uk-grid-large uk-child-width-expand@m uk-margin-medium-top uk-text-content" data-uk-grid>
+        {% for ul in block.lists %}
+          <div class="uk-flex uk-flex-left uk-flex-center@m">
+            <ul class="uk-list{% if ul.icon != 'none' %} uk-list-icon{% endif %}">
+              {% for item in ul.list %}
+                <li>{% if ul.icon != 'none' %}<span data-uk-icon="{{ .ul.icon | default: 'minus' }}" style="color: {{ .ul.icon_color | default: 'black' }}"></span>{% endif %}{{ item }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}    
+  </div>
+</section>

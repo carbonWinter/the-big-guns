@@ -1,0 +1,32 @@
+{
+  "name": "jekyll",
+  "version": "1.0.0",
+  "description": "Base theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carbonWinter/jekyll.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carbonWinter/jekyll/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "uikit": "^3.9.2"
+  },
+  "devDependencies": {
+    "jshint": "^2.11.0",
+    "ncp": "latest",
+    "uglify-js": "^3.9.1",
+    "watch": "^0.13.0"
+  },
+  "scripts": {
+    "copy:sass": "ncp node_modules/uikit/src/scss/ _sass/uikit/",
+    "uglify": "uglifyjs node_modules/uikit/dist/js/uikit.js node_modules/uikit/dist/js/uikit-icons.js -m -c -o assets/js/main.min.js",
+    "concat": "uglifyjs node_modules/uikit/dist/js/uikit.js node_modules/uikit/dist/js/uikit-icons.js -b -o assets/js/main.js",
+    "build": "npm run uglify && npm run concat",
+    "watch": "watch 'npm run build' assets/js/custom.js",
+    "postinstall": "npm run copy:sass && npm run build"
+  }
+}
