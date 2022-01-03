@@ -1,26 +1,194 @@
 ---
 theme: wintergreen
-logo_dark: "https://via.placeholder.com/333x94/fff"
-logo_light: "https://via.placeholder.com/333x94/fff"
+logo_dark: "/uploads/logo-dark.svg"
+logo_light: "/uploads/logo-light.svg"
 sticky_cta:
+  appointment: false
+  offer: false
+  phone: false
 blocks:
+- template: slider-2
+  block: slider-2
+  slides:
+  - "/uploads/vot-1.jpg"
+  - "/uploads/vot-2.jpg"
+  - "/uploads/vot-3.jpg"
+  - "/uploads/vot-4.jpg"
+  - "/uploads/vot-5.jpg"
+  - "/uploads/vot-7.jpg"
+  - "/uploads/vot-6.jpg"
+  - "/uploads/vot-8.jpg"
+  background:
+    color: dark
+    image: ''
+    video: ''
+    overlay:
+      opacity: 0.1
+      color: ''
+  superheading: "// preview our dental offices in bellflower, California"
+  heading: Virtual office tour
+  text: ''
+  color: light
+  align: center
+- template: contact-2
+  block: contact-2
+  background:
+    color: default
+    overlay:
+      opacity: '0.7'
+      color: "#000000"
+    image: "/uploads/bg-mesh.svg"
+    video: ''
+  superheading: "// some text our dental offices in bellflower, California"
+  heading: Book Online today
+  align: center
+  color: light
+  hours:
+    heading: OFFICE HOURS
+    hours:
+    - Monday - Friday 9am - 6pm
+    - 'Saturday 9am - 3pm '
+    - Closed Sundays
+  appointment:
+    heading: Click to schedule or call now
+    appointment_button: true
+    button:
+      text: ''
+      url: ''
+      blank: false
+  address:
+    heading: LOCATION
+    address: |-
+      4045 Spencer Street, Suite A47
+
+      Las Vegas, NV 89119
+- template: map
+  block: map
+  locations:
+  - name: Bellflower Dental Group
+    address_1: 4045 Spencer Street, Suite A47
+    address_2: 'Las Vegas, NV 89119'
+    latitude: '36.11619291359746'
+    longitude: "-115.1286003378843"
+  marker: "/uploads/bellflower-dental-map-pin.png"
+  api_key: AIzaSyDgSfwIXtCUA96SxACvR-O7rU0aDg9LofE
+- template: testimonials-2
+  block: testimonials-2
+  background:
+    color: dark
+    overlay:
+      opacity: 0.5
+      color: ''
+    image: ''
+    video: ''
+  color: light
+  testimonials:
+  - heading: Great customer service and attentive staff!
+    copy: Great customer service and attentive staff! My 3 year old enjoyed his visit!
+      Yes, I said he enjoyed it! He had to have X-rays done, and I was so worried
+      that he wasn't gonna be a happy camper but the X-ray tech, Dominique, is so
+      good with kids! The X-rays were fast and painless! Overall a great experience!
+    author: Amanda K
+    image: "/uploads/bellflower-dental-testimonail-amanda.jpg"
+  - heading: 'This dental group surpasses my expectations! '
+    copy: This dental group surpasses my expectations! Amazing staff! My experience
+      at Bellflower Dental Group was outstanding. Get bored during waiting? Don't
+      worry! You can kill time by watching a movie in their comfy, amazing movie theater,
+      or even get a massage! They even give out free cookies! I always have fun just
+      by waiting for my name to be called. I highly recommend this dental group. I
+      come to them for my braces, their ortho is incredible, the highlight of this
+      dental group. The staff is amazing, their employees are so kind and take the
+      time to perfect your braces.
+    author: Brian B
+    image: "/uploads/bellflower-dental-testimonail-bryan.jpg"
+  - heading: I love this dental office!
+    copy: I love this dental office!  I have been coming here for years. It is a one-stop-shop!  You
+      can get your x-rays, cleaning, braces, labs, dentures, toothbrushes, and more
+      all right here. They offer a movie room, 15 minute massages, child care, coffee,
+      tea, and snacks! The weekends included face painting and balloon art for the
+      kids. The staff is great, and they try to work with you if you need a payment
+      plan. I think most insurance carriers are accepted. Never had any issues with
+      any of the work done here!
+    author: Rosa V
+    image: "/uploads/bellflower-dental-testimonail-rosa.jpg"
+  superheading: "// Bellflower, Ca Patient Stories"
+  heading: Here's what our patients are saying
+  text: Check out some patient reviews for our Bellflower, Ca dental office
+- template: images-1
+  block: images-1
+  background:
+    color: default
+    overlay:
+      opacity: 0.5
+      color: ''
+    image: ''
+    video: ''
+  color: dark
+  columns: expand
+  gutter: small
+  superheading: Dental Accreditations in Bellflower
+  heading: Our Professional Affiliations
+  text: We are proud members of these dental organizations and accreditations in Bellflower,
+    Ca
+  images:
+  - image: "/uploads/ico-accreditations-ada.png"
+    url: http://ada.org/
+  - image: "/uploads/ico-accreditations-cda.png"
+    url: http://www.cda.org/
+  - image: "/uploads/ico-accreditations-dboc.png"
+    url: http://www.dbc.ca.gov/
+  - image: "/uploads/ico-accreditations-icoi.png"
+    url: http://icoi.org/
+  - image: "/uploads/aapd.png"
+    url: http://www.aapd.org/
+  - image: "/uploads/carecreditlogo.jpg"
+    url: http://www.carecredit.com/
+  - image: "/uploads/learnmore_180x150_e.png"
+    url: https://retailservices.wellsfargo.com/wfha_patient.html
+- template: images-1
+  block: images-1
+  background:
+    color: dark
+    overlay:
+      opacity: 0.5
+      color: ''
+    image: ''
+    video: ''
+  color: light
+  columns: '5'
+  gutter: small
+  superheading: bellflower dental group on social media
+  heading: Follow Us
+  text: Stay updated about our practice, get tips and dental deals through our social
+    media accounts
+  images:
+  - image: "/uploads/instagram-bellflower-dental-group-1.jpeg"
+    url: ''
+  - image: "/uploads/instagram-bellflower-dental-group-2.jpeg"
+    url: ''
+  - image: "/uploads/instagram-bellflower-dental-group-3.jpeg"
+    url: ''
+  - image: "/uploads/instagram-bellflower-dental-group-4.jpg"
+    url: ''
+  - image: "/uploads/instagram-bellflower-dental-group-5.jpg"
+    url: ''
 fonts:
   body: SFCompactDisplay
   heading: SFCompactDisplay
   navigation: SFCompactDisplay
 colors:
-  body: "#6E6C66"
-  heading: "#3B3831"
-  muted: "#aba89e"
+  body: "#64625D"
+  heading: "#534E43"
+  muted: "#8D8A7F"
 backgrounds:
-  primary: "#33B9C4"
-  secondary: "#FFCE04"
-  dark: "#151411"
-  muted: "#e3e2de"
-phone: 888-555-555-5556
+  primary: "red"
+  secondary: "red"
+  dark: "#2f2f2f"
+  muted: "#cccccc"
+phone: "702-500-GUNS"
 appointments:
-  client_id: '0000000'
-  client_name: Client xyz
+  client_id: "307"
+  client_name: The Big Guns
   services:
   - Aesthetic Dentistry
   - Cavity Fillings
@@ -49,23 +217,24 @@ appointments:
   - Fast Braces
   - Wisdom Teeth
   hours:
-  - "[7, 14]"
-  - "[7, 19]"
-  - "[7, 19]"
-  - "[7, 19]"
-  - "[7, 19]"
-  - "[7, 19]"
-  - "[7, 16]"
+  - "[]"
+  - "[8, 18]"
+  - "[8, 18]"
+  - "[8, 18]"
+  - "[8, 18]"
+  - "[8, 18]"
+  - "[]"
 offer:
-  heading: Default offer heading
-  subheading: Default offer subheading
-  disclaimer: Lorem ipsum disclaimer
-site_title: Base
+  heading: Cosmetic Consultation
+  subheading: Includes full exam and x-rays
+  disclaimer: ''
+site_title: The Big Guns
 google_analytics: ''
 social:
-  facebook: "#"
-  linkedin: "#"
-  pinterest: "#"
-  twitter: "#"
-  yelp: "#"
-  youtube: "#"
+  facebook: https://www.facebook.com/BellflowerDentalGroup/
+  linkedin: https://www.linkedin.com/pub/arkady-tsibel/109/919/712
+  pinterest: https://www.pinterest.com/bellflowergroup/
+  twitter: ''
+  yelp: https://www.yelp.com/biz/bellflower-dental-group-bellflower
+  youtube: https://www.youtube.com/channel/UCH7qhd1MaYCgduCKUCn63pA
+  instagram: https://instagram.com/bellflower_dental_group/

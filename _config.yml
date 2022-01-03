@@ -1,15 +1,17 @@
 ---
-title: Base
-description: Jekyll base theme.
-# url: https://base-theme-dgp.netlify.app
+title: The Big Guns
+description: Some site description
+url: 
 baseurl: 
 lang: en
 logo: 
 permalink: "/:title/"
 
-markdown: kramdown
+remote_theme: carbonWinter/base
+
 plugins:
 - jekyll-sitemap
+- jekyll-remote-theme
 
 exclude:
 - vendor

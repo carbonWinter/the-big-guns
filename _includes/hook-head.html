@@ -1,0 +1,37 @@
+<style>
+.uk-pingpong-2 h3 {
+  color: red;
+}
+.uk-pingpong-2 .uk-margin-auto-top.uk-text-right {
+  text-align: left !important;
+}
+.uk-pingpong-2 .odd .uk-pingpong-2-image {
+  margin-right: 30px;
+}
+.uk-pingpong-2 .odd .uk-pingpong-2-image::after {
+  content: "";
+  position: absolute;
+  width: 23px;
+  height: 100%;
+  background-color: red;
+  right: -30px;
+}
+.uk-pingpong-2 .even .uk-pingpong-2-image {
+  margin-left: 30px;
+}
+.uk-pingpong-2 .even .uk-pingpong-2-image::after {
+  content: "";
+  position: absolute;
+  width: 23px;
+  height: 100%;
+  background-color: red;
+  left: -30px;
+}
+
+.odd .uk-width-pingpong-2-content .uk-padding-large {
+  padding-left: 30px;
+}
+.even .uk-width-pingpong-2-content .uk-padding-large {
+  padding-right: 30px;
+}
+</style>

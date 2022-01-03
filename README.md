@@ -1,6 +1,8 @@
 # Base theme
 
-## Installation
+# Documentation 
+
+# Installation 
 Install the dependencies with [Bundler](http://bundler.io/):
 
 ```bash
@@ -28,3 +30,9 @@ Compile and minify:
 ```bash
 npm run build
 ```
+
+```
+remote_theme: carbonWinter/base
+```
+
+

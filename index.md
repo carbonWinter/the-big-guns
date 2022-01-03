@@ -1,277 +1,345 @@
 ---
 layout: blocks
-title: Home
 header:
   height: viewport
   background:
-    background_style: video
-    background_color: ''
-    background_image: "https://via.placeholder.com/1600x800"
-    background_video_file: "/uploads/video.mp4"
+    background_style: color
+    background_color: "#E2E2E2"
+    overlay: none
+    overlay_opacity: 0.7
+    background_image: "/uploads/bellflower-dental-group-dentist-in-bellflower.jpg"
+    background_video_file: ''
     background_slider: []
-    overlay: color
-    gradient: 
-    overlay_color: "#000000"
-    overlay_opacity: 0.2
-  transparent_navbar: false
-  layout: left
+    gradient: ''
+    overlay_color: ''
+  layout: centered
+  vertical_align: middle
+  color: dark
   col_one:
     heading: ''
     text: ''
   col_two:
     heading: ''
     text: ''
-  color: light
   page_navigation: []
+title: Home
+seo_title: ''
+description: ''
+keywords: 'personal injury lawyer las vegas, personal injury lawyer, personal injury attorney, personal injury lawyer near me, accident lawyer, accident attorney'
+sticky_cta: false
+offer:
+  heading: ''
+  subheading: ''
+  disclaimer: ''
 blocks:
-- template: pingpong-2
-  block: pingpong-2
-  align: left
-  superheading: Bellflower California Premier Dentistry
-  heading: Featured services
-  text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-  cards:
-  - heading: Cleaning & exam
-    copy: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-      nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
-      enim ad minim veniam, Duis autem vel eum iriure dolor in
-      hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat
-      nulla facilisis at vero eros et accumsan et iusto odio
-    image: https://via.placeholder.com/840x590
-    overlay:
-      color: '#32b9c4'
-      opacity: 0.5
-    button:
-      text: Learn More
-      url: '#'
-  - heading: Dental implants
-    copy: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-      nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
-      enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
-      nisl ut aliquip ex ea  vel illum dolore eu feugiat
-      nulla facilisis at vero eros et accumsan et iusto odio.
-    image: https://via.placeholder.com/840x590
-    overlay:
-      color: '#ffce00'
-      opacity: 0.5
-    button:
-      text: Learn More
-      url: '#'
-  button:
-    text: Request an Appointment
-    url: ""
-    blank: false
+- template: cards-3
+  block: cards-3
   background:
-    color: 'muted'
+    color: dark
+    overlay:
+      opacity: 0.5
+      color: ''
     image: ''
     video: ''
-    overlay:
-      color: ''
-      opacity: 
-  color: ''
-- template: team-1
-  block: team-1
+  color: light
   align: left
   columns: '3'
-  superheading: gentle & Caring dentistry in bellflower, California
-  heading: Our Dental Team
-  text: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat nulla pariatur.
-  image: https://via.placeholder.com/1520x800
-  team:
-  - heading: Dental implants
-    title: Chief of Staff
-    copy: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-      nibh euismod tincidunt.
-    image: https://via.placeholder.com/500
+  gutter: small
+  superheading: "// Oral Hygiene, Bellflower, Ca"
+  heading: 6 DAILY ORAL HYGIENE TIPS FOR A HEALTHY SMILE!
+  text: Your oral hygiene is important to your whole body health
+  cards:
+  - heading: GO ELECTRIC
+    copy: The use of an electric toothbrush is one of the best ways to ensure that
+      you are brushing your teeth thoroughly. The high-speed rotation allows for a
+      more thorough scrubbing, which can help to remove plaque and bacteria from areas
+      that may be hard to clean with a regular manual brush. This can reduce your
+      risk of developing gum disease or cavities in the future.
+    image: "https://via.placeholder.com/500x350"
     button:
-      text: Read More
-      url: "#"
-  - heading: Tooth restoration
-    title: Chief of Staff
-    copy: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-      nibh euismod tincidunt.
-    image: https://via.placeholder.com/500
+      text: ''
+      url: ''
+  - heading: TWO MINUTES
+    copy: The American Dental Association recommends brushing teeth for two minutes
+      to properly clean your mouth's surfaces, which are home to millions of bacteria.
+    image: "https://via.placeholder.com/500x350"
     button:
-      text: Read More
-      url: "#"
-  - heading: Dental crowns
-    copy: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-      nibh euismod tincidunt.
-    image: https://via.placeholder.com/500
+      text: ''
+      url: ''
+  - heading: FLOSS LIKE A BOSS
+    copy: Flossing removes food particles and bacteria from those hard-to-reach places.
+      It also helps prevent bad breath!
+    image: "https://via.placeholder.com/500x350"
     button:
-      text: Read More
-      url: "#"
-  - heading: Cosmetic dentistry
-    copy: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-      nibh euismod tincidunt.
-    image: https://via.placeholder.com/500
+      text: ''
+      url: ''
+  - heading: DOUBLE UP
+    copy: Keeping your dental health in check is one of the most important things
+      you can do for your overall well-being. One of the best ways to maintain good
+      teeth and gums is by making regular trips to see your dentist.
+    image: "https://via.placeholder.com/500x350"
     button:
-      text: Read More
-      url: "#"
-  - heading: Ortho & braces
-    copy: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-      nibh euismod tincidunt.
-    image: https://via.placeholder.com/500
+      text: ''
+      url: ''
+  - heading: DRINK WATER
+    copy: Water helps to flush out the harmful bacteria and plaque buildup in your
+      mouth, which leads to tooth decay and gum disease, that comes from food particles
+      you've eaten, especially sugary foods. It also keeps your saliva production
+      strong - an important factor in protecting teeth from cavities since saliva
+      naturally washes away acids formed by cavity-causing bacteria. So drink up!
+    image: "https://via.placeholder.com/500x350"
     button:
-      text: Read More
-      url: "#"
-  - heading: Teeth cleaning
-    copy: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-      nibh euismod tincidunt.
-    image: https://via.placeholder.com/500
+      text: ''
+      url: ''
+  - heading: TASTY TREATS
+    copy: Sugar is harmful when consumed regularly because it causes tooth decay and
+      gum disease. Avoid those sugary snacks and choose something more beneficial.
+    image: "https://via.placeholder.com/500x350"
     button:
-      text: Read More
-      url: "#"
+      text: ''
+      url: ''
+  appointment_button: true
+- template: pingpong-2
+  block: pingpong-2
   background:
-    color: ''
+    color: default
+    overlay:
+      opacity: 0.5
+      color: ''
     image: ''
     video: ''
-    overlay:
-      color: ''
-      opacity: 
   color: dark
+  align: left
+  superheading: "// Bellflower California Premier Dentistry"
+  heading: Featured Services
+  text: See What Dental Services Bellflower Dental Group Offers
+  cards:
+  - heading: 'Exam and Cleaning '
+    copy: Regular dental checkups will help keep your mouth healthy by removing plaque
+      buildup and tartar from between teeth, which can lead to tooth decay or gum
+      disease. A dental exam includes a visual inspection of all visible surfaces
+      in the mouth, including the tongue, for any signs of abnormalities like sores
+      or unusual growths.
+    image: "/uploads/bellflower-dentistry-cavities-fillings.jpg"
+    overlay:
+      color: ""
+      opacity: 0.7
+    button:
+      text: Learn More
+      url: "/bellflower-ca/general-dentistry/cleaning-and-exam/"
+  - heading: Dental Implants
+    copy: ''
+    image: "/uploads/bellflower-dentistry-dental-hygiene-cleaning-exams.jpg"
+    overlay:
+      color: ""
+      opacity: 0.55
+    button:
+      text: Learn More
+      url: "/bellflower-ca/restorative-dentistry/dental-implants/"
+  - heading: Invisalign
+    copy: This is a great way to straighten your teeth without going through the pain
+      and hassle of wearing braces. Invisalign orthodontics can be done in as little
+      as 6 months.
+    image: "/uploads/invisalign-clear-aligners-bellflower-ca-dentist.jpg"
+    overlay:
+      color: ""
+      opacity: 0.7
+    button:
+      text: Learn More
+      url: "/bellflower-ca/cosmetic-dentistry/invisalign/"
+  - heading: Oral Surgery
+    copy: ''
+    image: "/uploads/bellflower-ca-oral-surgery-featured-service.jpg"
+    overlay:
+      color: ""
+      opacity: 0.7
+    button:
+      text: Learn More
+      url: "/bellflower-ca/emergency-dentistry/tooth-extraction/"
+  - heading: Sedation / Sleep Dentistry
+    copy: ''
+    image: "/uploads/bellflower-ca-sedation-featured-service.jpg"
+    overlay:
+      color: ""
+      opacity: 0.55
+    button:
+      text: Learn More
+      url: "/bellflower-ca/specialty-dentistry/dental-sedation/"
+  copy: ''
+  appointment_button: false
+  button:
+    text: ''
+    url: ''
+    blank: false
 - template: cta-1
   block: cta-1
+  background:
+    color: dark
+    overlay:
+      opacity: 0.8
+      color: '#000000'
+    image: ''
+    video: ''
+  overlay_size: full
+  color: dark
+  align: left
+  appointment_button: true
+  superheading: ''
   heading: ''
   text: ''
-  section: medium
+  content: ''
   button:
+    text: ''
     url: ''
-  appointment_button: true
+    blank: false
+  image: ''
+  section: medium
+- template: text-1
+  block: text-1
   background:
-    color: 'dark'
-    image: ''
-    video: ''
-    overlay:
-      color: ''
-      opacity: 
-  color: dark
-- template: slider-2
-  block: slider-2
-  align: center
-  heading: 'Virtual office tour'
-  text: ''
-  superheading: 'Preview our dental offices in bellflower, California'
-  copy: ''
-  background:
-    color: 'muted'
-    image: ''
-    video: ''
-    overlay:
-      color: ''
-      opacity: 
-  color: dark  
-  slides:
-  - "https://via.placeholder.com/1520x900"
-  - "https://via.placeholder.com/1520x900"
-  - "https://via.placeholder.com/1520x900"
-  - "https://via.placeholder.com/1520x900"
-- template: contact-2
-  block: contact-2
-  align: center
-  heading: 'Book online today'
-  text: ''
-  superheading: 'Click to schedule now or call to speak to us in bellflower, California'
-  background:
-    image: "/uploads/bg-mesh.svg"
     color: default
-    video: ''
     overlay:
-      color: '#000000'
-      opacity: '0.7'
-  color: light  
-  hours:
-    heading: Office Hours
-    hours:
-    - Monday - Friday  9am - 5pm
-    - Saturday 9am - 3pm
-    - Sunday Closed
-  appointment:
-    heading: Schedule an Appointment
-    button:
-      text: Request an Appointment
-      url: ""
-      blank: false
-    phone: '5556666667'
-    appointment_button: true
-  address:
-    heading: Our Address
-    address: "5060 California Ave. Suite   \n200 Bakersfield, CA 93309"
-- template: map
-  block: map
-  api_key: AIzaSyDgSfwIXtCUA96SxACvR-O7rU0aDg9LofE
-  locations:
-  - name: Gold Coast Dental - Tustin
-    address_1: 275 Centennial Way Ste. 109
-    address_2: Tustin, CA 92780
-    latitude: '35.3627114170714'
-    longitude: "-119.06046780228127"
-  marker: ''
-- template: testimonials-2
-  block: testimonials-2
-  align: left
-  heading: 'Patient stories'
-  text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.'
-  superheading: 'Dental stories in Bellflower California'
-  background:
-    image: ""
-    color: dark
-    video: ''
-    overlay:
+      opacity: 0.5
       color: ''
-      opacity: '0.4'
-  color: light  
-  testimonials:
-  - heading: Best cosmetic dentist in Bakersfield
-    text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-      nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
-      enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
-      nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in
-      hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu.
-    author: Carl Redburg, Bakersfield, CA
-    image: https://via.placeholder.com/450x500
-  - heading: Awesome cosmetic dentist in Bakersfield
-    text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-      nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
-      enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
-      nisl ut aliquip ex ea commodo consequat.
-    author: Johm Redburg, Bakersfield, CA
-    image: https://via.placeholder.com/450x500
-  - heading: Top cosmetic dentist in Bakersfield
-    text: Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-      lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
-      dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore
-      eu.
-    author: Tom Redburg, Bakersfield, CA
-    image: https://via.placeholder.com/450x500
-- template: images-1
-  block: images-1
-  align: left
-  color: light
-  heading: Images
-  text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.
-  superheading: 'Dental accreditations for bellflower'
-  images:
-  - image: "https://via.placeholder.com/295x265"
-    url: http://ada.org/
-  - image: "https://via.placeholder.com/295x265"
-    url: http://www.carecredit.com/
-  - image: "https://via.placeholder.com/295x265"
-    url: http://www.cda.org/
-  - image: "https://via.placeholder.com/295x265"
-    url: http://icoi.org/
-  - image: "https://via.placeholder.com/295x265"
-    url: http://icoi.org/
-  columns: '5'
-  background:
-    color: primary
     image: ''
     video: ''
+  heading_tag: H1
+  color: dark
+  align: left
+  columns: '1'
+  superheading: "// Your New Dentists in Bellflower"
+  heading: Bellflower Dental Group
+  text: Why Bellflower Dental Group Has The Dentists You Need
+  content: Our highly-skilled team of quality dentists in Bellflower is here to help
+    you achieve the smile you have always dreamed of while also contributing to your
+    oral healthcare needs. We are proud to serve the Bellflower community and surrounding
+    areas by achieving perfect smiles one at a time. Take a look at what some of our
+    existing patients are saying about us below.
+  lists: []
+- template: cta-1
+  block: cta-1
+  color: light
+  align: center
+  background:
+    image: "/uploads/bellflower-dental-group-we-love-our-patients.jpg"
+    color: muted
+    video: ''
     overlay:
+      color: "#000000"
+      opacity: '0.65'
+  overlay_size: center
+  heading: 'Gain A Gentle Dental Family '
+  text: Our professional dental team at Bellflower Dental Group will help you
+  superheading: ''
+  button:
+    text: Request an appointment
+    url: ''
+    blank: false
+  image: "/uploads/icon-heart.png"
+  content: Dental visits can cause anxiety and fear for many patients. Understandably,
+    this can deter patients from seeking dental care when needed. At Bellflower Dental
+    Group, our professional and compassionate dentist, hygienists, and office members
+    commit to providing you with a stress-free experience. When you call us to schedule
+    a visit, we'll get to know you and your needs. Our team will greet you and welcome
+    you to our dental family. If you need routine dental cleanings, <a href="/bellflower-ca/general-dentistry/cleaning-and-exam/"
+    target="_self">cosmetic dental services</a>, or emergency dental care -- our family
+    dentistry clinic is the place to go! Call us today at <a href="tel:+15629253765">(562)
+    925-3765</a>!
+  appointment_button: true
+  section: ''
+- template: text-1
+  block: text-1
+  background:
+    color: default
+    overlay:
+      opacity: 0.5
       color: ''
-      opacity: 
-sticky_cta: false
-description: ''
-keywords: ''
+    image: ''
+    video: ''
+  heading_tag: H1
+  color: dark
+  align: left
+  columns: '2'
+  superheading: "// Your New Dentists in Bellflower"
+  heading: Bellflower Dental Group
+  text: Why Bellflower Dental Group Has The Dentists You Need
+  content: Our highly-skilled team of quality dentists in Bellflower is here to help
+    you achieve the smile you have always dreamed of while also contributing to your
+    oral healthcare needs. We are proud to serve the Bellflower community and surrounding
+    areas by achieving perfect smiles one at a time. Take a look at what some of our
+    existing patients are saying about us below. Our highly-skilled team of quality dentists in Bellflower is here to help
+    you achieve the smile you have always dreamed of while also contributing to your
+    oral healthcare needs. We are proud to serve the Bellflower community and surrounding
+    areas by achieving perfect smiles one at a time. Take a look at what some of our
+    existing patients are saying about us below.
+  lists: []
+- template: faq-2
+  block: faq-2
+  background:
+    color: dark
+    overlay:
+      opacity: 0.5
+      color: ''
+    image: ''
+    video: ''
+  color: light
+  align: center
+  faqs:
+  - heading: Why should you get a routine dental exam?
+    content: Dental exams are important because they can show you what's going on
+      in your mouth and how healthy your teeth and gums are. Some people only go twice
+      a year while others might go as often as once a month or more.
+  - heading: What happens during a dental exam?
+    content: A dental exam is an integral part of caring for your teeth. The dentist
+      will check for cavities, gum disease, and overall oral health. During the appointment,
+      they may take x-rays to look at the inside of your mouth and see if there are
+      any tooth problems that you cannot see with the naked eye.
+  - heading: Is it painful to get a deep cleaning at the dentist?
+    content: Dental cleanings are a necessary part of taking care of your teeth. However,
+      some people may find them painful due to the fact that they have sensitive teeth
+      or because it is difficult for them to remain still while having their gums
+      scraped.
+  - heading: Is deep cleaning considered preventive care?
+    content: Dental deep cleaning can be used as preventive care if it is done regularly,
+      every six months or so. This will help remove plaque and tartar buildup that
+      can lead to cavities and other problems down the road.
+  - heading: Is laser teeth cleaning painful?
+    content: Laser teeth cleaning is a new way to clean your mouth. This method of
+      teeth cleaning was designed for patients who are afraid of the dentist or find
+      it difficult to keep up with their monthly appointments. Laser teeth cleaning
+      uses lasers in order to make sure that all plaque and bacteria are killed off,
+      which can be beneficial for those who have gum disease or cavities forming.
+  - heading: Is laser treatment necessary after deep cleaning?
+    content: Laser treatment offers an alternative to traditional brushing and flossing
+      in order to remove stubborn stains from your teeth.
+  superheading: "// Dental Hygiene, Bellflower, Ca"
+  heading: Frequently Asked Questions
+  text: Get answers about questions you may have about dental cleaning and exam
+- template: text-1
+  block: text-1
+  background:
+    color: default
+    overlay:
+      opacity: 0.5
+      color: ''
+    image: ''
+    video: ''
+  heading_tag: H1
+  color: dark
+  align: left
+  columns: '1'
+  superheading: "// Your New Dentists in Bellflower"
+  heading: Bellflower Dental Group
+  text: Why Bellflower Dental Group Has The Dentists You Need
+  content: Our highly-skilled team of quality dentists in Bellflower is here to help
+    you achieve the smile you have always dreamed of while also contributing to your
+    oral healthcare needs. We are proud to serve the Bellflower community and surrounding
+    areas by achieving perfect smiles one at a time. Take a look at what some of our
+    existing patients are saying about us below. Our highly-skilled team of quality dentists in Bellflower is here to help
+    you achieve the smile you have always dreamed of while also contributing to your
+    oral healthcare needs. We are proud to serve the Bellflower community and surrounding
+    areas by achieving perfect smiles one at a time. Take a look at what some of our
+    existing patients are saying about us below.
+  lists: []
+
 ---

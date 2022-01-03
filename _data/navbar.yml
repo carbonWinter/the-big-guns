@@ -1,155 +1,133 @@
 ---
 layout: dropbar
-sticky: false
+sticky: true
 color: light
 background: "#151411"
-menu_left:
-- text: Our Doctors
-  url: "/interior/"
-  style: link
-  blank: false
-  dropdown:
-  - text: porcelain veneers
-    url: "#"
-    blank: false
-  - text: pro teeth whitening
-    url: "#"
-    blank: false
-- url: "/blocks/"
-  style: link
-  blank: false
-  dropdown:
-  - text: porcelain veneers
-    url: "#"
-    blank: false
-  - text: pro teeth whitening
-    url: "#"
-    blank: false
-  text: Our Practice
-- text: The Specialties
-  url: ''
-  style: link
-  blank: false
-  dropdown:
-  - text: porcelain veneers
-    url: "#"
-    blank: false
-  - text: pro teeth whitening
-    url: "#"
-    blank: false
-  - text: dental implants
-    url: "#"
-    blank: false
-  - text: dental crowns
-    url: "#"
-    blank: false
-  - text: full reconstruction
-    url: "#"
-    blank: false
-  - text: metal-free fillings
-    url: "#"
-    blank: false
-  - text: dental inlays/onlays
-    url: "#"
-    blank: false
+menu_left: []
 menu_center: []
 menu_right:
-- text: Our Services
-  url: "#"
-  style: link
-  blank: false
-  dropdown:
-  - text: porcelain veneers
-    url: "#"
-    blank: false
-  - text: pro teeth whitening
-    url: "#"
-    blank: false
-- text: Additional Resources
-  url: "#"
-  style: link
-  blank: false
-  dropdown:
-  - text: porcelain veneers
-    url: "#"
-    blank: false
-  - text: pro teeth whitening
-    url: "#"
-    blank: false
-- text: Our Services
-  url: "#"
-  style: link
-  blank: false
-  dropdown:
-  - text: porcelain veneers
-    url: "#"
-    blank: false
-  - text: pro teeth whitening
-    url: "#"
-    blank: false
-- text: Additional Resources
-  url: "#"
-  style: link
-  blank: false
-  dropdown:
-  - text: porcelain veneers
-    url: "#"
-    blank: false
-  - text: pro teeth whitening
-    url: "#"
-    blank: false
-    
-menu_mobile:
-- text: Our Doctors
-  url: "#"
-  style: link
-  blank: false
-  dropdown:
-  - text: porcelain veneers
-    url: "#"
-    blank: false
-  - text: pro teeth whitening
-    url: "#"
-    blank: false
-- url: "#"
-  style: link
-  blank: false
-  dropdown:
-  - text: porcelain veneers
-    url: "#"
-    blank: false
-  - text: pro teeth whitening
-    url: "#"
-    blank: false
-  text: Our Practice
-- text: The Specialties
+- text: About Us
   url: ''
   style: link
   blank: false
   dropdown:
-  - text: porcelain veneers
-    url: "#"
+  - text: Our Attorneys
+    url: "/las-vegas-nv/our-attorneys/"
     blank: false
-  - text: pro teeth whitening
-    url: "#"
-    blank: false
-  - text: dental implants
-    url: "#"
-    blank: false
-  - text: dental crowns
-    url: "#"
-    blank: false
-  - text: full reconstruction
-    url: "#"
-    blank: false
-  - text: metal-free fillings
-    url: "#"
-    blank: false
-  - text: dental inlays/onlays
-    url: "#"
-    blank: false
-- url: "#"
-  style: button-primary
+- text: Services
+  url: ''
+  style: link
   blank: false
-  dropdown: []
-  text: Contact
+  dropdown:
+  - text: Automobile Accidents
+    url: "/las-vegas-nv/automobile-accidents/"
+    blank: false
+  - text: Spinal Injuries 
+    url: "/las-vegas-nv/spinal-injuries/"
+    blank: false
+  - text: Catastrophic Injuries 
+    url: "/las-vegas-nv/catastrophic-injuries/"
+    blank: false
+  - text: Bicycle and Pedestrian Accidents 
+    url: "/las-vegas-nv/bicycle-and-pedestrian-accidents/"
+    blank: false
+  - text: Motorcycle Injuries  
+    url: "/las-vegas-nv/motorcycle-Injuries/"
+    blank: false
+  - text: Wrongful Death  
+    url: "/las-vegas-nv/wrongful-death/"
+    blank: false
+  - text: Insurance Bad Faith  
+    url: "/las-vegas-nv/insurance-bad-faith/"
+    blank: false
+  - text: Federal Litigation  
+    url: "/las-vegas-nv/federal-litigation/"
+    blank: false
+- text: Resources
+  url: ''
+  style: link
+  blank: false
+  dropdown:
+  - text: Contact Us
+    url: "/contact-us/"
+    blank: false
+  - text: Testimonials
+    url: "/testimonials/"
+    blank: false
+  - text: Blog
+    url: "/blog/"
+    blank: false    
+- text: Legal
+  url: ''
+  style: link
+  blank: false
+  dropdown:
+  - text: Privacy Policy
+    url: "/privacy-policy/"
+    blank: false
+  - text: Terms of Use
+    url: "/terms-of-use/"
+    blank: false
+menu_mobile:
+- text: About Us
+  url: ''
+  style: link
+  blank: false
+  dropdown:
+  - text: Our Attorneys
+    url: "/las-vegas-nv/our-attorneys/"
+    blank: false
+- text: Services
+  url: ''
+  style: link
+  blank: false
+  dropdown:
+  - text: Automobile Accidents
+    url: "/las-vegas-nv/automobile-accidents/"
+    blank: false
+  - text: Spinal Injuries 
+    url: "/las-vegas-nv/spinal-injuries/"
+    blank: false
+  - text: Catastrophic Injuries 
+    url: "/las-vegas-nv/catastrophic-injuries/"
+    blank: false
+  - text: Bicycle and Pedestrian Accidents 
+    url: "/las-vegas-nv/bicycle-and-pedestrian-accidents/"
+    blank: false
+  - text: Motorcycle Injuries  
+    url: "/las-vegas-nv/motorcycle-Injuries/"
+    blank: false
+  - text: Wrongful Death  
+    url: "/las-vegas-nv/wrongful-death/"
+    blank: false
+  - text: Insurance Bad Faith  
+    url: "/las-vegas-nv/insurance-bad-faith/"
+    blank: false
+  - text: Federal Litigation  
+    url: "/las-vegas-nv/federal-litigation/"
+    blank: false
+- text: Resources
+  url: ''
+  style: link
+  blank: false
+  dropdown:
+  - text: Contact Us
+    url: "/contact-us/"
+    blank: false
+  - text: Testimonials
+    url: "/testimonials/"
+    blank: false
+  - text: Blog
+    url: "/blog/"
+    blank: false    
+- text: Legal
+  url: ''
+  style: link
+  blank: false
+  dropdown:
+  - text: Privacy Policy
+    url: "/privacy-policy/"
+    blank: false
+  - text: Terms of Use
+    url: "/terms-of-use/"
+    blank: false
