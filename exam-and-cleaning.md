@@ -165,7 +165,7 @@ blocks:
     text: Request an appointment
     url: ''
     blank: false
-  image: "/uploads/icon-heart.png"
+  image: "/uploads/icon-heart.svg"
   content: Dental visits can cause anxiety and fear for many patients. Understandably,
     this can deter patients from seeking dental care when needed. At Bellflower Dental
     Group, our professional and compassionate dentist, hygienists, and office members

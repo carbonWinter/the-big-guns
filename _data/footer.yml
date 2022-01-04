@@ -19,7 +19,7 @@ button_secondary:
   blank: false
 menus: []
 color: light
-background: "#3B3831"
+background: "#2F2F2F"
 subfooter:
   background: "#000000"
   color: light
