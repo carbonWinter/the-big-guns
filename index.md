@@ -113,6 +113,7 @@ blocks:
   superheading: "// Bellflower California Premier Dentistry"
   heading: Featured Services
   text: See What Dental Services Bellflower Dental Group Offers
+  image: https://via.placeholder.com/1520x800
   cards:
   - heading: 'Exam and Cleaning '
     copy: Regular dental checkups will help keep your mouth healthy by removing plaque
