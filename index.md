@@ -12,9 +12,9 @@ header:
     background_slider: []
     gradient: ''
     overlay_color: ''
-  layout: centered
+  layout: left
   vertical_align: middle
-  color: dark
+  color: light
   col_one:
     heading: ''
     text: ''
@@ -45,59 +45,46 @@ blocks:
   align: left
   columns: '3'
   gutter: small
-  superheading: "// Oral Hygiene, Bellflower, Ca"
-  heading: 6 DAILY ORAL HYGIENE TIPS FOR A HEALTHY SMILE!
-  text: Your oral hygiene is important to your whole body health
+  superheading: ""
+  heading: Our Services
+  text: Here Are Just A Few Of The Types Of Personal Injury Law Cases We Litigate At The Big Guns Personal Injury Law Firm
   cards:
-  - heading: GO ELECTRIC
-    copy: The use of an electric toothbrush is one of the best ways to ensure that
-      you are brushing your teeth thoroughly. The high-speed rotation allows for a
-      more thorough scrubbing, which can help to remove plaque and bacteria from areas
-      that may be hard to clean with a regular manual brush. This can reduce your
-      risk of developing gum disease or cavities in the future.
+  - heading: Automobile Accidents
+    copy: "A car accident can be a major challenge in anyone's life, but it is even worse when it results in an injury. Hiring the right accident attorney to represent you for your car accident can minimize the disruption while maximizing the recovery."
+    image: "/uploads/featured-services-auto-accidents-injury-attorneys-big-guns-las-vegas-nv.jpg"
+    button:
+      text: 'Learn More'
+      url: '/las-vegas-nv/automobile-accidents/'
+  - heading: Spinal Injuries 
+    copy: Spinal cord injuries affect millions of Americans yearly, and many live with the continuing effects of these injuries. We have extensive experience prosecuting cases in Nevada involving spinal injuries and are ready to help you get the compensation you deserve
     image: "https://via.placeholder.com/500x350"
     button:
       text: 'Learn More'
-      url: '#'
-  - heading: TWO MINUTES
-    copy: The American Dental Association recommends brushing teeth for two minutes
-      to properly clean your mouth's surfaces, which are home to millions of bacteria.
+      url: '/las-vegas-nv/spinal/injuries/'
+  - heading: Catastrophic Injuries 
+    copy: "When an automobile accident results in catastrophic injuries, you need knowledgeable, powerful representation. Catastrophic injuries can include traumatic brain injuries, spinal cord injuries, loss of a body part, or other injuries that ultimately change the way that you live your daily life."
     image: "https://via.placeholder.com/500x350"
     button:
-      text: ''
-      url: ''
-  - heading: FLOSS LIKE A BOSS
-    copy: Flossing removes food particles and bacteria from those hard-to-reach places.
-      It also helps prevent bad breath!
+      text: 'Learn More'
+      url: '/las-vegas-nv/catastrophic-injuries/'
+  - heading: Bicycle & Pedestrian Accidents 
+    copy: "If a driver who wasn't paying proper attention causes an accident, put our accident lawyers in your arsenal and get the money you deserve. Every case is thoroughly prepared to account for your present and future medical and financial needs."
     image: "https://via.placeholder.com/500x350"
     button:
-      text: ''
-      url: ''
-  - heading: DOUBLE UP
-    copy: Keeping your dental health in check is one of the most important things
-      you can do for your overall well-being. One of the best ways to maintain good
-      teeth and gums is by making regular trips to see your dentist.
+      text: 'Learn More'
+      url: '/las-vegas-nv/bicycle-and-pedestrian-accidents/'
+  - heading: Motorcycle Injuries 
+    copy: Motorcycle accident injuries can lead to months or years of pain that require extensive rehab, injections, or surgery. Compensation should include recovery of your medical bills for necessary treatment as well as pain and suffering and lost wages. 
     image: "https://via.placeholder.com/500x350"
     button:
-      text: ''
-      url: ''
-  - heading: DRINK WATER
-    copy: Water helps to flush out the harmful bacteria and plaque buildup in your
-      mouth, which leads to tooth decay and gum disease, that comes from food particles
-      you've eaten, especially sugary foods. It also keeps your saliva production
-      strong - an important factor in protecting teeth from cavities since saliva
-      naturally washes away acids formed by cavity-causing bacteria. So drink up!
+      text: 'Learn More'
+      url: '/las-vegas-nv/motorcycle-injuries/'
+  - heading: Insurance Bad Faith 
+    copy: "True bad faith requires an insurer to unreasonably deny a claim with the knowledge that it acted unreasonably. Proving this is challenging, but our team has the experience and knows how to lock down the facts, inferences, and details of the claim to prove your case."
     image: "https://via.placeholder.com/500x350"
     button:
-      text: ''
-      url: ''
-  - heading: TASTY TREATS
-    copy: Sugar is harmful when consumed regularly because it causes tooth decay and
-      gum disease. Avoid those sugary snacks and choose something more beneficial.
-    image: "https://via.placeholder.com/500x350"
-    button:
-      text: ''
-      url: ''
+      text: 'Learn More'
+      url: '/las-vegas-nv/insurance-bad-faith/'
   appointment_button: true
 - template: pingpong-2
   block: pingpong-2
@@ -110,62 +97,47 @@ blocks:
     video: ''
   color: dark
   align: left
-  superheading: "// Bellflower California Premier Dentistry"
-  heading: Featured Services
-  text: See What Dental Services Bellflower Dental Group Offers
-  image: https://via.placeholder.com/1520x800
+  superheading: "The Big Guns Personal Injury Lawyers In Las Vegas"
+  heading: Our Legal Team
+  text: With Extensive Experience From The Other Side Of The Aisle, We Know How To Get You The Outcome You Deserve
+  image: "/uploads/team-header-home-las-vegas-big-guns-injury-attorneys-nevada.jpg"
   cards:
-  - heading: 'Exam and Cleaning '
-    copy: Regular dental checkups will help keep your mouth healthy by removing plaque
-      buildup and tartar from between teeth, which can lead to tooth decay or gum
-      disease. A dental exam includes a visual inspection of all visible surfaces
-      in the mouth, including the tongue, for any signs of abnormalities like sores
-      or unusual growths.
-    image: "https://via.placeholder.com/500x350"
+  - heading: Benjamin J. Carman
+    copy: "Most of Ben's cases have been on the side of insurance companies, and he not only knows their tactics and procedures but has even written some of them for certain carriers. But in recent years, he saw a gradual shift by many insurers in Nevada to less and less reasonable claims handling. This handling included underpayment and excessive, unwarranted delays in processing claims. Ben now represents those who have been wronged by the increasingly greedy insurers."
+    image: "https://via.placeholder.com/800x600"
     overlay:
       color: ""
       opacity: 0.7
     button:
       text: Learn More
-      url: "/bellflower-ca/general-dentistry/cleaning-and-exam/"
-  - heading: Dental Implants
-    copy: ''
-    image: "/uploads/bellflower-dentistry-dental-hygiene-cleaning-exams.jpg"
+      url: ""
+  - heading: Sean D. Cooney
+    copy: 'Sean brings over a decade of experience as a lawyer to help the citizens of Nevada. Sean focuses on personal injury and cases against insurance companies when they deny your claim, drag their feet, and try to underpay you. He works with you to get all the facts and present your case clearly and effectively.'
+    image: "https://via.placeholder.com/800x600"
     overlay:
       color: ""
       opacity: 0.55
     button:
       text: Learn More
-      url: "/bellflower-ca/restorative-dentistry/dental-implants/"
-  - heading: Invisalign
-    copy: This is a great way to straighten your teeth without going through the pain
-      and hassle of wearing braces. Invisalign orthodontics can be done in as little
-      as 6 months.
-    image: "/uploads/invisalign-clear-aligners-bellflower-ca-dentist.jpg"
+      url: ""
+  - heading: Sean Forbush
+    copy: Sean has experience in family law, trust law, workers compensation, and other areas of law which help him incorporate all issues into the personal injury clients he helps. He has worked with several different local firms, ranging from one of the largest multi-service firms in the state to plaintiff and defense personal injury firms.
+    image: "https://via.placeholder.com/800x600"
     overlay:
       color: ""
       opacity: 0.7
     button:
       text: Learn More
-      url: "/bellflower-ca/cosmetic-dentistry/invisalign/"
-  - heading: Oral Surgery
-    copy: ''
-    image: "/uploads/bellflower-ca-oral-surgery-featured-service.jpg"
+      url: ""
+  - heading: Adam C. Edwards
+    copy: Adam also has extensive experience in personal injury defense work that has allowed him to understand strategies and tactics that defense attorneys and insurance adjusters use to lower the value of plaintiffs' claims. Adam guides his clients through the litigation process to avoid these traps. With experience in both defense and plaintiffs' personal injury cases, Adam is more than qualified to handle your case.
+    image: "https://via.placeholder.com/800x600"
     overlay:
       color: ""
       opacity: 0.7
     button:
       text: Learn More
-      url: "/bellflower-ca/emergency-dentistry/tooth-extraction/"
-  - heading: Sedation / Sleep Dentistry
-    copy: ''
-    image: "/uploads/bellflower-ca-sedation-featured-service.jpg"
-    overlay:
-      color: ""
-      opacity: 0.55
-    button:
-      text: Learn More
-      url: "/bellflower-ca/specialty-dentistry/dental-sedation/"
+      url: ""
   copy: ''
   appointment_button: false
   button:
@@ -208,44 +180,36 @@ blocks:
   color: dark
   align: left
   columns: '1'
-  superheading: "// Your New Dentists in Bellflower"
-  heading: Bellflower Dental Group
-  text: Why Bellflower Dental Group Has The Dentists You Need
-  content: Our highly-skilled team of quality dentists in Bellflower is here to help
-    you achieve the smile you have always dreamed of while also contributing to your
-    oral healthcare needs. We are proud to serve the Bellflower community and surrounding
-    areas by achieving perfect smiles one at a time. Take a look at what some of our
-    existing patients are saying about us below.
+  superheading: "// Las Vegas Personal Injury Lawyers"
+  heading: Win Big With The Big Guns
+  text: Don't Settle For Less, Bring In The Big Guns With Experience On Both Sides Of The Aisle
+  content: |-
+    The Big Guns Injury Attorneys are a team of Las Vegas personal injury attorneys who can represent you for your personal injury lawsuit. We are trial lawyers who have extensive experience representing persons involved in car accidents, pedestrian accidents, truck accidents, and insurance bad faith claims. Our whole team is comprised of attorneys who have spent years defending insurance companies and their insureds from such claims. Now we are ready to fight for you! We have true insight into how insurance companies evaluate, handle, and pay personal injury claims.
+
+    We are so confident in our work that you pay nothing until either a settlement or a judgment is paid by the other side. Why just win when you can win big with The Big Guns!
+
   lists: []
 - template: cta-1
   block: cta-1
   color: light
   align: center
   background:
-    image: "/uploads/bellflower-dental-group-we-love-our-patients.jpg"
+    image: "/uploads/cta-bg-las-vegas-nevada-big-guns-injury-attorneys-we-care.jpg"
     color: muted
     video: ''
     overlay:
       color: "#000000"
       opacity: '0.65'
   overlay_size: center
-  heading: 'Gain A Gentle Dental Family '
-  text: Our professional dental team at Bellflower Dental Group will help you
+  heading: 'With You Every Step'
+  text: Get a Personal Injury Lawyer In Las Vegas, NV That Will Help You Navigate The Ins And Outs 
   superheading: ''
   button:
     text: Request an appointment
     url: ''
     blank: false
   image: "/uploads/icon-heart.svg"
-  content: Dental visits can cause anxiety and fear for many patients. Understandably,
-    this can deter patients from seeking dental care when needed. At Bellflower Dental
-    Group, our professional and compassionate dentist, hygienists, and office members
-    commit to providing you with a stress-free experience. When you call us to schedule
-    a visit, we'll get to know you and your needs. Our team will greet you and welcome
-    you to our dental family. If you need routine dental cleanings, <a href="/bellflower-ca/general-dentistry/cleaning-and-exam/"
-    target="_self">cosmetic dental services</a>, or emergency dental care -- our family
-    dentistry clinic is the place to go! Call us today at <a href="tel:+15629253765">(562)
-    925-3765</a>!
+  content: We know the right experts, the right issues to push, the right laws to cite, and the right arguments to present at trial to get you the recovery that you deserve. Schedule a free Zoom, phone, or in-person consultation with us today to discuss how to add value to your case.
   appointment_button: true
   section: ''
 - template: text-1
@@ -261,18 +225,11 @@ blocks:
   color: dark
   align: left
   columns: '2'
-  superheading: "// Your New Dentists in Bellflower"
-  heading: Bellflower Dental Group
-  text: Why Bellflower Dental Group Has The Dentists You Need
-  content: Our highly-skilled team of quality dentists in Bellflower is here to help
-    you achieve the smile you have always dreamed of while also contributing to your
-    oral healthcare needs. We are proud to serve the Bellflower community and surrounding
-    areas by achieving perfect smiles one at a time. Take a look at what some of our
-    existing patients are saying about us below. Our highly-skilled team of quality dentists in Bellflower is here to help
-    you achieve the smile you have always dreamed of while also contributing to your
-    oral healthcare needs. We are proud to serve the Bellflower community and surrounding
-    areas by achieving perfect smiles one at a time. Take a look at what some of our
-    existing patients are saying about us below.
+  superheading: "// Contingency Fee Basis Personal Injury Attorneys In Las Vegas, NV"
+  heading: We Get Paid When You Do 
+  text: Looking for an attorney so confident in their ability, they'll front the cost... Call The Big Guns 
+  content: If you are looking for a law firm that is willing to make this process as easy on you as possible, know that at The Big Guns, personal injury cases are handled on a contingency fee basis—meaning you owe us nothing until you have received payment in your personal injury case. Give us a call at (702) 500-GUNS today for a no-obligation consultation and fair evaluation of your case. We can give you a good idea of what to expect regarding your claim's value and timelines and outcomes for similar cases.
+
   lists: []
 - template: faq-2
   block: faq-2
@@ -286,36 +243,17 @@ blocks:
   color: light
   align: center
   faqs:
-  - heading: Why should you get a routine dental exam?
-    content: Dental exams are important because they can show you what's going on
-      in your mouth and how healthy your teeth and gums are. Some people only go twice
-      a year while others might go as often as once a month or more.
-  - heading: What happens during a dental exam?
-    content: A dental exam is an integral part of caring for your teeth. The dentist
-      will check for cavities, gum disease, and overall oral health. During the appointment,
-      they may take x-rays to look at the inside of your mouth and see if there are
-      any tooth problems that you cannot see with the naked eye.
-  - heading: Is it painful to get a deep cleaning at the dentist?
-    content: Dental cleanings are a necessary part of taking care of your teeth. However,
-      some people may find them painful due to the fact that they have sensitive teeth
-      or because it is difficult for them to remain still while having their gums
-      scraped.
-  - heading: Is deep cleaning considered preventive care?
-    content: Dental deep cleaning can be used as preventive care if it is done regularly,
-      every six months or so. This will help remove plaque and tartar buildup that
-      can lead to cavities and other problems down the road.
-  - heading: Is laser teeth cleaning painful?
-    content: Laser teeth cleaning is a new way to clean your mouth. This method of
-      teeth cleaning was designed for patients who are afraid of the dentist or find
-      it difficult to keep up with their monthly appointments. Laser teeth cleaning
-      uses lasers in order to make sure that all plaque and bacteria are killed off,
-      which can be beneficial for those who have gum disease or cavities forming.
-  - heading: Is laser treatment necessary after deep cleaning?
-    content: Laser treatment offers an alternative to traditional brushing and flossing
-      in order to remove stubborn stains from your teeth.
-  superheading: "// Dental Hygiene, Bellflower, Ca"
-  heading: Frequently Asked Questions
-  text: Get answers about questions you may have about dental cleaning and exam
+  - heading: Is it worth getting a lawyer for a car accident? 
+    content: In a word, yes. A lawyer will help you manage all aspects of your injury claim, including presenting the best evidence to the other side's insurance company regarding the value of your claim. Determining the proper value of a car accident claim requires a great deal of experience. It is something that both insurance companies and car accident victims have sought from the attorneys at The Big Guns.
+  - heading: What is the average settlement for a car accident?
+    content: Realistically, an "average settlement" for a car accident is not a very useful figure in evaluating a case. Since every car accident is different, using an average figure to determine the value of your case is inaccurate. It would not reflect your personal history and condition before the accident, the range in forces exerted on different makes and models of cars, the nature of the accident's disruption to your ability to work, and many other factors that influence what you could expect to receive for your case. The experienced attorneys at The Big Guns can give you a good idea of what to expect as it relates to your claim's value at every stage.
+  - heading: What is considered a catastrophic injury? 
+    content: DA catastrophic injury from a car accident has no formal definition but can include traumatic brain injuries, spinal injuries, loss of limbs, and even disfigurement. Understanding the medicine as it relates to these claims is of the utmost importance, and the attorneys at The Big Guns have the experience and training to handle these claims. Countering the claims of the defense-hired medical examiners and finding the right experts to solidify the issue of causation is critical, particularly since defense attorneys in Las Vegas are particularly adept at hammering this vital issue.
+  - heading: What is insurance bad faith? 
+    content: An insurance bad faith claim stems primarily from your own insurance company's failure to defend or indemnify you. The insurance company has to come to its decision not to pay you unreasonably, and it has to do so knowing that it is acting unreasonably. It is a difficult standard to prove, and it is one where you need attorneys who understand the intricacies of this challenging area of law. Our attorneys have practiced in this field for over a decade, primarily defending insurance companies from such claims successfully through trial and beyond. With deep, meaningful experience from the other side of these suits, The Big Guns is particularly well-prepared to conduct the right discovery, pursue the right types of damages, and beat back the insurance company's best dispositive motions to help you win big on your claim.
+  superheading: "// Answers from a qualified personal injury attorney in Las Vegas"
+  heading: Personal Injury Lawsuit FAQ
+  text: Here are answers to some of the questions we get asked most frequently in our Las Vegas, NV personal injury law firm
 - template: text-1
   block: text-1
   background:
@@ -329,18 +267,13 @@ blocks:
   color: dark
   align: left
   columns: '1'
-  superheading: "// Your New Dentists in Bellflower"
-  heading: Bellflower Dental Group
-  text: Why Bellflower Dental Group Has The Dentists You Need
-  content: Our highly-skilled team of quality dentists in Bellflower is here to help
-    you achieve the smile you have always dreamed of while also contributing to your
-    oral healthcare needs. We are proud to serve the Bellflower community and surrounding
-    areas by achieving perfect smiles one at a time. Take a look at what some of our
-    existing patients are saying about us below. Our highly-skilled team of quality dentists in Bellflower is here to help
-    you achieve the smile you have always dreamed of while also contributing to your
-    oral healthcare needs. We are proud to serve the Bellflower community and surrounding
-    areas by achieving perfect smiles one at a time. Take a look at what some of our
-    existing patients are saying about us below.
+  superheading: "// Expert Personal Injury Attorneys With You Every Step"
+  heading: Fight All The Way
+  text: The Big Guns Don't Just Look To Settle Quickly If That Is Not What Is Best For Our Clients
+  content: |-
+    At The Big Guns, we understand how difficult it can be to find a personal injury attorney after suffering an accident or personal injury. Our team is ready to help injured persons and policyholders involved in car accidents in Henderson, Las Vegas, North Las Vegas, and beyond to maximize your recovery. Most personal injury cases involve significant time and documentation to properly evaluate, investigate, and prepare for trial if necessary. Many personal injury law firms are only interested in dealing with personal injury cases that they can quickly settle without extensive investigation. The Big Guns personal injury lawyers will thoroughly investigate your personal injury case to ensure you receive the settlement you deserve. And if a fair settlement cannot be reached, we have the experience to take your case to trial and are willing to fight for you. 
+
+    We will work with you to make the process as easy as possible, and you can rest assured that you will receive skilled, aggressive representation in your case every step of the way. If you've been injured, it's time to bring out The Big Guns.
   lists: []
 
 ---

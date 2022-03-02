@@ -10,14 +10,14 @@ blocks:
 - template: slider-2
   block: slider-2
   slides:
-  - "/uploads/vot-1.jpg"
-  - "/uploads/vot-2.jpg"
-  - "/uploads/vot-3.jpg"
-  - "/uploads/vot-4.jpg"
-  - "/uploads/vot-5.jpg"
-  - "/uploads/vot-7.jpg"
-  - "/uploads/vot-6.jpg"
-  - "/uploads/vot-8.jpg"
+  - "https://via.placeholder.com/1800x800"
+  - "https://via.placeholder.com/1800x800"
+  - "https://via.placeholder.com/1800x800"
+  - "https://via.placeholder.com/1800x800"
+  - "https://via.placeholder.com/1800x800"
+  - "https://via.placeholder.com/1800x800"
+  - "https://via.placeholder.com/1800x800"
+  - "https://via.placeholder.com/1800x800"
   background:
     color: dark
     image: ''
@@ -46,9 +46,9 @@ blocks:
   hours:
     heading: OFFICE HOURS
     hours:
-    - Monday - Friday 9am - 6pm
-    - 'Saturday 9am - 3pm '
-    - Closed Sundays
+    - Monday - Friday 8am - 5pm
+    - Saturday Closed
+    - Sunday Closed
   appointment:
     heading: Click to schedule or call now
     appointment_button: true
@@ -62,16 +62,10 @@ blocks:
       4045 Spencer Street, Suite A47
 
       Las Vegas, NV 89119
-- template: map
-  block: map
-  locations:
-  - name: Bellflower Dental Group
-    address_1: 4045 Spencer Street, Suite A47
-    address_2: 'Las Vegas, NV 89119'
-    latitude: '36.11619291359746'
-    longitude: "-115.1286003378843"
-  marker: ""
-  api_key: AIzaSyDgSfwIXtCUA96SxACvR-O7rU0aDg9LofE
+- template: map-image
+  block: map-image
+  image: "/uploads/map.png"
+  link: https://goo.gl/maps/rRjq8Xq2kPWuHs7e7
 - template: testimonials-2
   block: testimonials-2
   background:
@@ -83,37 +77,21 @@ blocks:
     video: ''
   color: light
   testimonials:
-  - heading: Great customer service and attentive staff!
-    copy: Great customer service and attentive staff! My 3 year old enjoyed his visit!
-      Yes, I said he enjoyed it! He had to have X-rays done, and I was so worried
-      that he wasn't gonna be a happy camper but the X-ray tech, Dominique, is so
-      good with kids! The X-rays were fast and painless! Overall a great experience!
-    author: Amanda K
+  - heading: They took away all the stress and made the case easy...
+    copy: After my car accident, both my insurance and the other driver's wanted to drag things out and muddy the waters. When I called Sean, he stepped in and lifted that stress off of me. He acted to resolve the issue in my favor, let me know how things were going along the way, and completed the settlement with little requirement of anything from me. I appreciated his professional help and would call again if ever I was in need!
+    author: Alex F
     image: "https://via.placeholder.com/500x750"
-  - heading: 'This dental group surpasses my expectations! '
-    copy: This dental group surpasses my expectations! Amazing staff! My experience
-      at Bellflower Dental Group was outstanding. Get bored during waiting? Don't
-      worry! You can kill time by watching a movie in their comfy, amazing movie theater,
-      or even get a massage! They even give out free cookies! I always have fun just
-      by waiting for my name to be called. I highly recommend this dental group. I
-      come to them for my braces, their ortho is incredible, the highlight of this
-      dental group. The staff is amazing, their employees are so kind and take the
-      time to perfect your braces.
-    author: Brian B
-    image: "/uploads/bellflower-dental-testimonail-bryan.jpg"
-  - heading: I love this dental office!
-    copy: I love this dental office!  I have been coming here for years. It is a one-stop-shop!  You
-      can get your x-rays, cleaning, braces, labs, dentures, toothbrushes, and more
-      all right here. They offer a movie room, 15 minute massages, child care, coffee,
-      tea, and snacks! The weekends included face painting and balloon art for the
-      kids. The staff is great, and they try to work with you if you need a payment
-      plan. I think most insurance carriers are accepted. Never had any issues with
-      any of the work done here!
-    author: Rosa V
-    image: "/uploads/bellflower-dental-testimonail-rosa.jpg"
-  superheading: "// Bellflower, Ca Patient Stories"
-  heading: Here's what our patients are saying
-  text: Check out some patient reviews for our Bellflower, Ca dental office
+  - heading: I knew that they always had my best interest in mind...
+    copy: I worked with Ben and his team after my car accident. I was nervous about the whole process, but they kept me up to date on every aspect and let me know what possible outcomes would happen. They are honest and upfront about the process. They are very professional and look out for their client’s best interest. I would highly recommend the team and if needed use them again.
+    author: Toriano T
+    image: "https://via.placeholder.com/500x750"
+  - heading: I felt involved every step of the way...
+    copy: Ben, Sean, and the whole team did a great job with my case. They kept me informed, included me in every step of the strategy of the case, and negotiated a good settlement for the case. I would recommend them to anyone with a serious injury case.
+    author: Jpyce R
+    image: "https://via.placeholder.com/500x750"
+  superheading: ""
+  heading: Testimonials
+  text: Check out what our satisfied clients have to say about our services.
 - template: images-1
   block: images-1
   background:
@@ -231,10 +209,10 @@ offer:
 site_title: The Big Guns
 google_analytics: ''
 social:
-  facebook: https://www.facebook.com/BellflowerDentalGroup/
-  linkedin: https://www.linkedin.com/pub/arkady-tsibel/109/919/712
-  pinterest: https://www.pinterest.com/bellflowergroup/
-  twitter: ''
-  yelp: https://www.yelp.com/biz/bellflower-dental-group-bellflower
-  youtube: https://www.youtube.com/channel/UCH7qhd1MaYCgduCKUCn63pA
-  instagram: https://instagram.com/bellflower_dental_group/
+  facebook: "#"
+  linkedin: "#"
+  pinterest: "#"
+  twitter: "#"
+  yelp: "#"
+  youtube: "#"
+  instagram: "#"
