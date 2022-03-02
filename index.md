@@ -121,7 +121,7 @@ blocks:
       disease. A dental exam includes a visual inspection of all visible surfaces
       in the mouth, including the tongue, for any signs of abnormalities like sores
       or unusual growths.
-    image: "/uploads/bellflower-dentistry-cavities-fillings.jpg"
+    image: "https://via.placeholder.com/500x350"
     overlay:
       color: ""
       opacity: 0.7

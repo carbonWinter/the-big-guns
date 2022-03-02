@@ -70,7 +70,7 @@ blocks:
     address_2: 'Las Vegas, NV 89119'
     latitude: '36.11619291359746'
     longitude: "-115.1286003378843"
-  marker: "/uploads/bellflower-dental-map-pin.png"
+  marker: ""
   api_key: AIzaSyDgSfwIXtCUA96SxACvR-O7rU0aDg9LofE
 - template: testimonials-2
   block: testimonials-2
@@ -89,7 +89,7 @@ blocks:
       that he wasn't gonna be a happy camper but the X-ray tech, Dominique, is so
       good with kids! The X-rays were fast and painless! Overall a great experience!
     author: Amanda K
-    image: "/uploads/bellflower-dental-testimonail-amanda.jpg"
+    image: "https://via.placeholder.com/500x750"
   - heading: 'This dental group surpasses my expectations! '
     copy: This dental group surpasses my expectations! Amazing staff! My experience
       at Bellflower Dental Group was outstanding. Get bored during waiting? Don't
@@ -183,7 +183,7 @@ colors:
 backgrounds:
   primary: "#F44040"
   secondary: "#F44040"
-  dark: "#2E2E2E"
+  dark: "#272624"
   muted: "#cccccc"
 phone: "702-500-GUNS"
 appointments:

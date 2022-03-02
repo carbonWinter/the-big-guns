@@ -4,8 +4,8 @@ phone: "702-500-GUNS"
 address: "10318 East Rosecrans Ave \nBellflower, CA 90706"
 hours: []
 copyright: |-
-  © 2021 Bellflower Dentistry - Bellflower, California
-  Restorative, Cosmetic and Specialty Dentistry. ALL RIGHTS RESERVED
+  © 2021 the big guns injury attorneys
+  Accident injury litigation attorneys. ALL RIGHTS RESERVED
 privacy_link:
   text: PRIVACY POLICY
   url: "/privacy-policy/"
@@ -19,7 +19,7 @@ button_secondary:
   blank: false
 menus: []
 color: light
-background: "#2F2F2F"
+background: "#272624"
 subfooter:
   background: "#000000"
   color: light
