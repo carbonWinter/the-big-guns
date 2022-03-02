@@ -30,7 +30,7 @@ header:
     id: "10"
 title: Exam and Cleaning
 seo_title: ''
-permalink: "/bellflower-ca/general-dentistry/cleaning-and-exam/"
+permalink: "/interior/"
 description: ''
 keywords: Dental Cleaning, dental cleaning Bellflower, dentist, teeth whitening, dental
   hygienist, tooth extraction, gentle dental, tooth crown, tooth decay, dental office,
@@ -70,82 +70,6 @@ blocks:
     Dental Group if you have any questions about tooth cleaning or would like a consultation
     appointment. We look forward to meeting you soon!
   lists: []
-- template: video-2
-  block: video-2
-  background:
-    color: primary
-    overlay:
-      opacity: '0.7'
-      color: ''
-    image: ''
-    video: ''
-  color: dark
-  align: left
-  superheading: 
-  heading: 
-  text: 
-  video_file: "/uploads/dental-cleaning-in-bellflower_-a-fantastic-experience.mp4"
-  video_image: ''
-  appointment_button: false
-  button:
-    text: ''
-    url: ''
-    blank: false
-- template: cards-2
-  block: cards-2
-  background:
-    color: default
-    overlay:
-      opacity: 0.5
-      color: ''
-    image: ''
-    video: ''
-  color: dark
-  align: left
-  superheading: "// Dental Cleaning Bellflower, Ca"
-  heading: What Can I Expect At My Dental Hygiene Appointment?
-  text: ''
-  cards:
-  - heading: Complete Exam
-    text: "\"A complete dental exam is a routine checkup of your mouth and teeth.
-      A dental exam includes an x-ray, cleaning, and polishing of your teeth with
-      fluoride treatment. \n\n\\- Periodontal (gum) charting\n\n\\- Dental decay assessment\n\n\\-
-      Tooth charting\n\n\\- Oral cancer screening\n\n\\- TMJ evaluation\""
-    image: https://via.placeholder.com/800
-    overlay:
-      opacity: 0.5
-      color: ''
-  - heading: Dental Cleaning
-    text: |-
-      "A dental cleaning is a type of oral hygiene practice performed by a dentist or dental hygienist to remove plaque and tartar from the teeth.
-
-      \- Tartar and stain removal
-
-      \- Tooth scaling
-
-      \- Tooth polishing
-
-      \- Gum disease prevention
-
-      \- Cavity prevention"
-    image: https://via.placeholder.com/800
-    overlay:
-      opacity: 0.5
-      color: ''
-  - heading: Treatment Plan
-    text: The benefits of a dental treatment plan are numerous, including improved
-      oral health, reduced risk of tooth decay, and increased quality of life through
-      consistent care that can reduce pain or discomfort.
-    image: https://via.placeholder.com/800
-    overlay:
-      opacity: 0.5
-      color: ''
-  appointment_button: false
-  button:
-    text: ''
-    url: ''
-    blank: false
-  content: ''
 - template: cta-1
   block: cta-1
   color: light
@@ -177,98 +101,6 @@ blocks:
     925-3765</a>!
   appointment_button: true
   section: ''
-- template: before-after-2
-  block: before-after-2
-  align: left
-  heading: Before & After
-  copy: Check out some of our recent smile transformations
-  superheading: Superheading text
-  cards:
-  - heading: Implants
-    before: "/uploads/implant-before-1.jpg"
-    after: "/uploads/implant-after.jpg"
-  - heading: Veneers
-    before: "/uploads/veneers-2-before.jpg"
-    after: "/uploads/veneers-2-after-1.jpg"
-  - heading: Whitening
-    before: "/uploads/whitening-before.jpg"
-    after: "/uploads/whitening-after.jpg"
-  background:
-    color: dark
-    image: ''
-    video: ''
-    overlay:
-      color: ''
-      opacity: 
-  color: light
-  text: ''
-- template: cards-3
-  block: cards-3
-  background:
-    color: muted
-    overlay:
-      opacity: 0.5
-      color: ''
-    image: ''
-    video: ''
-  color: light
-  align: center
-  columns: '3'
-  gutter: small
-  superheading: "// Oral Hygiene, Bellflower, Ca"
-  heading: 6 DAILY ORAL HYGIENE TIPS FOR A HEALTHY SMILE!
-  text: Your oral hygiene is important to your whole body health
-  cards:
-  - heading: GO ELECTRIC
-    copy: The use of an electric toothbrush is one of the best ways to ensure that
-      you are brushing your teeth thoroughly. The high-speed rotation allows for a
-      more thorough scrubbing, which can help to remove plaque and bacteria from areas
-      that may be hard to clean with a regular manual brush. This can reduce your
-      risk of developing gum disease or cavities in the future.
-    image: "/uploads/tip-1.svg"
-    button:
-      text: ''
-      url: ''
-  - heading: TWO MINUTES
-    copy: The American Dental Association recommends brushing teeth for two minutes
-      to properly clean your mouth's surfaces, which are home to millions of bacteria.
-    image: "/uploads/tip-2.svg"
-    button:
-      text: ''
-      url: ''
-  - heading: FLOSS LIKE A BOSS
-    copy: Flossing removes food particles and bacteria from those hard-to-reach places.
-      It also helps prevent bad breath!
-    image: "/uploads/tip-3.svg"
-    button:
-      text: ''
-      url: ''
-  - heading: DOUBLE UP
-    copy: Keeping your dental health in check is one of the most important things
-      you can do for your overall well-being. One of the best ways to maintain good
-      teeth and gums is by making regular trips to see your dentist.
-    image: "/uploads/tip-4.svg"
-    button:
-      text: ''
-      url: ''
-  - heading: DRINK WATER
-    copy: Water helps to flush out the harmful bacteria and plaque buildup in your
-      mouth, which leads to tooth decay and gum disease, that comes from food particles
-      you've eaten, especially sugary foods. It also keeps your saliva production
-      strong - an important factor in protecting teeth from cavities since saliva
-      naturally washes away acids formed by cavity-causing bacteria. So drink up!
-    image: "/uploads/tip-5.svg"
-    button:
-      text: ''
-      url: ''
-  - heading: TASTY TREATS
-    copy: Sugar is harmful when consumed regularly because it causes tooth decay and
-      gum disease. Avoid those sugary snacks and choose something more beneficial.
-    image: "/uploads/tip-6.svg"
-    button:
-      text: ''
-      url: ''
-  appointment_button: true
 - template: text-1
   block: text-1
   background:
@@ -281,7 +113,7 @@ blocks:
   heading_tag: H2
   color: dark
   align: left
-  columns: '1'
+  columns: '2'
   superheading: "// Dental Cleaning & Health, Bellflower, Ca"
   heading: The Process of a Dental Cleaning
   text: Learn everything you need to know about a dental cleaning in Bellflower
@@ -347,5 +179,26 @@ blocks:
   superheading: "// Dental Hygiene, Bellflower, Ca"
   heading: Frequently Asked Questions
   text: Get answers about questions you may have about dental cleaning and exam
+- template: video-2
+  block: video-2
+  background:
+    color: primary
+    overlay:
+      opacity: '0.7'
+      color: ''
+    image: ''
+    video: ''
+  color: dark
+  align: left
+  superheading: 
+  heading: 
+  text: 
+  video_file: "/uploads/dental-cleaning-in-bellflower_-a-fantastic-experience.mp4"
+  video_image: ''
+  appointment_button: false
+  button:
+    text: ''
+    url: ''
+    blank: false
 
 ---
