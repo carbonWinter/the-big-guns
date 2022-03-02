@@ -1,0 +1,73 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+$global-color:                    {{ site.data.options.colors.body | default: '#000000' }};
+$global-muted-color:              {{ site.data.options.colors.muted | default: '#C5C3C2' }};
+$base-heading-color:              {{ site.data.options.colors.heading | default: '#000000' }};
+
+$global-primary-background:       {{ site.data.options.backgrounds.primary | default: '#6F80A6' }};
+$global-muted-background:         {{ site.data.options.backgrounds.muted | default: '#ECEAE6' }};
+$global-secondary-background:     {{ site.data.options.backgrounds.secondary | default: '#8EB4FF' }};
+$global-dark-background:          {{ site.data.options.backgrounds.dark | default: '#303D4F' }};
+
+$global-font-family:              "{{ site.data.options.fonts.body | default: 'SFCompactDisplay' }}", sans-serif;
+$base-heading-font-family:        "{{ site.data.options.fonts.heading | default: 'SFCompactDisplay' }}", sans-serif;
+$navbar-nav-item-font-family:     "{{ site.data.options.fonts.navigation | default: 'SFCompactDisplay' }}", sans-serif;
+
+{% if site.data.options.fonts.body == 'SFCompactDisplay' or site.data.options.fonts.heading == 'SFCompactDisplay' or site.data.options.fonts.navigation == 'SFCompactDisplay' %}
+  @font-face {
+    font-family: 'SFCompactDisplay';
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+    src:  url('../fonts/SF-Compact-Display-Ultralight.woff2') format('woff2'),
+          url('../fonts/SF-Compact-Display-Ultralight.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'SFCompactDisplay';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src:  url('../fonts/SF-Compact-Display-Regular.woff2') format('woff2'),
+          url('../fonts/SF-Compact-Display-Regular.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'SFCompactDisplay';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    src:  url('../fonts/SF-Compact-Display-Semibold.woff2') format('woff2'),
+          url('../fonts/SF-Compact-Display-Semibold.woff') format('woff');
+  }
+{% endif %}
+
+
+{% if site.data.options.fonts.body == 'SFCompactDisplay' or site.data.options.fonts.heading == 'SFCompactDisplay' or site.data.options.fonts.navigation == 'SFCompactDisplay' %}
+$base-heading-font-weight: 600;
+$base-strong-font-weight: 600;
+{% endif %}
+
+// 1. Custom variables and variable overwrites.
+@import "{{ site.data.options.theme | default: 'mordecai' }}/variables";
+
+// 2. Import default variables and available mixins.
+@import "uikit/variables-theme";
+@import "uikit/mixins-theme";
+
+// 3. Custom mixin overwrites.
+@import "{{ site.data.options.theme | default: 'mordecai' }}/mixins";
+@import "global/_sharer";
+@import "global/_global";
+
+// 4. Import UIkit.
+@import "global/uikit";
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background: {{ site.data.navbar.background | default: '#ffffff' }};
+}
+
+@import "global/_custom";
+

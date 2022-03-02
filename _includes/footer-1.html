@@ -1,0 +1,72 @@
+<footer id="footer" class="footer-1">
+  <div class="uk-section-large" style="background-color: {{site.data.footer.background | default: '#000000'}};">
+    <div class="uk-container">
+      <div class="uk-text-center">
+        <a class="uk-logo" href="{{ "/" | relative_url }}">
+          {% if site.data.options.logo_light != '' or site.data.options.logo_dark != '' %}
+            {% if site.data.options.logo_light != '' %}
+              <img class="uk-logo-inverse" src="{{ site.data.options.logo_light | absolute_url }}" alt="{{ site.title }}">
+            {% endif %}
+            {% if site.data.options.logo_dark != '' %}
+              <img src="{{ site.data.options.logo_dark | absolute_url }}" alt="{{ site.title }}">
+            {% endif %}
+          {% else %}
+            {{ site.title }}
+          {% endif %}
+        </a>
+      </div>
+      {% if site.data.options.phone != '' %}
+        <div class="uk-margin-top uk-text-center uk-text-medium">
+          <a class="uk-link-text" href="tel:{{ site.data.options.phone }}">{{ site.data.options.phone }}</a>
+        </div>
+      {% endif %}
+      {% if site.data.footer.copyright != '' %}
+        <div class="uk-margin-medium-top uk-text-center uk-text-medium">
+          {{ site.data.footer.copyright }}
+        </div>
+      {% endif %}
+      
+      <div class="uk-margin-top uk-child-width-1-2@m uk-grid-divider uk-text-medium" data-uk-grid>
+        <div>
+          {% if site.data.footer.menus.size != 0 %}
+            {% for menu in site.data.footer.menus %}
+              <ul class="uk-nav uk-margin-top uk-margin-bottom">
+                {% for item in menu.menu %}
+                  <li><a class="uk-flex-center uk-flex-right@m uk-link-text" href="{% if item.url contains 'http' %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}">{{ item.text }}</a></li>
+                {% endfor %}
+              </ul>
+            {% endfor %}
+          {% endif %}
+        </div>
+        <div class="uk-text-center uk-text-left@m">
+          {% if site.data.footer.address != '' %}
+            <address class="uk-margin-top">{{ site.data.footer.address | markdownify }}</address>
+          {% endif %}
+          {% if site.data.footer.hours.size != 0 %}
+            <ul class="uk-list uk-margin-bottom uk-margin-remove-top">
+              {% for item in site.data.footer.hours %}
+                <li>{{ item }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+          <div class="uk-grid-small uk-child-width-auto uk-flex uk-flex-center uk-flex-left@m" data-uk-grid>
+            {% include social-networks.html %}
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+  <div class="uk-section-xsmall{% if site.data.footer.subfooter.color == 'light' %} uk-light{% endif %}" style="background-color: {{ site.data.footer.subfooter.background | default: '#000' }};">
+    <div class="uk-container">
+      <div class="uk-text-center uk-text-left@m" data-uk-grid>
+        <div class="uk-width-expand@m">
+          {{ site.data.footer.copyright }}
+          {% if site.data.footer.privacy_link.url != '' %}
+            | <a href="{% if site.data.footer.privacy_link.url contains 'http' %}{{ site.data.footer.privacy_link.url }}{% else %}{{ site.data.footer.privacy_link.url | relative_url }}{% endif %}">{{ site.data.footer.privacy_link.text }}</a>
+          {% endif %}
+        </div>
+        <div class="uk-width-auto@m">Dental Marketing and Website by <a href="https://www.dentalgameplan.com/" target="_blank" rel="noopener noreferrer">Dental Game Plan</a> <a href="https://www.dentalgameplan.com/" target="_blank" rel="noopener noreferrer"><img class="uk-margin-small-left" width="24" src="{{ '/assets/img/dental-game-plan.svg' | absolute_url }}" alt="Dental Game Plan"></a></div>
+      </div>
+    </div>
+  </div>
+</footer>

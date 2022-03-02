@@ -1,0 +1,79 @@
+<footer id="footer" class="footer-1">
+  <div class="uk-section-large{% if site.data.footer.color == 'light' %} uk-light{% endif %}" style="background-color: {{site.data.footer.background | default: '#000000'}};">
+    <div class="uk-container uk-container-small uk-text-center">
+      <div>
+        <a class="uk-logo" href="{{ "/" | relative_url }}">
+          {% if site.data.options.logo_light != '' or site.data.options.logo_dark != '' %}
+            {% if site.data.options.logo_light != '' %}
+              <img class="uk-logo-inverse" src="{{ site.data.options.logo_light | absolute_url }}" alt="{{ site.title }}">
+            {% endif %}
+            {% if site.data.options.logo_dark != '' %}
+              <img src="{{ site.data.options.logo_dark | absolute_url }}" alt="{{ site.title }}">
+            {% endif %}
+          {% else %}
+            {{ site.title }}
+          {% endif %}
+        </a>
+      </div>
+      <div class="uk-flex uk-flex-center uk-margin-medium-top">
+        <div class="uk-child-width-auto@s" data-uk-grid>
+          <div>
+            <a class="uk-button uk-button-default uk-button-min-width" href="#" data-uk-toggle="target: #modal-offer">Dental Offer</a>
+          </div>
+          <div>
+            <a class="uk-button uk-button-primary-preserve uk-button-min-width" href="#" data-uk-toggle="target: #modal-appointment">Book Now</a>
+          </div>
+        </div>
+      </div>
+      {% if site.data.footer.copyright != '' %}
+        <div class="uk-margin-medium-top uk-text-center uk-text-medium uk-text-uppercase">
+          {{ site.data.footer.copyright }}
+          {% if site.data.footer.privacy_link.url != '' %}
+            | <a href="{% if site.data.footer.privacy_link.url contains 'http' %}{{ site.data.footer.privacy_link.url }}{% else %}{{ site.data.footer.privacy_link.url | relative_url }}{% endif %}">{{ site.data.footer.privacy_link.text }}</a>
+          {% endif %}          
+        </div>
+      {% endif %}
+      {% if site.data.options.phone != '' %}
+        <div class="uk-margin-top uk-text-center uk-text-medium">
+          <a class="uk-link-text" href="tel:{{ site.data.options.phone }}">{{ site.data.options.phone }}</a>
+        </div>
+      {% endif %}
+      
+      {% if site.data.footer.menus.size != 0 %}
+        {% for menu in site.data.footer.menus %}
+          <div class="uk-flex uk-flex-center uk-margin-medium-top">
+            <ul class="uk-nav uk-margin-bottom">
+              {% for item in menu.menu %}
+                <li><a class="uk-flex-center uk-link-text" href="{% if item.url contains 'http' %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}">{{ item.text }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endfor %}
+      {% endif %}
+      
+      {% if site.data.footer.address != '' %}
+        <address class="uk-margin-top">{{ site.data.footer.address | markdownify }}</address>
+      {% endif %}
+
+      {% if site.data.footer.hours.size != 0 %}
+        <ul class="uk-list uk-margin-remove-bottom uk-margin-medium-top">
+          {% for item in site.data.footer.hours %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      <div class="uk-flex uk-flex-center uk-margin-medium-top">
+        <div class="uk-grid-small uk-child-width-auto" data-uk-grid>
+          {% include social-networks.html %}
+        </div>
+      </div>
+    </div> 
+  </div>
+  <div class="uk-section-xsmall{% if site.data.footer.subfooter.color == 'light' %} uk-light{% endif %}" style="background-color: {{ site.data.footer.subfooter.background | default: '#000' }};">
+    <div class="uk-container">
+      <div class="uk-text-center">
+        Dental Marketing and Website by <a href="https://www.dentalgameplan.com/" target="_blank" rel="noopener noreferrer">Dental Game Plan</a> <a href="https://www.dentalgameplan.com/" target="_blank" rel="noopener noreferrer"><img class="uk-margin-small-left" width="24" src="{{ '/assets/img/dental-game-plan.svg' | absolute_url }}" alt="Dental Game Plan"></a>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,138 @@
+{%- if page.header.height != 'none' -%}
+  {% unless page.header.transparent_navbar %}
+    {% if site.data.navbar.sticky %}
+      <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive:{% if page.header.transparent_navbar %} uk-navbar-transparent{% endif %}; top: 200">
+        <nav class="uk-navbar-container{% if site.data.navbar.color == 'light' %} uk-light{% endif %} uk-position-relative uk-position-z-index">
+          {% if site.data.navbar.layout == 'center' %}
+            {% include navbar-center.html %}
+          {% elsif site.data.navbar.layout == 'dropbar' %}
+            {% include navbar-dropbar.html %}
+          {% else %}
+            {% include navbar-default.html %}
+          {% endif %}
+        </nav>
+      </div>
+    {% else %}
+      <nav class="uk-navbar-container{% if page.header.transparent_navbar %} uk-navbar-transparent{% endif %}{% if site.data.navbar.color == 'light' %} uk-light{% endif %} uk-position-relative uk-position-z-index">
+        {% if site.data.navbar.layout == 'center' %}
+          {% include navbar-center.html %}
+        {% elsif site.data.navbar.layout == 'dropbar' %}
+            {% include navbar-dropbar.html %}
+        {% else %}
+          {% include navbar-default.html %}
+        {% endif %}
+      </nav>
+    {% endif %}
+  {% endunless %}
+  <div class="uk-header uk-position-relative uk-background-cover{% if page.header.background.background_style != 'video' %} uk-background-top-center{% endif %}" 
+    style="{% if page.header.background.background_color %}background-color: {{ page.header.background.background_color | default: '#ffffff' }};{% endif %}{% if page.header.background.background_image %}background-image: url({% if page.header.background.background_image contains '#' %}{{ page.header.background.background_image }}{% else %}{{ page.header.background.background_image | absolute_url }}{% endif %});{% endif %}"{% if page.header.height == 'viewport' %} data-uk-height-viewport="{% unless page.header.transparent_navbar %}offset-top: true;{% endunless %}{% if page.header.page_navigation.size !=0 %} offset-bottom: true;{% endif %}"{% endif %}>
+    {%- if page.header.background.background_style == 'video' -%}
+    <div class="uk-position-cover uk-cover-container uk-visible@m">
+      <video autoplay loop muted playsinline data-uk-cover>
+        <source src="{% if page.header.background.background_video_file contains 'http' %}{{ page.header.background.background_video_file }}{% else %}{{ page.header.background.background_video_file | absolute_url }}{% endif %}" type="video/mp4">
+      </video>
+    </div>
+    {%- endif -%}
+
+    {%- if page.header.background.overlay != 'none' -%}
+      <div class="uk-position-cover" style="{% if page.header.background.overlay == 'gradient' %}background: {{ page.header.background.gradient }}{% endif %}{% if page.header.background.overlay == 'color' %}background: {{ page.header.background.overlay_color }}; opacity: {{ page.header.background.overlay_opacity | default: '0.6' }}{% endif %}"></div>
+    {%- endif -%}
+
+    {% if page.header.transparent_navbar == true %}
+      {% if site.data.navbar.sticky %}
+        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive:{% if page.header.transparent_navbar %} uk-navbar-transparent{% endif %}; top: 200">
+          <nav class="uk-navbar-container{% if site.data.navbar.color == 'light' %} uk-light{% endif %} uk-position-relative uk-position-z-index">
+            {% if site.data.navbar.layout == 'center' %}
+              {% include navbar-center.html %}
+            {% elsif site.data.navbar.layout == 'dropbar' %}
+              {% include navbar-dropbar.html %}
+            {% else %}
+              {% include navbar-default.html %}
+            {% endif %}
+          </nav>
+        </div>
+      {% else %}
+        <nav class="uk-navbar-container{% if page.header.transparent_navbar %} uk-navbar-transparent{% endif %}{% if site.data.navbar.color == 'light' %} uk-light{% endif %} uk-position-relative uk-position-z-index">
+          {% if site.data.navbar.layout == 'center' %}
+            {% include navbar-center.html %}
+          {% elsif site.data.navbar.layout == 'dropbar' %}
+              {% include navbar-dropbar.html %}
+          {% else %}
+            {% include navbar-default.html %}
+          {% endif %}
+        </nav>
+      {% endif %}
+    {% endif %}
+    
+    <div class="uk-container uk-position-relative uk-flex uk-flex-{{ page.header.vertical_align | default: 'middle' }}{% if page.header.layout == 'centered' %} uk-flex-center uk-text-center{% endif %}{% if page.header.color == 'light' %} uk-light{% endif %}{% if page.header.height == 'medium' %} uk-header-medium{% endif %}{% if page.header.height == 'large' %} uk-header-large{% endif %}"{% if page.header.height == 'viewport' %} data-uk-height-viewport="offset-top: true; offset-bottom: 70px"{% endif %}>
+      {% if page.header.layout == 'centered' %}
+        <div class="uk-margin-large-top uk-margin-xlarge-bottom">
+          {% if page.header.col_one.heading != '' %}
+            <h2 class="uk-heading-large uk-margin-remove-bottom">{{ page.header.col_one.heading }}</h2>
+          {% endif %}
+          {% if page.header.col_one.text != '' %}
+            <div class="uk-text-lead">{{ page.header.col_one.text }}</div>
+          {% endif %}
+        </div>
+      {% else %}
+        <div class="uk-grid-large uk-child-width-1-2@m uk-margin-xlarge-top uk-margin-xlarge-bottom uk-width-1-1" data-uk-grid>
+          <div class="{% if page.header.col_two.heading == '' %}uk-width-2-3@l{% endif %}">
+            {% if page.header.col_one.heading != '' %}
+              <h2 class="uk-heading-large uk-margin-remove-bottom">{{ page.header.col_one.heading }}</h2>
+            {% endif %}
+            {% if page.header.col_one.text != '' %}
+              <div class="uk-text-lead">{{ page.header.col_one.text }}</div>
+            {% endif %}
+          </div>
+          {% if page.header.col_two.heading != '' %}
+            <div>
+              {% if page.header.col_two.heading != '' %}
+                <h2 class="uk-heading-medium uk-margin-bottom">{{ page.header.col_two.heading }}</h2>
+              {% endif %}
+              {% if page.header.col_two.text != '' %}
+                <div class="uk-text-lead">{{ page.header.col_two.text }}</div>
+              {% endif %}
+            </div>   
+          {% endif %}       
+        </div>
+      {% endif %}
+      
+    </div>
+
+  </div>
+{% else %}
+  {% if site.data.navbar.sticky %}
+    <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; top: 200">
+      <nav class="uk-navbar-container{% if site.data.navbar.color == 'light' %} uk-light{% endif %} uk-position-relative uk-position-z-index">
+        {% if site.data.navbar.layout == 'center' %}
+          {% include navbar-center.html %}
+        {% elsif site.data.navbar.layout == 'dropbar' %}
+            {% include navbar-dropbar.html %}
+        {% else %}
+          {% include navbar-default.html %}
+        {% endif %}
+      </nav>
+    </div>
+  {% else %}
+    <nav class="uk-navbar-container{% if site.data.navbar.color == 'light' %} uk-light{% endif %} uk-position-relative uk-position-z-index">
+      {% if site.data.navbar.layout == 'center' %}
+        {% include navbar-center.html %}
+      {% elsif site.data.navbar.layout == 'dropbar' %}
+        {% include navbar-dropbar.html %}
+      {% else %}
+        {% include navbar-default.html %}
+      {% endif %}
+    </nav>
+  {% endif %}
+{% endif %}
+{% if page.header.page_navigation.size !=0 %}
+<div class="uk-nav-page">
+  <div class="uk-container uk-container-large uk-flex uk-flex-right">
+    <ul class="uk-subnav uk-subnav-divider" data-uk-margin>
+      {% for item in page.header.page_navigation %}
+        <li><a href="#block-{{ item.id }}" data-uk-scroll>{{ item.text }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endif %}

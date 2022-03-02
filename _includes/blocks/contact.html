@@ -1,0 +1,31 @@
+{% if block.title %}
+  <h2 class="uk-heading-medium uk-text-serif uk-margin-remove uk-text-center">{{ block.title | markdownify }}</h2>
+{% endif %}
+
+{% if block.form.formspree %}
+  <h5 class="uk-text-spacing uk-text-uppercase uk-text-center uk-margin-xlarge-top">{{ site.data.translation[site.lang].or | default: "Or }}</h5>
+  <div class="uk-margin-top uk-h1 uk-text-serif uk-text-center">{{ site.data.translation[site.lang].fill | default: "Fill out the form }}</div>
+  {% include block-formspree.html %}
+{% endif %}
+
+<div class="uk-text-center">
+  {% if block.address %}
+    <h5 class="uk-text-spacing uk-text-uppercase uk-margin-xlarge-top">{{ site.data.translation[site.lang].address | default: "Address }}</h5>
+    <address class="uk-margin-top uk-h1 uk-text-serif">{{ site.author.address }}</address>
+  {% endif %}
+
+  {% if block.contact %}
+    <h5 class="uk-text-spacing uk-text-uppercase uk-margin-xlarge-top">{{ site.data.translation[site.lang].contact | default: "Contact }}</h5>
+    <div class="uk-margin-top uk-h1 uk-text-serif"><a href="tel:{{ site.author.phone }}">{{ site.author.phone }}</a></div>
+    <div class="uk-margin-top uk-h1 uk-text-serif"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></div>
+  {% endif %}
+
+  {% if block.social %}
+    <h5 class="uk-text-spacing uk-text-uppercase uk-margin-xlarge-top">{{ site.data.translation[site.lang].follow | default: "Follow Us }}</h5>
+    <div class="uk-margin-top uk-h1 uk-text-serif">
+      <div>
+        {% include social-networks.html %}
+      </div>
+    </div>
+  {% endif %}
+</div>

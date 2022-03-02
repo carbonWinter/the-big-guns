@@ -1,0 +1,42 @@
+<section id="block-{{ forloop.index }}" class="uk-section-large uk-position-relative uk-background-cover uk-background-{{ block.background.color | default: 'default' }}" 
+  style="{% if block.background.image %}background-image: url({% if block.background.image contains '#' %}{{ block.background.image }}{% else %}{{ block.background.image | absolute_url }}{% endif %});{% endif %}">
+  {%- if block.background.overlay.color != '' -%}
+    <div class="uk-position-cover" style="background: {{ block.background.overlay.color }}; opacity: {{ block.background.overlay.opacity | default: '0.6' }}"></div>
+  {%- endif -%}
+  <div class="uk-position-relative">
+
+    {% if block.heading != empty %}
+      <div class="uk-section-heading-container uk-margin-large-bottom uk-container-small{% if block.align == 'center' %} uk-margin-auto{% endif %} uk-text-{{ block.align | default: 'left' }} uk-{{ block.color | default: 'dark' }}">
+        {% if block.superheading != empty %}
+          <div class="uk-section-superheading uk-margin-xsmall-bottom">{{ block.superheading }}</div>
+        {% endif %}        
+        {% if block.heading != empty %}
+          <h2 class="uk-section-heading uk-margin-remove-top uk-margin-remove-bottom">{{ block.heading }}</h2>
+        {% endif %}
+        {% if block.text != empty %}
+          <div class="uk-text-lead{% if block.heading %} uk-margin-xsmall-top{% endif %}">{{ block.text  }}</div>
+        {% endif %}
+        {% if block.copy != empty %}
+          <div class="uk-text-content uk-margin-medium-top">{{ block.copy | markdownify  }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="uk-slider-2 uk-light uk-position-relative">
+      <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" data-uk-slider="center: true">
+        <ul class="uk-slider-items uk-grid uk-grid-small">
+          {% for slide in block.slides %}
+            <li class="uk-width-3-4">
+              <img src="{{ slide | absolute_url }}" alt="Slide">
+            </li>
+          {% endfor %}
+        </ul>
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" title="Previous" href="#" data-uk-slidenav-previous="ratio: 2"
+          data-uk-slider-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" title="Next" href="#" data-uk-slidenav-next="ratio: 2"
+          data-uk-slider-item="next"></a>
+      </div>
+    </div>
+
+  </div>
+</section>

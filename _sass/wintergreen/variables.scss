@@ -1,0 +1,74 @@
+// Global variables
+$base-h2-font-size-m:                            3rem;
+$base-h2-font-size:                              2.25rem;
+
+$base-h3-font-size:                             2.125rem;
+$base-h4-font-size:                             1.75rem;
+$base-h5-font-size:                             1.125rem;
+$base-link-color:                               $global-primary-background;
+$base-link-hover-color:                         $global-primary-background;
+
+$global-control-height:                         56px;
+$form-height:                                   56px;
+$form-padding-horizontal:                       20px;
+
+$button-line-height:                             $global-control-height;
+
+$heading-large-font-size:                       4rem;
+$heading-large-font-size-l:                     7.5rem;
+
+$container-max-width:                            1520px;
+
+// Accordion
+$accordion-content-margin-top:                  0;
+
+// Button variables
+$global-control-height:                         47px;
+$button-default-border:                         $global-dark-background;
+$button-default-hover-border:                   $global-dark-background;
+$button-default-active-border:                  $global-dark-background;
+$button-default-hover-background:               $global-dark-background;
+$button-default-hover-color:                    #fff;
+$button-default-active-background:              $global-dark-background;
+
+// Navigation variables
+$navbar-nav-item-height:                        160px;
+$navbar-nav-item-padding-horizontal:            10px;
+$navbar-nav-item-text-transform:                  none;
+$navbar-nav-item-font-size:                     1.125rem;
+$inverse-navbar-nav-item-color:                 #fff;
+$inverse-navbar-nav-item-hover-color:           $global-primary-background;
+$inverse-navbar-nav-item-onclick-color:         $global-primary-background;
+$inverse-navbar-nav-item-active-color:          $global-primary-background;
+$inverse-navbar-toggle-color:                   $global-primary-background;
+$inverse-navbar-toggle-hover-color:             #fff;
+
+$navbar-dropdown-background:                     #fff;
+
+$navbar-dropdown-nav-item-color:                 $global-muted-color;
+$navbar-dropdown-nav-item-hover-color:           $global-primary-background;
+$navbar-dropdown-nav-item-active-color:          $global-primary-background;
+$navbar-dropdown-nav-font-size:                  1.125rem;
+$navbar-dropbar-background:                      #fff;
+
+$nav-header-font-size:                           1.313rem;
+$dropdown-nav-header-color:                       $global-primary-background;
+$nav-item-padding-vertical:                      10px;
+
+$subnav-item-text-transform:                    none;
+$subnav-margin-horizontal:                       36px;
+
+$subnav-item-color:                              #000;
+$subnav-item-hover-color:                        $global-color;
+$subnav-item-active-color:                       $global-color;
+
+$subnav-divider-border-height:                45px;
+$subnav-divider-border:                         #707070;
+
+$text-lead-font-size:                            1.5rem;
+
+$modal-dialog-width:                             800px;
+$modal-body-padding-horizontal:                  50px;
+$modal-body-padding-vertical:                    50px;
+
+

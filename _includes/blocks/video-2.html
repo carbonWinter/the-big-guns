@@ -1,0 +1,22 @@
+<section id="block-{{ forloop.index }}" class="uk-video-2 uk-position-relative uk-background-cover uk-background-{{ block.background.color | default: 'default' }}" 
+  style="{% if block.background.image %}background-image: url({% if block.background.image contains '#' %}{{ block.background.image }}{% else %}{{ block.background.image | absolute_url }}{% endif %});{% endif %}">
+  {%- if block.background.overlay.color != '' -%}
+    <div class="uk-position-cover" style="background: {{ block.background.overlay.color }}; opacity: {{ block.background.overlay.opacity | default: '0.6' }}"></div>
+  {%- endif -%}
+
+    {% if block.video_file != empty %}
+      <video class="uk-width-1-1" src="{% if block.video_file contains 'http' %}{{ block.video_file }}{% else %}{{ block.video_file | absolute_url }}{% endif %}" data-uk-video="autoplay: inview" loop playsinline controls{% if block.video_image != empty %} poster="{% if block.video_image contains 'http' %}{{ block.video_image }}{% else %}{{ block.video_image | absolute_url }}{% endif %}"{% endif %}>
+        <source  type="video/mp4">
+      </video>
+    {% endif %}   
+    
+  </div>
+</section>
+
+
+
+  
+
+
+
+

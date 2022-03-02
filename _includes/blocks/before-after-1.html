@@ -1,0 +1,40 @@
+<section id="block-{{ forloop.index }}" class="uk-before-after-1 uk-section-large uk-position-relative uk-background-cover uk-background-{{ block.background.color | default: 'default' }}" 
+  style="{% if block.background.image %}background-image: url({% if block.background.image contains '#' %}{{ block.background.image }}{% else %}{{ block.background.image | absolute_url }}{% endif %});{% endif %}">
+  {%- if block.background.overlay.color != '' -%}
+    <div class="uk-position-cover" style="background: {{ block.background.overlay.color }}; opacity: {{ block.background.overlay.opacity | default: '0.6' }}"></div>
+  {%- endif -%}
+  <div class="uk-container uk-position-relative uk-text-{{ block.align | default: 'left' }}">
+
+    {% if block.heading != empty or block.text != empty %}
+      <div class="uk-section-heading-container uk-margin-large-bottom uk-container-small{% if block.align == 'center' %} uk-margin-auto{% endif %} uk-{{ block.color | default: 'dark' }}">
+        {% if block.heading != empty %}
+          <h2 class="uk-section-heading uk-margin-remove-top uk-margin-remove-bottom">{{ block.heading }}</h2>
+        {% endif %}
+        {% if block.text != empty %}
+          <div class="uk-text-lead{% if block.heading %} uk-margin-xsmall-top{% endif %}">{{ block.text | markdownify  }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="uk-flex-center uk-grid-large uk-child-width-1-2@m uk-text-center" data-uk-grid>
+      {% for card in block.cards %}
+        <div>
+          <div class="uk-flex uk-pointer uk-before-after-1-wrapper" data-uk-toggle="cls: uk-reverse;">
+            <div>
+              <img class="uk-border-circle" data-src="{% if card.before contains 'http' %}{{ card.before }}{% else %}{{ card.before | absolute_url }}{% endif %}" data-width data-height src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-uk-img alt="{{ card.heading }}">
+            </div>
+            <div>
+              <img class="uk-border-circle" data-src="{% if card.after contains 'http' %}{{ card.after }}{% else %}{{ card.after | absolute_url }}{% endif %}" data-width data-height src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-uk-img alt="{{ card.heading }}">
+            </div>
+          </div>
+          {% if card.heading != empty %}
+            <div class="uk-margin-medium-top">
+              <h3 class="uk-margin-remove uk-h4 uk-text-uppercase uk-letter-spacing-large uk-text-muted">{{ card.heading }}</h3>
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>

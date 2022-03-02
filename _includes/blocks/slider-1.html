@@ -1,0 +1,21 @@
+<div id="block-{{ forloop.index }}" class="uk-slider-1 uk-light uk-position-relative">
+  <div data-uk-slideshow="autoplay: true; autoplay-interval: 4000; pause-on-hover: false">
+    <div class="uk-position-relative uk-visible-toggles" tabindex="-1">
+      <ul class="uk-slideshow-items">
+        {% for slide in block.slides %}
+          <li>
+            <img data-src="{{ slide | absolute_url }}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-uk-img alt="Slide" data-uk-cover>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <a class="uk-position-center-left uk-position-small uk-hidden-hover" title="Previous" href="#" data-uk-slidenav-previous="ratio: 1.5"
+        data-uk-slideshow-item="previous"></a>
+      <a class="uk-position-center-right uk-position-small uk-hidden-hover" title="Next" href="#" data-uk-slidenav-next="ratio: 1.5"
+        data-uk-slideshow-item="next"></a>
+
+    </div>
+
+    <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-slider-1-dotnav uk-position-relative uk-position-z-index"></ul>
+  </div>
+</div>

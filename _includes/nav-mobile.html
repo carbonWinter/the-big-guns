@@ -1,0 +1,101 @@
+<div id="nav-mobile" class="uk-modal-full" data-uk-modal>
+  <div class="uk-modal-dialog uk-modal-nav">
+
+    <div class="uk-container">
+      <div>
+        <div class="">
+          <a class="uk-navbar-item uk-logo" href="{{ "/" | relative_url }}">
+            {% if site.data.options.logo_light != '' or site.data.options.logo_dark != '' %}
+              {% if site.data.options.logo_light != '' %}
+                <img class="uk-logo-inverse" src="{{ site.data.options.logo_light | absolute_url }}" alt="{{ site.title }}">
+              {% endif %}
+              {% if site.data.options.logo_dark != '' %}
+                <img src="{{ site.data.options.logo_dark | absolute_url }}" alt="{{ site.title }}">
+              {% endif %}
+            {% else %}
+              {{ site.title }}
+            {% endif %}
+          </a>
+        </div>
+        <div class="uk-navbar-right">
+          <button class="uk-navbar-item uk-modal-close-full uk-close-large uk-background-muted" type="button" data-uk-close></button>
+        </div>
+      </div>
+    </div>
+    <div class="uk-container uk-container-xsmall">
+      <div class="uk-margin-large-top" data-uk-height-viewport>
+        <div>
+          <ul class="uk-nav uk-nav-parent-icon uk-nav-primary" data-uk-nav>
+            {% for link in site.data.navbar.menu_mobile %}
+              {% if link.url contains 'http' %}
+                  {% assign domain = '' %}
+              {% else %}
+                  {% assign domain = '' | relative_url %}
+              {% endif %}
+
+              {% if link.url == page.url %}
+                  {% assign current = 'uk-active' %}
+              {% else %}
+                  {% assign current = null %}
+              {% endif %}
+
+              <li class="{{ current }}{% if link.dropdown and link.dropdown.size != 0 %} uk-parent{% endif %}">
+                {% if link.url %}
+                  {% if link.style == 'phone' %}
+                    <a class="uk-link-phone" href="tel:{{ link.url }}">
+                      <span class="uk-icon-button uk-margin-small-right">
+                        <svg width="16" height="16" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" stroke="#fff" stroke-width="1.01" d="M6.189,13.611C8.134,15.525 11.097,18.239 13.867,18.257C16.47,18.275 18.2,16.241 18.2,16.241L14.509,12.551L11.539,13.639L6.189,8.29L7.313,5.355L3.76,1.8C3.76,1.8 1.732,3.537 1.7,6.092C1.667,8.809 4.347,11.738 6.189,13.611"></path></svg>
+                      </span>
+                      {{ link.text }}</a>
+                  {% else %}
+                    <a{% if link.style != 'link' %} class="uk-button{% if link.style == 'button-primary' %} uk-button-primary{% endif %}{% if link.style == 'button-default' %} uk-button-default{% endif %}"{% endif %} href="{{ domain }}{{ link.url }}" {% if link.blank %}target="_blank" rel="noopener" {% endif %}>{{ link.text }}</a>
+                  {% endif %}
+                {% else %}
+                  <a href="#">{{ link.text }}</a>
+                {% endif %}
+                {% if link.dropdown and link.dropdown.size != 0 %}
+                  <ul class="uk-nav-sub">
+                    {% for child in link.dropdown %}
+                      {% if child.url contains 'http' %}
+                          {% assign domain = '' %}
+                      {% else %}
+                          {% assign domain = '' | relative_url %}
+                      {% endif %}
+                      {% if child.url == page.url %}
+                          {% assign current = ' class="uk-active"' %}
+                      {% else %}
+                          {% assign current = null %}
+                      {% endif %}
+                      <li{{ current }}><a href="{{ domain }}{{ child.url }}">{{ child.text }}</a></li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+
+            {% if site.data.options.sticky_cta.offer %}
+              <li>
+                <a class="uk-button uk-button-default" href="#" data-uk-toggle="target: #modal-offer">Dental Offer</a>
+              </li>
+            {% endif %}
+            {% if site.data.options.sticky_cta.appointment %}
+              <li>
+                <a class="uk-button uk-button-primary" href="#" data-uk-toggle="target: #modal-appointment">Book Now</a>
+              </li>
+            {% endif %}
+
+            {% if site.data.options.phone != '' %}
+              <li>
+                <a class="uk-link-phone" href="tel:{{ site.data.options.phone }}">
+                  <span class="uk-icon-button uk-margin-small-right">
+                    <svg width="16" height="16" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" stroke="#fff" stroke-width="1.01" d="M6.189,13.611C8.134,15.525 11.097,18.239 13.867,18.257C16.47,18.275 18.2,16.241 18.2,16.241L14.509,12.551L11.539,13.639L6.189,8.29L7.313,5.355L3.76,1.8C3.76,1.8 1.732,3.537 1.7,6.092C1.667,8.809 4.347,11.738 6.189,13.611"></path></svg>
+                  </span>
+                  {{ site.data.options.phone }}</a>
+              </li>
+            {% endif %}            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

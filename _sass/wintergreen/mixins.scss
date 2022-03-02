@@ -1,0 +1,401 @@
+@mixin hook-accordion-misc() {
+  .uk-faq-1 .uk-accordion-faq {
+    li {
+      border-bottom: solid 1px $global-muted-color;
+
+      &:first-child {
+        border-top: solid 1px $global-muted-color;
+      }
+    }
+
+    .uk-accordion-title {
+      padding: 45px 0;
+
+      &:before {
+        background-image: none;
+      }
+    }
+
+    .uk-accordion-content {
+      padding-bottom: 45px;
+    }
+
+    @media (min-width: $breakpoint-large) {
+      .uk-accordion-title {
+        padding: 85px 0;
+      }
+      .uk-accordion-content {
+        padding-bottom: 80px;
+      }
+      
+    }
+  }
+
+  .uk-faq-2 .uk-accordion-faq {
+    li a {
+      border-top: solid 1px $global-muted-color;
+
+    }
+
+    li {
+      @media (min-width: $breakpoint-medium) {
+        &:nth-last-child(2) a {
+          border-bottom: solid 1px $global-muted-color;
+        }
+      }
+      &:last-child a {
+        border-bottom: solid 1px $global-muted-color;
+      }
+    }
+    
+    .uk-accordion-title {
+      padding: 30px 0;
+
+      &:before {
+        background-image: none !important;
+      }
+
+      span {
+        margin-right: 30px;
+        box-sizing: border-box;
+        width: 38px;
+        height: 38px;
+        border-radius: 500px;
+        border: solid 1px #fff;
+        background: transparent;
+        vertical-align: middle;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;      
+      }
+
+      &[aria-expanded="true"] {
+        color: $global-secondary-background;
+        span {
+          background-color: $global-secondary-background;
+          color: #fff;
+        }
+      }
+    }
+
+    .uk-accordion-content {
+      padding-bottom: 30px;
+      padding-left: 70px;
+    }
+
+    @media (min-width: $breakpoint-large) {
+      .uk-accordion-title {
+        padding: 40px 0;
+      }
+      .uk-accordion-content {
+        padding-bottom: 35px;
+      }
+      
+    }
+
+  }
+  
+}
+
+@mixin hook-button-misc() {
+  .uk-button {
+    border-radius: 500px;
+    font-weight: $base-heading-font-weight;
+    letter-spacing: 0.16em;
+    font-family: $base-heading-font-family;
+  }
+  .uk-button-small {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+}
+
+
+@mixin hook-navbar-dropdown(){
+  padding: 40px 0;
+}
+
+@mixin hook-navbar-dropdown-nav(){ 
+  font-size: $navbar-dropdown-nav-font-size; 
+  text-transform: none;
+  letter-spacing: 1px;
+}
+
+@mixin hook-navbar-dropdown-nav-item(){
+  font-weight: $base-heading-font-weight;
+}
+
+
+@mixin hook-utility-misc() {
+  .uk-text-content {
+    font-size: 1.125rem;
+    line-height: 2.5;
+  }
+
+  .uk-line-height-one {
+    line-height: 1;
+  }
+
+  .uk-margin-xsmall-top {
+    margin-top: 5px;
+  }
+
+  .uk-section-superheading {
+    color: $global-secondary-background;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    font-weight: $base-heading-font-weight;
+    margin-bottom: 20px;
+  }
+
+  .uk-section-heading {
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 3rem;
+    margin-left: -4px;
+    line-height: .95;
+  }
+
+  @media (min-width: $breakpoint-medium) {
+    .uk-section-heading {
+      font-size: 5.75rem;
+      margin-left: -8px;
+    }
+  }
+
+  .uk-section-heading-container {
+    .uk-text-lead {
+      margin-top: 19px;
+    }
+    &.uk-container-small {
+      max-width: 1000px;
+    }
+  }
+
+  .uk-text-bold {
+    font-weight: $base-strong-font-weight;
+  }
+
+  .uk-button-link {
+    text-transform: none;
+    font-size: 1.125rem;
+    letter-spacing: 0;
+  }
+
+  .uk-heading-large {
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+  
+  .uk-button-min-width {
+    min-width: 180px;
+  }
+
+  .uk-link-primary:not(:hover) {
+    color: $global-primary-background !important;
+  }
+  // Wintergreen
+  .uk-dropbar-width-1 {
+    width: 16.6%;
+  }
+  .uk-dropbar-width-2 {
+    width: 33.3%;
+  }
+  .uk-dropbar-width-3 {
+    width: 50%;
+  }
+  .uk-dropbar-width-4 {
+    width: 66.6%;
+  }
+  .uk-dropbar-width-5 {
+    width: 83.3%;
+  }
+  .uk-dropbar-width-6 {
+    width: 100%;
+  }
+  
+
+  // Pingpong 2
+  .uk-pingpong-2-image {
+    min-height: 400px;
+  }
+  @media (min-width: $breakpoint-medium) {
+    .uk-width-pingpong-2-content {
+      width: 45%;
+    }
+    .uk-pingpong-2 .uk-text-content {
+      margin-top: 40px !important;
+    }
+  }
+
+  .uk-pingpong-2-image-background {
+    top: 28px;
+    bottom: 28px;
+    right: 0;
+    left: 0;
+    position: absolute;
+  }
+
+  // Team 1
+  .uk-team-1-title {
+    font-size: 1.25rem;
+    line-height: 1.2;
+  }
+
+  // Testimonial 2
+  .uk-testimonials-2 {
+    overflow: hidden;
+    .uk-slider-nav {
+      li:not(.uk-active) a {
+        background-color: #fff;
+        border-color: #fff;
+      }
+      .uk-active a {
+        background-color: $base-heading-color;
+        border-color: $base-heading-color;
+      }
+    }
+    h3 {
+      font-weight: 400;
+      text-transform: uppercase;
+      position: relative;
+      font-style: italic;
+
+      &:before {
+        content: "\201C";
+      }
+      &:after {
+        content: "\201D";
+      }
+      
+    }
+    .uk-h5 {
+      color: #000;
+    }
+    .uk-text-content {
+      color: $base-heading-color;
+      font-style: italic;
+    }
+    @media (min-width: $breakpoint-medium) {
+      h3 {
+        font-size: 3.625rem;
+        margin-left: -5px;
+
+        &:before {
+          content: "\201C";
+          position: absolute;
+          top: 0;
+          left: -18px;
+        }
+        
+      }
+    }
+  }
+
+  .uk-testimonials-2-background {
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: -150px;
+      left: 0;
+      right: 0;
+      top: -25px;
+      background-color: $global-secondary-background;
+    }
+  }
+
+  @media (min-width: $breakpoint-medium) {
+    .uk-testimonials-2-background {
+      &:before {
+        top: 85px;
+      }
+    }
+  
+    .uk-testimonials-2 {
+      .uk-stars {
+        margin-top: 155px;
+      }
+    }
+  }
+
+  // Cards 3 
+  .uk-cards-3 {
+    .uk-cards-3-body {
+      background-color: #fff;
+      padding: 30px;
+    }
+  }
+
+  // Page nav
+  .uk-nav-page {
+    background-color: $global-secondary-background;
+
+    a {
+      height: 40px;
+    }
+  }
+
+  @media (min-width: $breakpoint-medium) {
+    .uk-nav-page {
+
+      a {
+        height: 70px;
+        font-weight: $base-heading-font-weight;
+        font-size: 1.25rem !important;
+      }
+    }
+  }
+  // Contact 2
+  .uk-contact-2 {
+    .uk-container {
+      max-width: 1100px;
+    }
+    .uk-card-default {
+      background-color: #151411;
+      color: #fff;
+      h3 {
+        color: #fff;
+      }
+    }
+    address {
+      p {
+        margin: 0;
+        line-height: 3.1;
+      }
+    }
+  }
+
+  // Before after 1
+  .uk-pointer {
+    cursor: pointer;
+  }
+
+  .uk-before-after-1-wrapper {
+    >div {
+      transition: all .2s ease-in;
+    }
+    >div:last-child {
+      margin-left: -40%;
+    }
+  }
+
+  .uk-reverse > div:first-child {
+    transform: translateX(40%);
+    z-index: 1;
+  }
+
+  .uk-reverse > div:last-child {
+    transform: translateX(-40%);
+  }  
+
+  // Before after 2
+  .uk-before-after-2 {
+    h3 {
+      text-align: center;
+      color: $global-secondary-background !important;
+    }
+  }
+
+}

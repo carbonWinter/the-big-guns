@@ -1,0 +1,376 @@
+@mixin hook-nav-primary(){
+
+  .uk-nav-sub {
+    a {
+      font-size: 1.25rem;
+      font-size: 1.375rem;
+      padding: 6px 0;
+    }
+  }
+
+  .uk-button {
+    margin-top: 12px;
+  }
+
+  .uk-button-primary {
+    color: #fff;
+    display: block;
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .uk-button-default {
+    color: $global-dark-background;
+    display: block;
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .uk-link-phone {
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+
+    .uk-icon-button {
+      width: 30px;
+      height: 30px;
+      background: $nav-primary-item-color;
+      color: #fff;
+      font-size: 1rem;
+    }
+
+    &:hover .uk-icon-button {
+      background: $nav-primary-item-hover-color;
+    }
+    
+  }
+  
+}
+a.uk-cta-call {
+  color: $global-primary-background;
+  &:hover {
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+.uk-back-top-top {
+  a {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #ccc !important;
+    color: $global-primary-background;
+    
+  }
+}    
+
+.uk-back-top-top.uk-invisible {
+  position: relative;
+  bottom: -150vh;
+  right: 20px;
+  margin-top: -56px;
+}   
+
+.uk-list-icon {
+  margin-left: 30px;
+  li {
+    position: relative;
+
+    span {
+      position: absolute;
+      left: -30px;
+      top: 7px;
+    }
+  }
+}
+.footer-1 {
+  .uk-grid-divider {
+    border-color: darken($global-border, 100%);
+  }
+
+  address p {
+    margin-bottom: 0;
+  }
+
+  address {
+    margin-bottom: 5px;
+    line-height: 2.7;
+  }
+
+  .uk-list {
+    line-height: 2.2;
+  }
+
+  .uk-nav li a {
+    padding: 12px 0
+  }
+}
+
+.btn-group-toggle {
+  input {
+    display: none;
+    opacity: 0;
+  } 
+}
+
+.uk-section-medium {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.uk-button-time {
+  border-color: $global-primary-background !important;
+}
+.uk-button-time:not(.uk-active):not(:hover) {
+  background-color: #fff;
+}
+.uk-button-time.uk-active {
+  color: #fff;
+  background-color: $global-primary-background;
+}
+.uk-button-time:hover {
+  background-color: $global-primary-background;
+}
+
+.flatpickr-day.selected, .flatpickr-day.startRange, .flatpickr-day.endRange, .flatpickr-day.selected.inRange, .flatpickr-day.startRange.inRange, .flatpickr-day.endRange.inRange, .flatpickr-day.selected:focus, .flatpickr-day.startRange:focus, .flatpickr-day.endRange:focus, .flatpickr-day.selected:hover, .flatpickr-day.startRange:hover, .flatpickr-day.endRange:hover, .flatpickr-day.selected.prevMonthDay, .flatpickr-day.startRange.prevMonthDay, .flatpickr-day.endRange.prevMonthDay, .flatpickr-day.selected.nextMonthDay, .flatpickr-day.startRange.nextMonthDay, .flatpickr-day.endRange.nextMonthDay {
+  background: $global-primary-background !important;
+  border-color: $global-primary-background !important;
+}  
+
+.uk-background-secondary-muted {
+  background-color: lighten($global-secondary-background, 18%);
+}
+
+@media (max-width: $breakpoint-small) {
+  .uk-navbar-center .uk-logo img {
+    max-width: 200px;
+  }
+}
+
+@media (min-width: $breakpoint-medium) {
+  .uk-width-contact-appointment {
+    width: 41% !important;
+  }
+}
+
+.uk-background-dark, .uk-section-dark {
+  background-color: $global-dark-background;
+}
+
+section.uk-background-default + section.uk-background-default,
+section.uk-background-muted + section.uk-background-muted,
+section.uk-background-dark + section.uk-background-dark,
+section.uk-background-primary + section.uk-background-primary,
+section.uk-background-secondary + section.uk-background-secondary {
+  padding-top: 0;
+}
+
+@media (min-width: $breakpoint-large) {
+  .uk-overlay-center {
+    left: 10% !important;
+    right: 10% !important;
+  }
+}
+
+@media (min-width: $breakpoint-xlarge) {
+  .uk-overlay-center {
+    left: 20% !important;
+    right: 20% !important;
+  }
+}
+
+.uk-button-primary-preserve {
+    background-color: $button-primary-background;
+    line-height: $button-line-height !important;
+    color: $button-primary-color;
+}
+
+/* Hover */
+.uk-button-primary-preserve:hover {
+    background-color: $button-primary-hover-background;
+    color: $button-primary-hover-color;
+}
+
+/* OnClick + Active */
+.uk-button-primary-preserve:active,
+.uk-button-primary-preserve.uk-active {
+    background-color: $button-primary-active-background;
+    color: $button-primary-active-color;
+}
+
+// Primary outline button
+.uk-button.uk-button-primary-outline {
+background-color: #fff;
+    border: solid 1px $button-primary-background;
+    color: $button-primary-background;
+}
+
+.uk-button.uk-button-primary-outline:hover {
+    border: solid 1px $button-primary-hover-background;
+    color: $button-primary-hover-background;
+}
+
+.uk-button.uk-button-primary-outline:active,
+.uk-button.uk-button-primary-outline.uk-active {
+    border: solid 1px $button-primary-active-background;
+    color: $button-primary-active-background;
+}
+
+// Modals
+.uk-modal-nav {
+  .uk-logo img {
+    max-height: 80px;
+  }
+  background-color: #f7f6f6 !important;
+
+  .uk-modal-close-full {
+    background-color: #f7f6f6 !important;
+  }
+}
+.uk-modal-appointment, .uk-modal-offer {
+  width: 960px !important;
+
+  .uk-modal-header {
+    padding: 35px;
+  }
+
+  .uk-alert {
+    border-radius: 50px;
+    padding-left: 50px;
+  }
+
+  .uk-modal-body {
+    min-height: 300px;
+  }
+
+  .uk-modal-footer {
+    padding: 26px 35px;
+  }
+
+  .uk-input, .uk-select {
+    height: 86px !important;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1.625rem;
+    color: #3B3831;
+
+    &::placeholder {
+      color: #3B3831;
+    }  
+
+    &:not(:focus) {
+      border-color: #707070;
+    }  
+
+  }
+
+  .flatpickr-calendar, .flatpickr-day, .flatpickr-monthDropdown-months, .cur-year {
+    font-weight: bold !important;
+  }
+
+  .uk-modal-footer {
+
+    .uk-button {
+      min-width: 170px;
+    }
+
+    .uk-button-default:not(:hover) {
+      border-color: #6E6C66;
+    }
+  }
+
+  .uk-modal-close-default {
+    top: 37px;
+    right: 30px;
+  }
+
+}
+.uk-modal-appointment {
+  background-color: #f7f6f6 !important;
+
+  .uk-modal-title {
+    font-weight: 400;
+
+    span {
+      color: #A09E96;
+    }
+  }
+
+  .uk-modal-body-narrow {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .uk-button-time {
+    border-color: $global-primary-background !important;
+    line-height: 46px;
+    min-width: 137px;
+  }
+  .uk-button-time:not(.uk-active):not(:hover) {
+    background-color: #fff;
+  }
+  .uk-button-time.uk-active {
+    color: #fff;
+    background-color: $global-primary-background;
+  }
+  .uk-button-time:hover {
+    background-color: $global-primary-background;
+    color: #fff;
+  }
+
+  .flatpickr-day.selected, .flatpickr-day.startRange, .flatpickr-day.endRange, .flatpickr-day.selected.inRange, .flatpickr-day.startRange.inRange, .flatpickr-day.endRange.inRange, .flatpickr-day.selected:focus, .flatpickr-day.startRange:focus, .flatpickr-day.endRange:focus, .flatpickr-day.selected:hover, .flatpickr-day.startRange:hover, .flatpickr-day.endRange:hover, .flatpickr-day.selected.prevMonthDay, .flatpickr-day.startRange.prevMonthDay, .flatpickr-day.endRange.prevMonthDay, .flatpickr-day.selected.nextMonthDay, .flatpickr-day.startRange.nextMonthDay, .flatpickr-day.endRange.nextMonthDay {
+    background: $global-primary-background !important;
+    border-color: $global-primary-background !important;
+  }  
+}
+
+.uk-modal-offer {
+  background-color: #A09E96 !important;
+
+  .uk-modal-body {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $breakpoint-medium) {
+    .uk-modal-title {
+      font-size: 2.625rem;
+    }
+  }
+}
+
+.uk-cta-sticky {
+  .uk-button {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: -3px;
+  }
+  .uk-button-default {
+    &:not(:hover) {
+      background-color: $global-muted-background;
+    }
+  }
+  .uk-icon-button {
+    background-color: #000;
+    width: 26px;
+    height: 26px;
+  }
+  .uk-link-phone {
+    font-family: $base-heading-font-family;
+    color: #000;
+    letter-spacing: 1px;
+
+    &:hover {
+      text-decoration: none;
+      color: $global-secondary-background;
+    }
+  }
+  @media (max-width: $breakpoint-small) {
+    .uk-button {
+      letter-spacing: 0;
+      line-height: 42px;
+    }
+  }
+}

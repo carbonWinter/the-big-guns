@@ -7,7 +7,7 @@ header:
     background_color: "#E2E2E2"
     overlay: none
     overlay_opacity: 0.7
-    background_image: "/uploads/bellflower-dental-group-dentist-in-bellflower.jpg"
+    background_image: "/uploads/hero-home.jpg"
     background_video_file: ''
     background_slider: []
     gradient: ''
@@ -57,8 +57,8 @@ blocks:
       risk of developing gum disease or cavities in the future.
     image: "https://via.placeholder.com/500x350"
     button:
-      text: ''
-      url: ''
+      text: 'Learn More'
+      url: '#'
   - heading: TWO MINUTES
     copy: The American Dental Association recommends brushing teeth for two minutes
       to properly clean your mouth's surfaces, which are home to millions of bacteria.

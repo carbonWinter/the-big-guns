@@ -1,0 +1,264 @@
+<div id="modal-appointment" data-uk-modal>
+  <div class="uk-modal-dialog uk-modal-appointment">
+    <button class="uk-modal-close-default" type="button" data-uk-close="ratio: 2"></button>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    <div id="appointment-step-1" class="appointment-next-1">
+      <div class="uk-modal-header">
+        <h3 class="uk-modal-title"><span>Step 1:</span> Select a dental service</h3>
+      </div>
+      <div class="uk-modal-body uk-modal-body-narrow">
+        <select id="selectService" name="selectService" class="uk-select uk-border-pill" required onchange="updateService(this.value)">
+          <option value="">Choose</option>
+          {% for item in site.data.options.appointments.services %}
+            <option value="{{ item | slugify }}">{{ item }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="uk-modal-footer uk-text-right">
+        <button class="uk-button uk-button-primary-outline" type="button" data-uk-toggle="target: .appointment-next-1">Next</button>
+      </div>
+    </div>
+
+    <div id="appointment-step-2" class="appointment-next-1 appointment-next-2" hidden>
+      <div class="uk-modal-header">
+        <h3 class="uk-modal-title"><span>Step 2:</span> Preferred date and time</h3>
+      </div>
+      <div class="uk-modal-body">
+        <div data-uk-grid>
+          <div class="uk-width-auto@m">
+            <div id="date"></div>
+          </div>
+          <div class="uk-width-expand@m">
+            <div class="btn-group-toggle">
+              <label class="uk-button uk-button-default uk-margin-small-right uk-margin-small-bottom uk-button-time uk-active">
+                <input type="radio" name="time" value="0900" onclick="setApptTime(this)">9:00AM
+              </label>
+              <label class="uk-button uk-button-default uk-margin-small-right uk-margin-small-bottom uk-button-time">
+                <input type="radio" name="time" value="1000" onclick="setApptTime(this)">10:00AM
+              </label>
+              <label class="uk-button uk-button-default uk-margin-small-right uk-margin-small-bottom uk-button-time">
+                <input type="radio" name="time" value="1100" onclick="setApptTime(this)">11:00AM
+              </label>
+              <label class="uk-button uk-button-default uk-margin-small-right uk-margin-small-bottom uk-button-time">
+                <input type="radio" name="time" value="1300" onclick="setApptTime(this)">1:00PM
+              </label>
+              <label class="uk-button uk-button-default uk-margin-small-right uk-margin-small-bottom uk-button-time">
+                <input type="radio" name="time" value="1400" onclick="setApptTime(this)">2:00PM
+              </label>
+              <label class="uk-button uk-button-default uk-margin-small-right uk-margin-small-bottom uk-button-time">
+                <input type="radio" name="time" value="1500" onclick="setApptTime(this)">3:00PM
+              </label>
+              <label class="uk-button uk-button-default uk-margin-small-right uk-margin-small-bottom uk-button-time">
+                <input type="radio" name="time" value="1600" onclick="setApptTime(this)">4:00PM
+              </label>
+              <label class="uk-button uk-button-default uk-margin-small-right uk-margin-small-bottom uk-button-time">
+                <input type="radio" name="time" value="1700" onclick="setApptTime(this)">5:00PM
+              </label>
+              <label class="uk-button uk-button-default uk-margin-small-right uk-margin-small-bottom uk-button-time">
+                <input type="radio" name="time" value="1800" onclick="setApptTime(this)">6:00PM
+              </label>
+              <label class="uk-button uk-button-default uk-margin-small-right uk-margin-small-bottom uk-button-time">
+                <input type="radio" name="time" value="1900" onclick="setApptTime(this)">7:00PM
+              </label>
+              <label class="uk-button uk-button-default uk-margin-small-right uk-margin-small-bottom uk-button-time">
+                <input type="radio" name="time" value="2000" onclick="setApptTime(this)">8:00PM
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="uk-modal-footer uk-flex uk-flex-right">
+        <div class="uk-margin uk-grid uk-grid-small uk-child-width-auto">
+          <div>
+            <button class="uk-button uk-button-default" type="button" data-uk-toggle="target: .appointment-next-1">Back</button>
+          </div>
+          <div>
+            <button class="uk-button uk-button-primary-outline" type="button" data-uk-toggle="target: .appointment-next-2">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="appointment-step-3" class="appointment-next-2" hidden>
+      <div class="uk-modal-header">
+        <h3 class="uk-modal-title"><span>Step 3:</span> Complete and send</h3>
+      </div>
+      <form>
+        <div class="uk-modal-body uk-modal-body-narrow">
+          <div id="appointment-alert" class="uk-alert-danger" data-uk-alert hidden>
+            <p>Please fill in all form fields!</p>
+          </div>
+
+          <input type="hidden" name="HandshakeKey" value="+eByTBfF2k2dhCqe">
+          <input type="hidden" name="client_id" value="{{ site.data.options.appointments.client_id }}">
+          <input type="hidden" name="client_name" value="{{ site.data.options.appointments.client_name }}">
+          <input type="hidden" name="selectService" id="apptservice" value="">
+          <input type="hidden" name="apptdate" id="apptdate" value="{{ 'now' | date: '%m/%d/%Y' }}">
+          <input type="hidden" name="appttime" id="appttime" value="">
+
+          <!-- <div class="uk-margin-medium-top uk-flex uk-flex-center">
+            <div class="uk-grid-small uk-child-width-auto@s uk-grid">
+              <label><input class="uk-radio" type="radio" name="newExisting" id="newExisting1" value="New Patient" checked> New Patient</label>
+              <label><input class="uk-radio" type="radio" name="newExisting" id="newExisting2" value="Existing Patient"> Existing Patient</label>
+            </div>
+          </div> -->
+          <div>
+            <input type="text" class="uk-input uk-border-pill" id="inputName" name="inputName" placeholder="Full name" required>
+          </div>
+          <div class="uk-margin">
+            <input type="email" class="uk-input uk-border-pill" id="inputEmail" name="inputEmail" placeholder="Email address" required>
+          </div>
+          <div class="uk-margin">
+            <input type="tel" class="uk-input uk-border-pill" id="inputPhone" name="inputPhone" placeholder="Phone number" required>
+          </div>
+        </div>
+        <div class="uk-modal-footer">
+          <div class="uk-flex uk-flex-middle" data-uk-grid>
+          <div class="uk-width-expand@m">
+              <label><input class="uk-checkbox" type="checkbox" value="1" id="checkReceiveOffer" name="checkReceiveOffer" checked>&nbsp;&nbsp; Okay to text me regarding my booking</label>
+            </div>
+            <div class="uk-width-auto@m">
+              <div class="uk-grid uk-grid-small uk-child-width-auto">
+                <div>
+                  <button class="uk-button uk-button-default" type="button" data-uk-toggle="target: .appointment-next-2">Back</button>
+                </div>
+                <div>
+                  <button class="uk-button uk-button-primary" type="button" onclick="sendApptForm(this.form)">Finish</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script>
+      function sendApptForm(frm) {
+        // Validate form
+        for(var i=0; i < frm.elements.length; i++){
+          if(frm.elements[i].value === '' && frm.elements[i].hasAttribute('required')){
+            document.getElementById('appointment-alert').hidden = false;
+            return false;
+          }
+        }
+      
+        var frmpost = "?formdata=1";
+        for (i = 0; i < frm.elements.length; i++) {
+          if (frm.elements[i].name == '') { break; }
+          frmpost += "&" + frm.elements[i].name + "=" + encodeURIComponent(frm.elements[i].value);
+        }
+
+        // Send form
+        $.ajax({
+          type: "POST",
+          url: "https://mud.dentalgameplan.com/marketing/handlejekyllappointment",
+          data: frmpost,
+          success: function(a,b,c){
+            console.log(a);
+            //$('#modalAppointment').modal('toggle');
+
+            // On response close modal
+            UIkit.modal('#modal-appointment').hide();
+
+            // On success notification
+            UIkit.notification({
+              message: '<span class="uk-margin-small-right" data-uk-icon=\'icon: check\'></span> Your appointment request has been sent!',
+              status: 'success'
+            });
+          },
+          error: function() {
+            console.log("error");
+
+            // On fail notification
+            UIkit.notification({
+              message: '<span class="uk-margin-small-right" data-uk-icon=\'icon: close\'></span>Your appointment request failed!',
+              status: 'danger'
+            });
+
+          }
+        });
+      } 
+
+      // Date and times    
+      const datesAreOnSameDay = (selected, todaysDate) =>
+        selected.getFullYear() === todaysDate.getFullYear() &&
+        selected.getMonth() === todaysDate.getMonth() &&
+        selected.getDate() === todaysDate.getDate();
+
+      function selectedDateIsBefore(selected, todaysDate) {
+        if (selected.getMonth() > todaysDate.getMonth()) {
+          return false;
+        } else if (selected.getMonth() < todaysDate.getMonth()) {
+          return true;
+        }
+        return selected.getDate() < todaysDate.getDate() && selected.getMonth() == todaysDate.getMonth();
+      }
+
+      let buttonGroup = document.querySelector(".btn-group-toggle");
+      let hoursList = {{ site.data.options.appointments.hours | jsonify | remove: '"' }};
+      
+      function updateHours(selectedDate, todaysDate) {
+        if (selectedDateIsBefore(selectedDate, todaysDate) || hoursList[selectedDate.getUTCDay()].length == 0) {
+          buttonGroup.classList.add("uk-hidden");
+        } else if (datesAreOnSameDay(selectedDate, todaysDate)) {
+          buttonGroup.classList.remove("uk-hidden");
+          currentTime = todaysDate.getHours(); 
+          for (let i = 0; i < buttonGroup.children.length; i++) {
+            if (buttonGroup.children[i].children[0].value < currentTime * 100 || hoursList[selectedDate.getUTCDay()][1] * 100 <= buttonGroup.children[i].children[0].value) {
+              buttonGroup.children[i].classList.add("uk-hidden");
+            }
+          }
+        } else {
+            buttonGroup.classList.remove("uk-hidden");      
+            for (let i = 0; i < buttonGroup.children.length; i++) {
+              if (buttonGroup.children[i].children[0].value >= hoursList[selectedDate.getUTCDay()][0] * 100 && buttonGroup.children[i].children[0].value < hoursList[selectedDate.getUTCDay()][1] * 100) {
+                // greater than opening hours and less than closing, show -- necessary because the inital display hides < current time (see modal-appt-1.html) -MR
+                buttonGroup.children[i].classList.remove("uk-hidden");
+            } else if (buttonGroup.children[i].children[0].value >= hoursList[selectedDate.getUTCDay()][1] * 100 || buttonGroup.children[i].children[0].value < hoursList[selectedDate.getUTCDay()][0] * 100) {
+              //greater than closing or less than opening hours, hide
+              buttonGroup.children[i].classList.add("uk-hidden");
+            }
+          }
+        }
+      }
+
+      var timeInput = document.getElementById('appttime');
+      function setApptTime(item) {
+        var timeButtons = document.querySelectorAll(".uk-button-time");
+
+        timeButtons.forEach(button => {
+          button.classList.remove("uk-active");
+        });               
+        item.parentElement.classList.add("uk-active");
+        timeInput.value = item.value;
+      }
+
+      // https://flatpickr.js.org/examples/
+      var dateInput = document.getElementById('apptdate');
+      flatpickr("#date", {
+        inline: true,
+        minDate: 'today',
+        dateFormat: 'm/d/Y',
+        "onChange": function(selectedDates, dateStr, instance) {
+          var dateAsString = dateStr; //the first parameter of this function
+          var todaysDate = new Date();
+          var selectedDate = selectedDates[0]; //the getDate method
+          
+          dateInput.value = dateStr;
+          updateHours(selectedDate, todaysDate);
+        },
+      });
+
+      var todaysDate = new Date();
+      updateHours(todaysDate, todaysDate);
+
+      var serviceInput = document.getElementById('apptservice');
+      function updateService(service) {
+        serviceInput.value = service;
+      }
+    </script>
+    
+  </div>
+</div>

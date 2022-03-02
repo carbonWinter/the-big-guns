@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="uk-back-top-top uk-text-right" uk-sticky="animation: uk-animation-fade; bottom: true; offset: 80vh; cls-inactive: uk-invisible">
+  <a href="#" class="uk-icon-button" uk-totop="ratio: 1.1" uk-scroll></a>
+</div>
+
+{% for block in page.blocks %}
+  {% include blocks/{{ block.block }}.html %}
+{% endfor %}
+
+{% for block in site.data.options.blocks %}
+  {% include blocks/{{ block.block }}.html %}
+{% endfor %}

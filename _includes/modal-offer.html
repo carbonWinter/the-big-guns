@@ -1,0 +1,104 @@
+<div id="modal-offer" data-uk-modal>
+  <div class="uk-modal-dialog uk-modal-offer">
+    <button class="uk-modal-close-default" type="button" data-uk-close="ratio: 2"></button>
+    <div class="uk-modal-header">
+      <div class="uk-flex uk-flex-middle uk-grid-small" data-uk-grid>
+        <div class="uk-width-auto">
+          <svg xmlns="http://www.w3.org/2000/svg" width="47.839" height="63.262" viewBox="0 0 47.839 63.262">
+            <path id="Icon_map-dentist" data-name="Icon map-dentist" d="M28.539,34.934c4.67,0,6.835,3.542,7.289,8.574A34.575,34.575,0,0,1,35.67,48.5c-.524,6.752-1.127,15.048,3.367,15.048,3.805,0,5.755-7.294,6.885-15.611,1.088-8.232-.067-12.328.5-15.984,1.081-6.926,7.126-13.135,5.259-21.966-1.035-4.9-3.734-7.2-6.4-8.173-6.154-2.24-10.131,2.076-16.74,2.076S17.957-.425,11.8,1.814c-2.669.969-5.369,3.273-6.407,8.173-1.863,8.831,4.18,15.039,5.265,21.966.565,3.655-.583,7.753.5,15.984,1.127,8.316,3.081,15.611,6.882,15.611,4.491,0,3.892-8.3,3.368-15.048a34.822,34.822,0,0,1-.159-4.993C21.706,38.476,23.9,34.934,28.539,34.934Z" transform="translate(-4.62 -0.786)" fill="none" stroke="#000" stroke-width="1"/>
+          </svg>
+        </div>
+        <div class="uk-width-expand">
+          <h3 class="uk-modal-title uk-margin-remove">{{ page.offer.heading | default: site.data.options.offer.heading }}</h3>
+          <div class="uk-lead">{{ page.offer.subheading | default: site.data.options.offer.subheading }}</div>
+        </div>
+      </div>
+    </div>
+
+    <form>
+      <div class="uk-modal-body">
+        <div id="offer-alert" class="uk-alert-danger" data-uk-alert hidden>
+          <p>Please fill in all form fields!</p>
+        </div>
+
+        <input type="hidden" name="HandshakeKey" value="+eByTBfF2k2dhCqe">
+        <input type="hidden" name="offer_client" value="{{ site.data.options.appointments.client_id }}">
+        <input type="hidden" name="offer_headline" value="{{ page.offer.heading | default: site.data.options.offer.heading }}">
+        <input type="hidden" name="offer_description" value="{{ page.offer.subheading | default: site.data.options.offer.subheading }}">
+        <input type="hidden" name="offer_disclaimer" value="{{ page.offer.disclaimer | default: site.data.options.offer.disclaimer }}">
+
+        <div>
+          <input type="text" class="uk-input uk-border-pill" id="inputName" name="inputName" placeholder="Full name" required>
+        </div>
+        <div class="uk-margin">
+          <input type="email" class="uk-input uk-border-pill" id="inputEmail" name="inputEmail" placeholder="Email address" required>
+        </div>
+        <div class="uk-margin">
+          <input type="tel" class="uk-input uk-border-pill" id="inputPhone" name="inputPhone" placeholder="Phone" required>
+        </div>
+      </div>
+
+      <div class="uk-modal-footer">
+        <div class="uk-flex uk-flex-middle" data-uk-grid>
+          <div class="uk-width-expand@m">
+            <label><input class="uk-checkbox" type="checkbox" value="1" id="checkReceiveOffer" name="checkReceiveOffer" checked>&nbsp;&nbsp; Okay to text me regarding this offer</label>
+          </div>
+          <div class="uk-width-auto@m">
+            <button class="uk-button uk-button-primary" type="button" onclick="sendOfferForm(this.form)">Get Offer</button>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <script>
+      function sendOfferForm(frm) {
+        // Validate form
+        for(var i=0; i < frm.elements.length; i++){
+          if(frm.elements[i].value === '' && frm.elements[i].hasAttribute('required')){
+            document.getElementById('offer-alert').hidden = false;
+            return false;
+          }
+        }
+
+        var frmpost = "?formdata=1";
+        for (i = 0; i < frm.elements.length; i++) {
+          if (frm.elements[i].name == '') { break; }
+          frmpost += "&" + frm.elements[i].name + "=" + encodeURIComponent(frm.elements[i].value);
+        }
+        // console.log(frmpost);
+
+        // Send form
+        $.ajax({
+          type: "POST",
+          url: "https://mud.dentalgameplan.com/marketing/handlejekylloffer",
+          data: frmpost,
+          success: function(a,b,c){
+            console.log(a);
+            //$('#modalAppointment').modal('toggle');
+
+          // On response close modal
+          UIkit.modal('#modal-offer').hide();
+
+          // On success notification
+          UIkit.notification({
+            message: '<span class="uk-margin-small-right" data-uk-icon=\'icon: check\'></span> Your offer request has been sent!',
+            status: 'success'
+          });
+
+          },
+          error: function() {
+            console.log("error");
+
+          // On fail notification
+          UIkit.notification({
+            message: '<span class="uk-margin-small-right" data-uk-icon=\'icon: close\'></span>Your offer request failed!',
+            status: 'danger'
+          });
+
+          }
+        });
+      } 
+    </script>
+    
+  </div>
+</div>
