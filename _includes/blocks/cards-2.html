@@ -24,7 +24,7 @@
 
     {% for card in block.cards %}
       {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-      <div class="uk-flex uk-flex-middle uk-grid-large uk-child-width-1-2@m uk-{{ block.color | default: 'dark' }}" data-uk-grid>
+      <div id="block-offset-{{ forloop.index }}" class="uk-flex uk-flex-middle uk-grid-large uk-child-width-1-2@m uk-{{ block.color | default: 'dark' }}" data-uk-grid>
         <div>
           <h3 class="uk-h2 uk-margin-remove">{{ card.heading }}</h3>
           {% if card.text != empty %}

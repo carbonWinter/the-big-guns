@@ -23,15 +23,15 @@ header:
     text: ''
   page_navigation:
   - text: Benjamin J. Carman
-    id: xxx
+    id: offset-1
   - text: Sean D. Cooney
-    id: xxx
+    id: offset-2
   - text: Sean Forbush
-    id: xxx
+    id: offset-3
   - text: Robert T. Hernandez
-    id: xxx
+    id: offset-4
   - text: Adam C. Edwards
-    id: xxx
+    id: offset-5
 title: Who We Are
 seo_title: ''
 permalink: "/las-vegas-nv/our-attorneys/"
@@ -67,7 +67,7 @@ blocks:
       Most of Ben's cases have been on the side of insurance companies, and he not only knows their tactics and procedures but has even written some of them for specific carriers. However, in recent years, he saw a gradual shift by many insurers in Nevada to less and less reasonable claims handling, underpayment, and excessive, unwarranted delays in processing claims. Ben now represents those who the increasingly greedy insurers have wronged.  
 
       When he isn't fighting for his clients, Ben is likely spending time with his wife and two sons. He also shoots, plays complex strategy board games, and does woodworking when he isn't with them, which is to say, quite rarely.
-    image: "/uploads/team-header-home-las-vegas-big-guns-injury-attorneys-nevada.jpg"
+    image: "https://via.placeholder.com/700x900"
   - text: |-
       Sean Cooney brings over a decade of experience as a lawyer to help the citizens of Nevada. He started his career in the San Francisco Bay Area and came to Las Vegas in 2015 after six years of handling insurance cases for a boutique firm in Santa Barbara. He cut his teeth in Nevada working for the oldest, independent firm in the state. 
 
@@ -77,6 +77,7 @@ blocks:
 
        When not working, Sean spends time with his wife and two daughters enjoying all that Las Vegas has to offer. They particularly enjoy its natural beauty, vibrant culture, and endless variety of restaurants.
     heading: Sean D. Cooney, Partner
+    image: "https://via.placeholder.com/700x900"
   - text: |-
       Sean has spent most of his life in Las Vegas. His family moved to Las Vegas in 1989, and he graduated from Green Valley High School in 1997. Having grown up in Las Vegas, Sean has seen this city go from less than half a million people to the 2.5 million we have today. When he started driving, he could travel from anywhere in Las Vegas to the other side in less than 30 minutes. It is far larger now.   
 
@@ -88,6 +89,7 @@ blocks:
 
       Sean loves spending time with his wife and five children and cooking in his free time. He usually spends time with each child individually and includes them in his activities. His oldest daughter is now better with a shotgun than he is.
     heading: Sean Forbush, Partner
+    image: "https://via.placeholder.com/700x900"
   - text: |-
       Rob is a born and raised Las Vegas native. He attended the University of Nevada, Reno, where he graduated cum laude with a Bachelor's Degree in Criminal Justice. He then attended the William S. Boyd School of Law at the University of Nevada, Las Vegas. Following law school, Rob immediately took the Nevada Bar Exam and passed on his first attempt. Rob has been a licensed attorney since October 2015 and has practiced in various legal fields, including personal injury, contract disputes, construction defect, family law, and criminal law.
 
@@ -95,6 +97,7 @@ blocks:
 
       In his spare time, Rob enjoys spending time with his family and watching his Knights and Raiders play.
     heading: Robert T. Hernandez, Attorney
+    image: "https://via.placeholder.com/700x900"
   - text: |-
       Adam understands the unique culture of the Las Vegas Valley as he is a Henderson native, having graduated from Green Valley High School. He cares for his clients and is willing and able to fight for them to get the compensation they deserve.
 
@@ -104,6 +107,7 @@ blocks:
 
       In his free time, Adam enjoys going on walks with his wife and puppy, following sports, and traveling.
     heading: Adam C. Edwards, Attorney
+    image: "https://via.placeholder.com/700x900"
 - template: text-1
   block: text-1
   background:
