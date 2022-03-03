@@ -348,8 +348,8 @@ blocks:
   columns: '1'
   superheading: "// Expert Personal Injury Attorneys With You Every Step"
   heading: Fight All The Way
-  text: The Big Guns Don't Just Look To Settle Quickly If That Is Not What Is Best
-    For Our Clients
+  text: The Big Guns don't just look to settle quickly if that is not what is best
+    for our clients
   content: |-
     At The Big Guns, we understand how difficult it can be to find a personal injury attorney after suffering an accident or personal injury. Our team is ready to help injured persons and policyholders involved in car accidents in Henderson, Las Vegas, North Las Vegas, and beyond to maximize your recovery. Most personal injury cases involve significant time and documentation to properly evaluate, investigate, and prepare for trial if necessary. Many personal injury law firms are only interested in dealing with personal injury cases that they can quickly settle without extensive investigation. The Big Guns personal injury lawyers will thoroughly investigate your personal injury case to ensure you receive the settlement you deserve. And if a fair settlement cannot be reached, we have the experience to take your case to trial and are willing to fight for you. 
 
