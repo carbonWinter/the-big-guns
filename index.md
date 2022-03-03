@@ -162,7 +162,7 @@ blocks:
   text: ''
   content: ''
   button:
-    text: ''
+    text: 'Free Consult'
     url: ''
     blank: false
   image: ''
@@ -205,7 +205,7 @@ blocks:
   text: Get a Personal Injury Lawyer In Las Vegas, NV That Will Help You Navigate The Ins And Outs 
   superheading: ''
   button:
-    text: Request an appointment
+    text: Case Quote Calculator
     url: ''
     blank: false
   image: "/uploads/icon-heart.svg"
