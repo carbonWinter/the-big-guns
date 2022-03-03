@@ -67,8 +67,26 @@ blocks:
       Most of Ben's cases have been on the side of insurance companies, and he not only knows their tactics and procedures but has even written some of them for specific carriers. However, in recent years, he saw a gradual shift by many insurers in Nevada to less and less reasonable claims handling, underpayment, and excessive, unwarranted delays in processing claims. Ben now represents those who the increasingly greedy insurers have wronged.  
 
       When he isn't fighting for his clients, Ben is likely spending time with his wife and two sons. He also shoots, plays complex strategy board games, and does woodworking when he isn't with them, which is to say, quite rarely.
-  - text: ''
-  - text: ''
+  - text: |-
+      Sean Cooney brings over a decade of experience as a lawyer to help the citizens of Nevada. He started his career in the San Francisco Bay Area and came to Las Vegas in 2015 after six years of handling insurance cases for a boutique firm in Santa Barbara. He cut his teeth in Nevada working for the oldest, independent firm in the state. 
+
+      Sean focuses on personal injury and cases against insurance companies when they deny your claim, drag their feet, and try to underpay you. He works with you to get all the facts and present your case clearly and effectively. 
+
+      As an avid rock climber, Sean came to Las Vegas in part for the Red Rock Conservation Area. When scaling its 2,000 ft vertical walls, teamwork, careful planning, and an ability to adapt to changing conditions are matters of life and death. He taps these same skills when handling your case to maximize your recovery. 
+
+       When not working, Sean spends time with his wife and two daughters enjoying all that Las Vegas has to offer. They particularly enjoy its natural beauty, vibrant culture, and endless variety of restaurants.
+    heading: Sean D. Cooney, Partner
+  - text: |-
+      Sean has spent most of his life in Las Vegas. His family moved to Las Vegas in 1989, and he graduated from Green Valley High School in 1997. Having grown up in Las Vegas, Sean has seen this city go from less than half a million people to the 2.5 million we have today. When he started driving, he could travel from anywhere in Las Vegas to the other side in less than 30 minutes. It is far larger now.   
+
+      Shortly after graduation, he served a two-year religious mission in Venezuela. He was able to meet many amazing people and loved his time there. He learned Spanish for the mission, and he remains fluent.   
+
+      In 2012, Sean moved to Dallas, Texas, where he graduated from Texas A&M School of Law. Sean loved his time in Texas and really enjoyed the culture and the people. Texas is where he learned what a real barbeque is. He now enjoys preparing food for the family and neighbors so long as it includes smoking a brisket, some racks of ribs, and nearly anything else that will fit in his smoker.   
+
+      As soon as he finished law school, he moved back to Las Vegas to practice law. Sean focuses his law practice on personal injury. He has experience in family law, trust law, workers compensation, and other areas of law which help him incorporate all issues into the personal injury clients he helps.   He has worked with several different local firms, ranging from one of the largest multi-service firms in the state to plaintiff and defense personal injury firms.
+
+      Sean loves spending time with his wife and five children and cooking in his free time. He usually spends time with each child individually and includes them in his activities. His oldest daughter is now better with a shotgun than he is.
+    heading: Sean Forbush, Partner
   - text: ''
   - text: ''
 - template: text-1
