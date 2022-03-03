@@ -203,7 +203,7 @@ blocks:
     url: ''
     blank: false
   image: ''
-  section: medium
+  section: ''
 - template: text-1
   block: text-1
   background:
@@ -219,8 +219,8 @@ blocks:
   columns: '1'
   superheading: "// Las Vegas Personal Injury Lawyers"
   heading: Win Big With The Big Guns
-  text: Don't Settle For Less, Bring In The Big Guns With Experience On Both Sides
-    Of The Aisle
+  text: Don't settle for less, bring in the Big Guns with experience on both sides
+    of the aisle
   content: |-
     The Big Guns Injury Attorneys are a team of Las Vegas personal injury attorneys who can represent you for your personal injury lawsuit. We are trial lawyers who have extensive experience representing persons involved in car accidents, pedestrian accidents, truck accidents, and insurance bad faith claims. Our whole team is comprised of attorneys who have spent years defending insurance companies and their insureds from such claims. Now we are ready to fight for you! We have true insight into how insurance companies evaluate, handle, and pay personal injury claims.
 
