@@ -36,9 +36,7 @@ title: Who We Are
 seo_title: ''
 permalink: "/las-vegas-nv/our-attorneys/"
 description: ''
-keywords: Dental Cleaning, dental cleaning Bellflower, dentist, teeth whitening, dental
-  hygienist, tooth extraction, gentle dental, tooth crown, tooth decay, dental office,
-  dental clinic, affordable dental, tooth cavity, tooth filling
+keywords: las vegas attorney
 sticky_cta: false
 offer:
   heading: FREE Gentle Cleaning
