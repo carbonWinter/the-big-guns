@@ -118,8 +118,8 @@ blocks:
   align: left
   superheading: The Big Guns Personal Injury Lawyers In Las Vegas
   heading: Our Legal Team
-  text: With Extensive Experience From The Other Side Of The Aisle, We Know How To
-    Get You The Outcome You Deserve
+  text: With extensive experience from the other side of the aisle, we know how to
+    get you the outcome you deserve
   image: "/uploads/team-header-home-las-vegas-big-guns-injury-attorneys-nevada.jpg"
   cards:
   - heading: Benjamin J. Carman
