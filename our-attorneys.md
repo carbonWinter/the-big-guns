@@ -87,8 +87,22 @@ blocks:
 
       Sean loves spending time with his wife and five children and cooking in his free time. He usually spends time with each child individually and includes them in his activities. His oldest daughter is now better with a shotgun than he is.
     heading: Sean Forbush, Partner
-  - text: ''
-  - text: ''
+  - text: |-
+      Rob is a born and raised Las Vegas native. He attended the University of Nevada, Reno, where he graduated cum laude with a Bachelor's Degree in Criminal Justice. He then attended the William S. Boyd School of Law at the University of Nevada, Las Vegas. Following law school, Rob immediately took the Nevada Bar Exam and passed on his first attempt. Rob has been a licensed attorney since October 2015 and has practiced in various legal fields, including personal injury, contract disputes, construction defect, family law, and criminal law.
+
+      Rob has worked for several prominent insurance defense firms focused on defending personal injury lawsuits throughout his career. He now uses his knowledge while working for insurance companies to ensure that his clients receive the maximum value for their claims. He has litigated many claims to a conclusion and has copious experience in mediation, arbitration, and district court litigation.  
+
+      In his spare time, Rob enjoys spending time with his family and watching his Knights and Raiders play.
+    heading: Robert T. Hernandez, Attorney
+  - text: |-
+      Adam understands the unique culture of the Las Vegas Valley as he is a Henderson native, having graduated from Green Valley High School. He cares for his clients and is willing and able to fight for them to get the compensation they deserve.
+
+      Adam received his legal education at the California Western School of Law in San Diego. He was on the Dean's List for academic achievement and received a Student of Distinction award. During law school, Adam had the opportunity to intern with the Clark County Public Defender and the Clark County District Attorney, where he received valuable courtroom experience. Adam also received his bachelor's degree from Brigham Young University, where he studied English.
+
+      Before working at The Big Guns Injury Attorneys, Adam served his clients' interests at Cohen Johnson Parker Edwards. He was an instrumental part of the plaintiffs' civil litigation team. Adam also has extensive experience in personal injury defense work. This experience has allowed him to understand strategies and tactics that defense attorneys and insurance adjusters use to lower the value of plaintiffs' claims. Adam guides his clients through the litigation process to avoid these traps. Adam is more than qualified to handle your case with experience in both defense and plaintiffs' personal injury cases.
+
+      In his free time, Adam enjoys going on walks with his wife and puppy, following sports, and traveling.
+    heading: Adam C. Edwards, Attorney
 - template: text-1
   block: text-1
   background:
