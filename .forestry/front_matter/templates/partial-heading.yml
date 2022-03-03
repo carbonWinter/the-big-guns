@@ -1,0 +1,23 @@
+---
+label: Partial heading
+hide_body: true
+fields:
+- name: superheading
+  type: text
+  config:
+    required: false
+  label: Superheading
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Subheading

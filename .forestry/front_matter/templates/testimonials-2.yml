@@ -1,0 +1,67 @@
+---
+label: Testimonials 2
+hide_body: true
+fields:
+- name: block
+  type: text
+  config:
+    required: false
+  label: Block
+  hidden: true
+  default: testimonials-2
+- name: background
+  type: include
+  config: {}
+  template: partial-background
+  label: Background
+- name: heading
+  type: include
+  config: {}
+  template: partial-heading
+  label: Heading
+- name: color
+  type: select
+  default: dark
+  config:
+    required: false
+    options:
+    - dark
+    - light
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Color
+- name: testimonials
+  type: field_group_list
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: copy
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Copy
+  - name: author
+    type: text
+    config:
+      required: false
+    label: Author
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Testimonials

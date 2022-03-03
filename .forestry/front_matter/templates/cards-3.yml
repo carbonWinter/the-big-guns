@@ -1,0 +1,127 @@
+---
+label: Cards 3
+hide_body: true
+fields:
+- name: block
+  type: text
+  config:
+    required: false
+  label: Block
+  hidden: true
+  default: cards-3
+- name: background
+  type: include
+  config: {}
+  template: partial-background
+  label: Background
+- name: heading
+  type: include
+  config: {}
+  template: partial-heading
+  label: Heading
+- name: color
+  type: select
+  default: dark
+  config:
+    required: false
+    options:
+    - dark
+    - light
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Color
+- name: align
+  type: select
+  default: left
+  config:
+    required: false
+    options:
+    - left
+    - center
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Align
+- name: columns
+  type: select
+  default: '3'
+  config:
+    required: false
+    options:
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Columns
+- name: gutter
+  type: select
+  default: default
+  config:
+    required: false
+    options:
+    - default
+    - small
+    - medium
+    - large
+    - collapse
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Gutter
+- name: cards
+  type: field_group_list
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: copy
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Copy
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: button
+    type: field_group
+    config: {}
+    fields:
+    - name: text
+      type: text
+      config:
+        required: false
+      label: Text
+    - name: url
+      type: text
+      config:
+        required: false
+      label: URL
+    label: Button
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Cards
+- name: appointment_button
+  type: boolean
+  label: Appointment button

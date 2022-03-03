@@ -1,0 +1,138 @@
+---
+label: Text
+hide_body: true
+fields:
+- name: block
+  type: text
+  config:
+    required: false
+  label: Block
+  default: text-1
+  hidden: true
+- name: background
+  type: include
+  config: {}
+  template: partial-background
+  label: Background
+- name: heading
+  type: include
+  config: {}
+  template: partial-heading
+  label: Heading
+- name: heading_tag
+  type: select
+  default: H2
+  config:
+    required: false
+    options:
+    - H1
+    - H2
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Heading tag
+- name: color
+  type: select
+  default: dark
+  config:
+    required: false
+    options:
+    - dark
+    - light
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Color
+- name: align
+  type: select
+  default: left
+  config:
+    required: false
+    options:
+    - left
+    - center
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Align
+- name: columns
+  type: select
+  default: '3'
+  config:
+    required: false
+    options:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Columns
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Copy
+- name: lists
+  type: field_group_list
+  fields:
+  - name: icon
+    type: select
+    default: none
+    config:
+      required: false
+      options:
+      - none
+      - star
+      - heart
+      - bolt
+      - check
+      - close
+      - minus
+      - plus
+      - chevron-right
+      - arrow-right
+      - triangle-right
+      - file-text
+      - laptop
+      - desktop
+      - tablet
+      - phone
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Icon
+  - name: icon_color
+    type: color
+    label: Icon color
+    config:
+      required: false
+      color_format: Hex
+    default: "#000000"
+  - name: list
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: List
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Lists

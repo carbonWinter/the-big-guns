@@ -1,0 +1,84 @@
+---
+label: Contact 2
+hide_body: true
+fields:
+- name: block
+  type: text
+  config:
+    required: false
+  label: Block
+  hidden: true
+  default: contact-2
+- name: background
+  type: include
+  config: {}
+  template: partial-background
+  label: Background
+- name: hours
+  type: field_group
+  config: {}
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: hours
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: Hours
+  label: Hours
+- name: appointment
+  type: field_group
+  config: {}
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: appointment_button
+    type: boolean
+    label: Appointment button
+  - name: button
+    type: field_group
+    config: {}
+    fields:
+    - name: text
+      type: text
+      config:
+        required: false
+      label: Text
+    - name: url
+      type: text
+      config:
+        required: false
+      label: URL
+    - name: blank
+      type: boolean
+      label: Blank
+      description: Open in new window.
+    label: Button
+  label: Appointment
+- name: address
+  type: field_group
+  config: {}
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: address
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Address
+  label: Address

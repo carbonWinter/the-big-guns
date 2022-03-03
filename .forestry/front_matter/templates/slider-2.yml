@@ -1,0 +1,53 @@
+---
+label: Slider 2
+hide_body: true
+fields:
+- name: block
+  type: text
+  config:
+    required: false
+  label: Block
+  hidden: true
+  default: slider-2
+- name: background
+  type: include
+  config: {}
+  template: partial-background
+  label: Background
+- name: heading
+  type: include
+  config: {}
+  template: partial-heading
+  label: Heading
+- name: color
+  type: select
+  default: dark
+  config:
+    required: false
+    options:
+    - dark
+    - light
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Color
+- name: align
+  type: select
+  default: left
+  config:
+    required: false
+    options:
+    - left
+    - center
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Align
+- name: slides
+  type: image_gallery
+  config: {}
+  label: Slides

@@ -1,0 +1,68 @@
+---
+label: Video
+hide_body: true
+fields:
+- name: block
+  type: text
+  config:
+    required: false
+  label: Block
+  hidden: true
+  default: video-1
+- name: background
+  type: include
+  config: {}
+  template: partial-background
+  label: Background
+- name: heading
+  type: include
+  config: {}
+  template: partial-heading
+  label: Heading
+- name: color
+  type: select
+  default: dark
+  config:
+    required: false
+    options:
+    - dark
+    - light
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Color
+- name: align
+  type: select
+  default: left
+  config:
+    required: false
+    options:
+    - left
+    - center
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Align
+- name: video_file
+  type: file
+  config:
+    maxSize: 64
+  label: Video file
+  description: Upload șelf hosted video.
+- name: video_image
+  type: file
+  config:
+    maxSize: 64
+  label: Video image
+- name: appointment_button
+  type: boolean
+  label: Appointment button
+- name: button
+  type: include
+  config: {}
+  template: partial-button
+  label: Button

@@ -1,0 +1,57 @@
+---
+label: Faq 2
+hide_body: true
+fields:
+- name: block
+  type: text
+  config:
+    required: false
+  label: Block
+  hidden: true
+  default: faq-2
+- name: background
+  type: include
+  config: {}
+  template: partial-background
+  label: Background
+- name: color
+  type: select
+  default: dark
+  config:
+    required: false
+    options:
+    - dark
+    - light
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Color
+- name: heading
+  type: include
+  config: {}
+  template: partial-heading
+  label: Heading
+- name: faqs
+  type: field_group_list
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Copy
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Faqs

@@ -1,0 +1,15 @@
+---
+label: Slider
+hide_body: true
+fields:
+- name: block
+  type: text
+  config:
+    required: false
+  label: Block
+  hidden: true
+  default: slider-1
+- name: slides
+  type: image_gallery
+  config: {}
+  label: Slides

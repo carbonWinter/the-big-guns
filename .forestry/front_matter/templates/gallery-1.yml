@@ -1,0 +1,36 @@
+---
+label: Gallery
+hide_body: true
+fields:
+- name: block
+  type: text
+  config:
+    required: false
+  label: Block
+  hidden: true
+  default: gallery-1
+- name: heading
+  type: include
+  config: {}
+  template: partial-heading
+  label: Heading
+- name: columns
+  type: select
+  default: '3'
+  config:
+    required: false
+    options:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Columns
+- name: images
+  type: image_gallery
+  config: {}
+  label: Images

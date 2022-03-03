@@ -1,0 +1,58 @@
+---
+label: Before-after
+hide_body: true
+fields:
+- name: block
+  type: text
+  config:
+    required: false
+  label: Block
+  hidden: true
+  default: before-after-1
+- name: background
+  type: include
+  config: {}
+  template: partial-background
+  label: Background
+- name: color
+  type: select
+  default: dark
+  config:
+    required: false
+    options:
+    - dark
+    - light
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Color
+- name: heading
+  type: include
+  config: {}
+  template: partial-heading
+  label: Heading
+- name: cards
+  type: field_group_list
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: before
+    type: file
+    config:
+      maxSize: 64
+    label: Before
+  - name: after
+    type: file
+    config:
+      maxSize: 64
+    label: After
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Cards
