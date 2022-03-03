@@ -43,6 +43,34 @@ offer:
   subheading: Special offer includes cleaning, exam and x-rays
   disclaimer: ''
 blocks:
+- template: cards-2
+  block: cards-2
+  background:
+    color: default
+    overlay:
+      opacity: 0.5
+  color: dark
+  align: left
+  superheading: Meet The Big Guns
+  heading: Meet The Big Guns
+  text: What You See Is What You Get! These Are The Actual Attorneys Ready To Fight
+    For You
+  cards:
+  - heading: Benjamin J. Carman, Partner
+    text: |-
+      Ben is originally from Reno, where he graduated from Wooster High School as valedictorian and proceeded to the University of Nevada, Reno. He earned his honors bachelor of science in business management and then completed a master of business administration the following year. Ben took a job with a small plaintiff litigation firm in Reno to learn more about legal practice. He learned a great deal about lawsuits and the strategic and tactical elements of practice at that firm, writing motions and oppositions for other attorneys to argue after just a month on the job.  
+
+      After a year with this firm, Ben went to law school at Santa Clara University. He graduated in 2007 and immediately took, and passed, the California Bar Exam. Ben moved to Santa Barbara, California, and worked at a law firm focused on defending insurance bad faith suits and personal injury cases. It was there that he won his first bad faith cases, including a six-week, fifty plaintiff bad faith action. He also met his wife while working there.
+
+      Ben then returned to Nevada after passing the Nevada bar exam on the first shot in 2012. He has been practicing in the Las Vegas area since. His areas of practice are split primarily between personal injury cases and insurance bad faith actions. He has tried cases in binding arbitrations, judicial arbitrations, short jury trials, state court jury trials, and federal court jury trials. He has also appealed matters to the California Court of Appeals and the Nevada Supreme Court. Ben prides himself on his innovative approaches to cases, legal writing and thorough research, and effective oral advocacy.  
+
+      Most of Ben's cases have been on the side of insurance companies, and he not only knows their tactics and procedures but has even written some of them for specific carriers. However, in recent years, he saw a gradual shift by many insurers in Nevada to less and less reasonable claims handling, underpayment, and excessive, unwarranted delays in processing claims. Ben now represents those who the increasingly greedy insurers have wronged.  
+
+      When he isn't fighting for his clients, Ben is likely spending time with his wife and two sons. He also shoots, plays complex strategy board games, and does woodworking when he isn't with them, which is to say, quite rarely.
+  - text: ''
+  - text: ''
+  - text: ''
+  - text: ''
 - template: text-1
   block: text-1
   background:
