@@ -45,7 +45,7 @@
       </div>
     {% endif %}    
     
-    {% if block.button.url != empty %}
+    {% if block.button.url and block.button.url != empty %}
       <div class="uk-margin-xlarge-top uk-text-center">
         <a class="uk-button uk-button-primary" href="{% if block.button.url contains 'http' %}{{ block.button.url }}{% else %}{{ block.button.url | relative_url }}{% endif %}"{% if block.button.blank %} target="_blank" rel="noopener noreferrer" {% endif %}>{{ block.button.text }}</a>
       </div>
