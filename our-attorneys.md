@@ -67,6 +67,7 @@ blocks:
       Most of Ben's cases have been on the side of insurance companies, and he not only knows their tactics and procedures but has even written some of them for specific carriers. However, in recent years, he saw a gradual shift by many insurers in Nevada to less and less reasonable claims handling, underpayment, and excessive, unwarranted delays in processing claims. Ben now represents those who the increasingly greedy insurers have wronged.  
 
       When he isn't fighting for his clients, Ben is likely spending time with his wife and two sons. He also shoots, plays complex strategy board games, and does woodworking when he isn't with them, which is to say, quite rarely.
+    image: "/uploads/team-header-home-las-vegas-big-guns-injury-attorneys-nevada.jpg"
   - text: |-
       Sean Cooney brings over a decade of experience as a lawyer to help the citizens of Nevada. He started his career in the San Francisco Bay Area and came to Las Vegas in 2015 after six years of handling insurance cases for a boutique firm in Santa Barbara. He cut his teeth in Nevada working for the oldest, independent firm in the state. 
 
