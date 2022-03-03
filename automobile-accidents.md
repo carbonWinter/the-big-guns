@@ -7,7 +7,7 @@ header:
     background_color: "#E2E2E2"
     overlay: color
     overlay_opacity: 0.4
-    background_image: "xxx.jpg"
+    background_image: xxx.jpg
     background_video_file: ''
     background_slider: []
     gradient: ''
@@ -24,13 +24,13 @@ header:
   page_navigation:
   - text: What to Do After Accident
     id: "3"
-  - text:  FAQ
+  - text: FAQ
     id: "2"
   - text: Schedule Consultation
     id: "10"
   - text: Video
     id: "10"
-title: Exam and Cleaning
+title: Car Accident
 seo_title: ''
 permalink: "/las-vegas-nv/automobile-accidents/"
 description: ''
@@ -78,7 +78,7 @@ blocks:
       color: "#000000"
       opacity: '0.65'
   overlay_size: center
-  heading: 'We Are Ready To Help You'
+  heading: We Are Ready To Help You
   text: Looking for an auto crash lawyer? It's time to bring out The Big Guns
   superheading: ''
   button:
@@ -86,8 +86,12 @@ blocks:
     url: ''
     blank: false
   image: "/uploads/icon-heart.svg"
-  content: 
-    The Big Guns is a team of actual trial lawyers who have been representing insurance companies and their insureds for over a decade. Now representing people injured in car accidents, we bring our skills and experience to maximize your settlement or award after a crash. Our team is responsive and focused on client satisfaction, and you can rest assured that the personal injury attorneys assigned to your case will be available. Schedule a free consultation today!
+  content: The Big Guns is a team of actual trial lawyers who have been representing
+    insurance companies and their insureds for over a decade. Now representing people
+    injured in car accidents, we bring our skills and experience to maximize your
+    settlement or award after a crash. Our team is responsive and focused on client
+    satisfaction, and you can rest assured that the personal injury attorneys assigned
+    to your case will be available. Schedule a free consultation today!
   appointment_button: true
   section: ''
 - template: text-1
@@ -103,9 +107,10 @@ blocks:
   color: dark
   align: left
   columns: '2'
-  superheading: ""
+  superheading: ''
   heading: What Should I Do If I've Been In An Accident?
-  text: Looking for an attorney so confident in their ability, they'll front the cost... Call The Big Guns 
+  text: Looking for an attorney so confident in their ability, they'll front the cost...
+    Call The Big Guns
   content: |-
     1. Stay calm. You might be angry or upset with the other driver, but do not lose your cool. Now is not the time to prove your case, nor to express your anger with the other driver.  
     2. Save the video. If you had a dashcam active, be sure that you do what you need to do to ensure that it saves the video footage of the accident. Keep the camera safe. Note whether the other driver's car also had a dashcam.
@@ -117,7 +122,6 @@ blocks:
     8. Take notes. Either write or record your impressions of the incident, including your observations regarding the other driver's sobriety, their use of a phone, the facts as you recall them, and the like. This will help you later in remembering the details of what happened. A voice recorder or a note program on your smartphone, like Google Keep, Microsoft Onenote, Evernote, and others can help if you do not have a pad and pen handy.  
     9. Check your insurance. If your car is not drivable from the scene, check your insurance policy to see if you have roadside assistance, including towing, available.  
     10. Call The Big Guns at 702-500-GUNS for powerful, aggressive representation for your auto accident.  
-
   lists: []
 - template: faq-2
   block: faq-2
@@ -130,14 +134,29 @@ blocks:
     video: ''
   color: light
   faqs:
-  - heading: Is it worth hiring an attorney for a car accident?  
-    content: The short answer to this is "yes." Hiring a good lawyer for car accidents has been consistently shown via statistics to result in higher recoveries for injured car accident victims.  
+  - heading: Is it worth hiring an attorney for a car accident?
+    content: The short answer to this is "yes." Hiring a good lawyer for car accidents
+      has been consistently shown via statistics to result in higher recoveries for
+      injured car accident victims.
   - heading: When should you get a lawyer for a car accident?
-    content: Right away! Insurers often look to settle personal injury claims within the first few days after an accident, typically via a fast offer of a few thousand dollars and a ""verbal release"" that you can give to speed things along. This is a sure sign that the insurer is concerned about the value of the claim, and it is the insurance company's best shot at minimizing what it has to pay you for your claim. They are hoping you don't hire good car accident lawyers.
+    content: Right away! Insurers often look to settle personal injury claims within
+      the first few days after an accident, typically via a fast offer of a few thousand
+      dollars and a ""verbal release"" that you can give to speed things along. This
+      is a sure sign that the insurer is concerned about the value of the claim, and
+      it is the insurance company's best shot at minimizing what it has to pay you
+      for your claim. They are hoping you don't hire good car accident lawyers.
   - heading: Who pays for the attorney in a car accident?
-    content: With The Big Guns, you do not pay a dime until we win. Unlike some others, we also do not deprive you of your ability, as a client, to decide on settlement offers during the claim or any lawsuit that follows. We will advise you about your options and provide you with our opinions and recommendations, but you ultimately remain in control of your case's outcome.
-  - heading: I already accepted a settlement from the insurance company! Is it too late to hire you?
-    content: Maybe not. Nevada's NRS 10.185 allows a party without an attorney to void the settlement by following specific procedures within a specific amount of time. Contact The Big Guns, auto accident lawyer, as soon as possible to see if we can help you get a bigger recovery than what you previously accepted.
+    content: With The Big Guns, you do not pay a dime until we win. Unlike some others,
+      we also do not deprive you of your ability, as a client, to decide on settlement
+      offers during the claim or any lawsuit that follows. We will advise you about
+      your options and provide you with our opinions and recommendations, but you
+      ultimately remain in control of your case's outcome.
+  - heading: I already accepted a settlement from the insurance company! Is it too
+      late to hire you?
+    content: Maybe not. Nevada's NRS 10.185 allows a party without an attorney to
+      void the settlement by following specific procedures within a specific amount
+      of time. Contact The Big Guns, auto accident lawyer, as soon as possible to
+      see if we can help you get a bigger recovery than what you previously accepted.
   superheading: "// Dental Hygiene, Bellflower, Ca"
   heading: Frequently Asked Questions
   text: 
@@ -154,12 +173,13 @@ blocks:
   align: center
   superheading: 
   heading: Virtual Tour
-  text: Visit our office and sit down with the best motorcycle accident attorney in Las Vegas, NV
+  text: Visit our office and sit down with the best motorcycle accident attorney in
+    Las Vegas, NV
   video_file: "/uploads/dental-cleaning-in-bellflower_-a-fantastic-experience.mp4"
   video_image: ''
   appointment_button: true
   button:
-    text: 'Case Quote Calculator'
+    text: Case Quote Calculator
     url: ''
     blank: false
 

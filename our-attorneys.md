@@ -7,7 +7,7 @@ header:
     background_color: "#E2E2E2"
     overlay: color
     overlay_opacity: 0.4
-    background_image: "xxx.jpg"
+    background_image: xxx.jpg
     background_video_file: ''
     background_slider: []
     gradient: ''
@@ -23,16 +23,16 @@ header:
     text: ''
   page_navigation:
   - text: Benjamin J. Carman
-    id: "xxx"
-  - text:  Sean D. Cooney
-    id: "xxx"
+    id: xxx
+  - text: Sean D. Cooney
+    id: xxx
   - text: Sean Forbush
-    id: "xxx"
+    id: xxx
   - text: Robert T. Hernandez
-    id: "xxx"
+    id: xxx
   - text: Adam C. Edwards
-    id: "xxx"
-title: Exam and Cleaning
+    id: xxx
+title: Who We Are
 seo_title: ''
 permalink: "/las-vegas-nv/our-attorneys/"
 description: ''
@@ -59,18 +59,25 @@ blocks:
   align: left
   columns: '1'
   superheading: "// Personal Injury Lawyers In Las Vegas, NV"
-  heading: Let Our Experience Work For You 
-  text: With Over A Decade Of Experience On The Other Side Of The Aisle, Our Team Knows How To Get What You Deserve 
-  content: |-
-    The Big Guns are a team of actual trial lawyers who have been representing insurance companies and their insureds for over a decade. Now representing people injured in car accidents, we bring our skills and experience to maximize your settlement or award after a crash. Our team is responsive, focused on client satisfaction, and you can rest assured that the personal injury attorneys assigned to you will be available to discuss your case. The Big Guns are Las Vegas lawyers, and the attorneys you see on the site are the ones that will represent you in your case. Call us at (555) 555-555 for a no-obligation review of your case.
+  heading: Let Our Experience Work For You
+  text: With Over A Decade Of Experience On The Other Side Of The Aisle, Our Team
+    Knows How To Get What You Deserve
+  content: The Big Guns are a team of actual trial lawyers who have been representing
+    insurance companies and their insureds for over a decade. Now representing people
+    injured in car accidents, we bring our skills and experience to maximize your
+    settlement or award after a crash. Our team is responsive, focused on client satisfaction,
+    and you can rest assured that the personal injury attorneys assigned to you will
+    be available to discuss your case. The Big Guns are Las Vegas lawyers, and the
+    attorneys you see on the site are the ones that will represent you in your case.
+    Call us at (555) 555-555 for a no-obligation review of your case.
   lists: []
 - template: cta-1
   block: cta-1
   background:
     color: default
     overlay:
-      opacity: 0
-      color: '#000000'
+      opacity: '1'
+      color: "#FFFFFF"
     image: ''
     video: ''
   overlay_size: full
@@ -82,10 +89,10 @@ blocks:
   text: ''
   content: ''
   button:
-    text: 'Case Quote Calculator'
+    text: Case Quote Calculator
     url: ''
     blank: false
   image: ''
-  section: medium
+  section: ''
 
 ---
