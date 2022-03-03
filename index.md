@@ -239,8 +239,8 @@ blocks:
       opacity: '0.65'
   overlay_size: center
   heading: With You Every Step
-  text: Get a Personal Injury Lawyer In Las Vegas, NV That Will Help You Navigate
-    The Ins And Outs
+  text: Get a personal injury lawyer in Las Vegas, NV that will help you navigate
+    the ins and outs
   superheading: ''
   button:
     text: Case Quote Calculator
