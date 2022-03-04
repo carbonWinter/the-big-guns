@@ -126,8 +126,8 @@ blocks:
   columns: '1'
   superheading: "// Personal Injury Lawyers In Las Vegas, NV"
   heading: Let Our Experience Work For You
-  text: With Over A Decade Of Experience On The Other Side Of The Aisle, Our Team
-    Knows How To Get What You Deserve
+  text: With over a decade of experience on the other side of the aisle, our team
+    knows how to get what you deserve
   content: The Big Guns are a team of actual trial lawyers who have been representing
     insurance companies and their insureds for over a decade. Now representing people
     injured in car accidents, we bring our skills and experience to maximize your
