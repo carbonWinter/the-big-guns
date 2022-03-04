@@ -53,8 +53,8 @@ blocks:
   align: left
   superheading: Meet The Big Guns
   heading: Meet The Big Guns
-  text: What You See Is What You Get! These Are The Actual Attorneys Ready To Fight
-    For You
+  text: What you see is what you get! These are the actual attorneys ready to fight
+    for you
   cards:
   - heading: Benjamin J. Carman, Partner
     text: |-
