@@ -37,6 +37,9 @@ menu_right:
   - text: Wrongful Death  
     url: "/las-vegas-nv/wrongful-death/"
     blank: false
+  - text: Dog Bites  
+    url: "/las-vegas-nv/dog-bites/"
+    blank: false
   - text: Insurance Bad Faith  
     url: "/las-vegas-nv/insurance-bad-faith/"
     blank: false
@@ -99,6 +102,9 @@ menu_mobile:
     blank: false
   - text: Wrongful Death  
     url: "/las-vegas-nv/wrongful-death/"
+    blank: false
+  - text: Dog Bites  
+    url: "/las-vegas-nv/dog-bites/"
     blank: false
   - text: Insurance Bad Faith  
     url: "/las-vegas-nv/insurance-bad-faith/"
