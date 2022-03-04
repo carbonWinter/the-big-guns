@@ -7,6 +7,28 @@ sticky_cta:
   offer: false
   phone: false
 blocks:
+- template: video-1
+  block: video-1
+  background:
+    color: default
+    overlay:
+      opacity: '0.7'
+      color: ''
+    image: ''
+    video: ''
+  color: dark
+  align: center
+  superheading: 
+  heading: Virtual Tour
+  text: Visit our office and sit down with the best motorcycle accident attorney in
+    Las Vegas, NV
+  video_file: "/uploads/xxx.mp4"
+  video_image: ''
+  appointment_button: true
+  button:
+    text: Case Quote Calculator
+    url: ''
+    blank: false
 - template: slider-2
   block: slider-2
   slides:
@@ -168,32 +190,15 @@ appointments:
   client_id: "307"
   client_name: The Big Guns
   services:
-  - Aesthetic Dentistry
-  - Cavity Fillings
-  - Cleaning, Exam & X-Ray
-  - Crowns & Bridges
-  - Emergency Visit
-  - Dentures Consultation
-  - Endodontics
-  - Gum Disease
-  - Holistic Dentistry
-  - Implant Consultation
-  - Invisalign Consultation
-  - Kid's Dentistry
-  - Laser Dentistry
-  - Oral Surgery
-  - Pro Teeth Whitening
-  - Sleep Apnea
-  - Sleep Dentistry
-  - Teeth Straightening
-  - TMJ Disorder
-  - Tooth Extraction
-  - Veneers
-  - All On 4 Implants
-  - Six Month Smiles
-  - Braces
-  - Fast Braces
-  - Wisdom Teeth
+  - Automobile Accidents
+  - Spinal Injuries 
+  - Catastrophic Injuries 
+  - Bicycle and Pedestrian Accidents 
+  - Motorcycle Injuries 
+  - Wrongful Death 
+  - Insurance Bad Faith 
+  - Dog Bites
+  - Federal Litigation 
   hours:
   - "[]"
   - "[8, 18]"

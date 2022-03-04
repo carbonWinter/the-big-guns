@@ -1,5 +1,10 @@
 ---
 layout: blocks
+title: Car Accident
+seo_title: ''
+permalink: "/las-vegas-nv/automobile-accidents/"
+description: ''
+keywords: car accident lawyer las vegas, car accident lawyer, attorney for auto accident, car crash law firm, auto crash lawyer, good lawyer for car accident, best car wreck attorney, good car accident lawyers, auto accident lawyer, local auto accident lawyers
 header:
   height: viewport
   background:
@@ -7,7 +12,7 @@ header:
     background_color: "#E2E2E2"
     overlay: color
     overlay_opacity: 0.4
-    background_image: xxx.jpg
+    background_image: "/uploads/automobile-accidents-the-big-guns-injury-attorneys-las-vegas.jpg"
     background_video_file: ''
     background_slider: []
     gradient: ''
@@ -25,18 +30,11 @@ header:
   - text: What to Do After Accident
     id: "3"
   - text: FAQ
-    id: "2"
+    id: "faq"
   - text: Schedule Consultation
-    id: "10"
-  - text: Video
-    id: "10"
-title: Car Accident
-seo_title: ''
-permalink: "/las-vegas-nv/automobile-accidents/"
-description: ''
-keywords: Dental Cleaning, dental cleaning Bellflower, dentist, teeth whitening, dental
-  hygienist, tooth extraction, gentle dental, tooth crown, tooth decay, dental office,
-  dental clinic, affordable dental, tooth cavity, tooth filling
+    id: "2"
+  - text: Virtual Tour
+    id: "video-1"
 sticky_cta: false
 offer:
   heading: FREE Gentle Cleaning
@@ -71,7 +69,7 @@ blocks:
   color: light
   align: center
   background:
-    image: "/uploads/bellflower-dental-group-we-love-our-patients.jpg"
+    image: "/uploads/xxx.jpg"
     color: muted
     video: ''
     overlay:
@@ -133,6 +131,9 @@ blocks:
     image: ''
     video: ''
   color: light
+  superheading: ""
+  heading: Frequently Asked Questions
+  text: 
   faqs:
   - heading: Is it worth hiring an attorney for a car accident?
     content: The short answer to this is "yes." Hiring a good lawyer for car accidents
@@ -157,30 +158,5 @@ blocks:
       void the settlement by following specific procedures within a specific amount
       of time. Contact The Big Guns, auto accident lawyer, as soon as possible to
       see if we can help you get a bigger recovery than what you previously accepted.
-  superheading: "// Dental Hygiene, Bellflower, Ca"
-  heading: Frequently Asked Questions
-  text: 
-- template: video-1
-  block: video-1
-  background:
-    color: default
-    overlay:
-      opacity: '0.7'
-      color: ''
-    image: ''
-    video: ''
-  color: dark
-  align: center
-  superheading: 
-  heading: Virtual Tour
-  text: Visit our office and sit down with the best motorcycle accident attorney in
-    Las Vegas, NV
-  video_file: "/uploads/dental-cleaning-in-bellflower_-a-fantastic-experience.mp4"
-  video_image: ''
-  appointment_button: true
-  button:
-    text: Case Quote Calculator
-    url: ''
-    blank: false
 
 ---

@@ -130,7 +130,7 @@
   <div class="uk-container uk-container-large uk-flex uk-flex-right">
     <ul class="uk-subnav uk-subnav-divider" data-uk-margin>
       {% for item in page.header.page_navigation %}
-        <li><a href="#block-{{ item.id }}" data-uk-scroll="{% if item.id contains 'offset' %}offset: 150{% endif %}">{{ item.text }}</a></li>
+        <li><a href="#block-{{ item.id }}" data-uk-scroll="{% if item.id contains 'offset' %}offset: 150{% else %}offset: 50{% endif %}">{{ item.text }}</a></li>
       {% endfor %}
     </ul>
   </div>
