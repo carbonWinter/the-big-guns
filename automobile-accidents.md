@@ -4,7 +4,9 @@ title: Car Accident
 seo_title: ''
 permalink: "/las-vegas-nv/automobile-accidents/"
 description: ''
-keywords: car accident lawyer las vegas, car accident lawyer, attorney for auto accident, car crash law firm, auto crash lawyer, good lawyer for car accident, best car wreck attorney, good car accident lawyers, auto accident lawyer, local auto accident lawyers
+keywords: car accident lawyer las vegas, car accident lawyer, attorney for auto accident,
+  car crash law firm, auto crash lawyer, good lawyer for car accident, best car wreck
+  attorney, good car accident lawyers, auto accident lawyer, local auto accident lawyers
 header:
   height: viewport
   background:
@@ -30,15 +32,15 @@ header:
   - text: What to Do After Accident
     id: "3"
   - text: FAQ
-    id: "faq"
+    id: faq
   - text: Schedule Consultation
     id: "2"
   - text: Virtual Tour
-    id: "video-1"
+    id: video-1
 sticky_cta: false
 offer:
-  heading: FREE Gentle Cleaning
-  subheading: Special offer includes cleaning, exam and x-rays
+  heading: ''
+  subheading: ''
   disclaimer: ''
 blocks:
 - template: text-1
@@ -131,7 +133,7 @@ blocks:
     image: ''
     video: ''
   color: light
-  superheading: ""
+  superheading: ''
   heading: Frequently Asked Questions
   text: 
   faqs:
