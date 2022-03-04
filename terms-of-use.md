@@ -43,44 +43,31 @@ blocks:
   heading_tag: H1
   align: left
   columns: '1'
-  heading: Terms Of Use
+  heading: Terms & Conditions
   content: |-
-    These terms and conditions govern your use of this web site. By accessing this web site, you are acknowledging and accepting these terms of use. These terms of use are subject to change by Bellflower Dental Group at any time and at our discretion without notice. Your use of this web site after any changes are implemented constitutes your acceptance of the changes. As a result, we encourage you to consult the terms and conditions each time you use this web site.
+    "This website is for informational purposes only and is subject to the terms and conditions set forth below. By using the website, you are deemed to agree to these terms and conditions.
 
-    ### 1. INTELLECTUAL PROPERTY
+    1. No Legal Advice. All materials contained in this website are for general information purposes intended to allow you to learn more about our firm and the services we offer. Nothing in this website is intended to be nor shall it be deemed to be legal advice, counsel or services to or on behalf of any person.
+    
+    2.  Contingent fee disclaimer. You may have to pay the opposing party's attorney fees and costs in the event of a loss.
+    
+    3. No Attorney-Client or Other Relationship. Your use of the website is not intended by Carman Cooney Forbush PLLC to create, and such use shall not create, an attorney-client relationship.
+    
+    4. No Solicitation or Advertisement. This website is for informational purposes only and is not intended as a solicitation or other sort of advertisement. Nothing contained in this website shall be deemed as a solicitation or advertisement for legal or any other sort of service.
+    
+    5. Not a Substitute for Obtaining Legal Advice. You should not rely on this website as a substitute for obtaining legal advice from a qualified attorney. Carman Cooney Forbush PLLC hereby gives notice that the user should not rely, and cannot reasonably rely, on any information contained in this website for anything whatsoever, including obtaining legal advice.
+    
+    6. Licensing of Firm’s Attorneys. Unless explicitly stated otherwise, the attorneys listed in this website are not certified as specialists or experts by any governmental or professional agency. Each of the firm’s attorneys is licensed only in those jurisdictions listed in their profile.
+    
+    7. Communication with Carman Cooney Forbush PLLC. Carman Cooney Forbush PLLC advises that communication sent through this website is not intended to, nor does it, create an attorney-client relationship, nor will it create any sort of duty, fiduciary or otherwise, on the part of Carman Cooney Forbush PLLC. Please do not send any confidential or sensitive information over this website without first speaking with one of our attorneys.
+    
+    8. Subject to Change Without Notice. This website is subject to change without notice, but Carman Cooney Forbush PLLC undertakes no obligation to amend, correct, or otherwise change the website in any way or at any time.
+    
+    9. Designation of Responsible Attorney. We designate to the extent that any jurisdiction requires designation, Benjamin J. Carman, Sean D. Cooney, and Sean Forbush, all at 4045 Spencer Street, suite A47, Las Vegas, Nevada, 89119, as the attorneys responsible for this site.
+    ** As to privacy of employees (if there are pictures on website of attorneys):
+    Unless otherwise noted, all materials contained on this website are protected under copyright laws of the United States. You may download and view material on this website for your personal, non-commercial purposes only. No part of this website may be copied, reproduced, or otherwise duplicated without the express written consent."
 
-    You acknowledge and agree that all content and materials available on this site are protected by copyrights, trademarks, service marks, patents, trade secrets, or other proprietary rights and laws. Except as expressly authorized by Bellflower Dental Group , you agree not to sell, license, rent, modify, distribute, copy, reproduce, transmit, publicly display, publicly perform, publish, adapt, edit, or create derivative works from such materials or content.
-
-    As noted above, reproduction, copying, or redistribution for commercial purposes of any materials or design elements on this site is strictly prohibited without the express written permission of Bellflower Dental Group . For information on requesting such permission, please contact us at [info@getthebigguns.com](mailto:info@getthebigguns.com).
-
-    ### 2. THIRD PARTY REFERENCES / HYPERLINKS
-
-    This site may link you to other sites on the Internet. These sites may contain information or material that some people may find inappropriate or offensive. These other sites are not under the control of Bellflower Dental Group, and you acknowledge that Bellflower Dental Group is not responsible for the accuracy, copyright compliance, legality, decency, or any other aspect of the content of such sites. The inclusion of such a link does not imply endorsement of the site by or any association with its operators.
-
-    ### 3. CONTACTING US
-
-    If you need to contact us, you can email us at [info@getthebigguns.com](mailto:info@getthebigguns.com), call us at 702-500-GUNS, or send us a letter at: 10318 East Rosecrans Ave, Bellflower, CA 90706 
-
-    ### 4. DISCLAIMER OF WARRANTIES
-
-    ALL MATERIALS, INFORMATION, SOFTWARE, PRODUCTS, AND SERVICES INCLUDED IN OR AVAILABLE THROUGH THIS SITE (THE "CONTENT") ARE PROVIDED "AS IS" AND "AS AVAILABLE" FOR YOUR USE. THE CONTENT IS PROVIDED WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NONINFRINGEMENT. Bellflower Dental Group AND ITS AGENTS DO NOT WARRANT THAT THE CONTENT IS ACCURATE, RELIABLE OR CORRECT; THAT THIS SITE WILL BE AVAILABLE AT ANY PARTICULAR TIME OR LOCATION; THAT ANY DEFECTS OR ERRORS WILL BE CORRECTED; OR THAT THE CONTENT IS FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. YOUR USE OF THIS SITE IS SOLELY AT YOUR RISK. BECAUSE SOME JURISDICTIONS DO NOT PERMIT THE EXCLUSION OF CERTAIN WARRANTIES, THESE EXCLUSIONS MAY NOT APPLY TO YOU.
-
-    ### 5. LIMITATION OF LIABILITY
-
-    UNDER NO CIRCUMSTANCES SHALL Bellflower Dental Group OR ITS AGENTS BE LIABLE FOR ANY DIRECT, INDIRECT, PUNITIVE, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES THAT RESULT FROM THE USE OF, OR INABILITY TO USE, THIS SITE. THIS LIMITATION APPLIES WHETHER THE ALLEGED LIABILITY IS BASED ON CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, OR ANY OTHER BASIS, EVEN IF Bellflower Dental Group HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. BECAUSE SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, Bellflower Dental Group 's LIABILITY IN SUCH JURISDICTIONS SHALL BE LIMITED TO THE EXTENT PERMITTED BY LAW.
-
-    ### 6. INDEMNIFICATION
-
-    Upon a request by Bellflower Dental Group, you agree to defend, indemnify, and hold Bellflower Dental Group and its other affiliated companies harmless, and their employees, contractors, officers, and directors from all liabilities, claims, and expenses, including attorney’s fees, that arise from your misuse of this site.
-
-    ### 7. SEVERABILITY AND INTEGRATION
-
-    Unless otherwise specified herein, this agreement constitutes the entire agreement between you and Bellflower Dental Group with respect to this site and supersedes all prior or contemporaneous communications between you and Bellflower Dental Group with respect to this site. If any part of these Terms of Use is held invalid or unenforceable, that portion shall be construed in a manner consistent with applicable law to reflect, as nearly as possible, the original intentions of the parties, and the remaining portions shall remain in full force and effect.
-
-    ### 8. JURISDICTION
-
-    These Terms of Use shall be governed by and construed in accordance with the laws of the State of California. You hereby consent to binding arbitration in the State of California to resolve any disputes arising under this Terms of Use.
-  text: ''
+  text: 'The following disclaimers apply to all pages of our site.'
   lists: []
   superheading: ''
 seo_title: ''
