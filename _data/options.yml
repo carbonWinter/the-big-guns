@@ -28,8 +28,8 @@ blocks:
     url: ''
     blank: false
   videos:
-  - video: "/uploads/spinal-injurie.jpg"
-  - video: ''
+  - video: "/uploads/xxx.mp4"
+  - video: "/uploads/xxx.mp4"
 - template: slider-2
   block: slider-2
   slides:
