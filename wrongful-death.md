@@ -34,7 +34,7 @@ header:
   - text: FAQ
     id: faq
   - text: Virtual Tour
-    id: video-1
+    id: video-3
 sticky_cta: false
 offer:
   heading: ''

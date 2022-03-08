@@ -36,7 +36,7 @@ header:
   - text: Schedule Consultation
     id: "2"
   - text: Virtual Tour
-    id: video-1
+    id: video-3
 sticky_cta: false
 offer:
   heading: ''

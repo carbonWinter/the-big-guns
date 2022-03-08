@@ -7,8 +7,8 @@ sticky_cta:
   offer: false
   phone: false
 blocks:
-- template: video-1
-  block: video-1
+- template: video-3
+  block: video-3
   background:
     color: default
     overlay:
@@ -20,10 +20,11 @@ blocks:
   align: center
   superheading: 
   heading: "The Big Guns: We fight for you"
-  text: Visit our office and sit down with the best motorcycle accident attorney in
-    Las Vegas, NV
-  video_file: "/uploads/xxx.mp4"
-  video_image: ''
+  text: Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+  videos:
+  - "/uploads/xxx.mp4"
+  - "/uploads/xxx.mp4"
+  - "/uploads/xxx.mp4"
   appointment_button: true
   button:
     text: Case Quote Calculator
