@@ -24,7 +24,6 @@ blocks:
   videos:
   - "/uploads/xxx.mp4"
   - "/uploads/xxx.mp4"
-  - "/uploads/xxx.mp4"
   appointment_button: true
   button:
     text: Case Quote Calculator
