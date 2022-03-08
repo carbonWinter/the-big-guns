@@ -294,6 +294,7 @@ fields:
   - text-1
   - video-1
   - video-2
+  - video-3
   config:
     min: 
     max: 
