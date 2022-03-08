@@ -18,25 +18,29 @@ blocks:
     video: ''
   color: dark
   align: center
-  superheading: 
-  heading: "The Big Guns: We fight for you"
-  text: Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+  superheading: ''
+  heading: 'The Big Guns: We fight for you'
+  text: Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
+    industries for previewing layouts and visual mockups.
   appointment_button: true
   button:
     text: Case Quote Calculator
     url: ''
     blank: false
+  videos:
+  - video: "/uploads/spinal-injurie.jpg"
+  - video: ''
 - template: slider-2
   block: slider-2
   slides:
-  - "https://via.placeholder.com/1800x800"
-  - "https://via.placeholder.com/1800x800"
-  - "https://via.placeholder.com/1800x800"
-  - "https://via.placeholder.com/1800x800"
-  - "https://via.placeholder.com/1800x800"
-  - "https://via.placeholder.com/1800x800"
-  - "https://via.placeholder.com/1800x800"
-  - "https://via.placeholder.com/1800x800"
+  - https://via.placeholder.com/1800x800
+  - https://via.placeholder.com/1800x800
+  - https://via.placeholder.com/1800x800
+  - https://via.placeholder.com/1800x800
+  - https://via.placeholder.com/1800x800
+  - https://via.placeholder.com/1800x800
+  - https://via.placeholder.com/1800x800
+  - https://via.placeholder.com/1800x800
   background:
     color: dark
     image: ''
@@ -55,8 +59,8 @@ blocks:
     color: dark
     overlay:
       opacity: '0.7'
-      color: ""
-    image: ""
+      color: ''
+    image: ''
     video: ''
   superheading: "// some text our dental offices in bellflower, California"
   heading: Book Online today
@@ -97,18 +101,30 @@ blocks:
   color: light
   testimonials:
   - heading: They took away all the stress and made the case easy...
-    copy: After my car accident, both my insurance and the other driver's wanted to drag things out and muddy the waters. When I called Sean, he stepped in and lifted that stress off of me. He acted to resolve the issue in my favor, let me know how things were going along the way, and completed the settlement with little requirement of anything from me. I appreciated his professional help and would call again if ever I was in need!
+    copy: After my car accident, both my insurance and the other driver's wanted to
+      drag things out and muddy the waters. When I called Sean, he stepped in and
+      lifted that stress off of me. He acted to resolve the issue in my favor, let
+      me know how things were going along the way, and completed the settlement with
+      little requirement of anything from me. I appreciated his professional help
+      and would call again if ever I was in need!
     author: Alex F
-    image: "https://via.placeholder.com/500x750"
+    image: https://via.placeholder.com/500x750
   - heading: I knew that they always had my best interest in mind...
-    copy: I worked with Ben and his team after my car accident. I was nervous about the whole process, but they kept me up to date on every aspect and let me know what possible outcomes would happen. They are honest and upfront about the process. They are very professional and look out for their client’s best interest. I would highly recommend the team and if needed use them again.
+    copy: I worked with Ben and his team after my car accident. I was nervous about
+      the whole process, but they kept me up to date on every aspect and let me know
+      what possible outcomes would happen. They are honest and upfront about the process.
+      They are very professional and look out for their client’s best interest. I
+      would highly recommend the team and if needed use them again.
     author: Toriano T
-    image: "https://via.placeholder.com/500x750"
+    image: https://via.placeholder.com/500x750
   - heading: I felt involved every step of the way...
-    copy: Ben, Sean, and the whole team did a great job with my case. They kept me informed, included me in every step of the strategy of the case, and negotiated a good settlement for the case. I would recommend them to anyone with a serious injury case.
+    copy: Ben, Sean, and the whole team did a great job with my case. They kept me
+      informed, included me in every step of the strategy of the case, and negotiated
+      a good settlement for the case. I would recommend them to anyone with a serious
+      injury case.
     author: Jpyce R
-    image: "https://via.placeholder.com/500x750"
-  superheading: ""
+    image: https://via.placeholder.com/500x750
+  superheading: ''
   heading: Testimonials
   text: Check out what our satisfied clients have to say about our services.
 - template: images-1
@@ -182,20 +198,20 @@ backgrounds:
   secondary: "#F44040"
   dark: "#272624"
   muted: "#cccccc"
-phone: "702-500-GUNS"
+phone: 702-500-GUNS
 appointments:
   client_id: "307"
   client_name: The Big Guns
   services:
   - Automobile Accidents
-  - Spinal Injuries 
-  - Catastrophic Injuries 
-  - Bicycle and Pedestrian Accidents 
-  - Motorcycle Injuries 
-  - Wrongful Death 
-  - Insurance Bad Faith 
+  - Spinal Injuries
+  - Catastrophic Injuries
+  - Bicycle and Pedestrian Accidents
+  - Motorcycle Injuries
+  - Wrongful Death
+  - Insurance Bad Faith
   - Dog Bites
-  - Federal Litigation 
+  - Federal Litigation
   hours:
   - "[]"
   - "[8, 18]"
