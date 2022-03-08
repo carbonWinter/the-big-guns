@@ -47,17 +47,19 @@ fields:
       file: 
       path: 
   label: Align
-- name: video_file
-  type: file
+- name: videos
+  type: field_group_list
+  fields:
+  - name: video
+    type: file
+    config:
+      maxSize: 64
+    label: Video
   config:
-    maxSize: 64
-  label: Video file
-  description: Upload șelf hosted video.
-- name: video_image
-  type: file
-  config:
-    maxSize: 64
-  label: Video image
+    min: 
+    max: 
+    labelField: 
+  label: Videos
 - name: appointment_button
   type: boolean
   label: Appointment button
