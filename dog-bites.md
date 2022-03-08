@@ -12,7 +12,7 @@ header:
     background_color: "#E2E2E2"
     overlay: color
     overlay_opacity: 0.4
-    background_image: "/uploads/xxx.jpg"
+    background_image: "/uploads/dog-bites.jpg"
     background_video_file: ''
     background_slider: []
     gradient: ''

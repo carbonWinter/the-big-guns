@@ -203,7 +203,7 @@ blocks:
     url: ''
     blank: false
   image: ''
-  section: ''
+  section: 'small'
 - template: text-1
   block: text-1
   background:
