@@ -15,6 +15,7 @@ fields:
   - contact-1
   - map
   - map-image
+  - video-3
   config:
     min: 
     max: 
