@@ -21,9 +21,6 @@ blocks:
   superheading: 
   heading: "The Big Guns: We fight for you"
   text: Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-  videos:
-  - "/uploads/xxx.mp4"
-  - "/uploads/xxx.mp4"
   appointment_button: true
   button:
     text: Case Quote Calculator
