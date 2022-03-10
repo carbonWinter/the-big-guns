@@ -88,6 +88,13 @@ blocks:
     We will work with you to make the process as easy as possible, managing all aspects to maximize your recovery. You can rest assured that you will receive skilled, aggressive representation in your case. Schedule a free consultation with us today!
   appointment_button: true
   section: ''
+- template: video-2
+  block: video-2
+  background:
+    color: default
+    overlay:
+      opacity: 0.5
+  video_file: "/uploads/wrongful_death.mp4"
 - template: faq-2
   block: faq-2
   background:
