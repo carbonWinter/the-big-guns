@@ -107,6 +107,14 @@ blocks:
 
     We have vast experience from both sides of the aisle on this point, having prevailed on numerous cases for insurers and against them. Keeping bad faith and NRS 686A.310 claims alive is a priority as it keeps the threat of extra-contractual damages present during the lawsuit. Without them, in most cases, the insurance company is only on the hook for the damages within the policy's limit. By using our extensive experience in handling insurance bad faith claims, we can maximize the potential value of your case. Give us a call today at (555) 555-5555 to schedule a free consultation and let The Big Guns fight for you.
   lists: []
+- template: video-2
+  block: video-2
+  background:
+    color: default
+    overlay:
+      opacity: 0.5
+  video_file: "/uploads/bad_faith.mp4"
+  
 - template: faq-2
   block: faq-2
   background:

@@ -115,6 +115,13 @@ blocks:
 
     If a driver who wasn't paying proper attention causes an accident with you or a loved one, put The Big Guns in your arsenal and get the money you deserve.   Remember, you will not pay anything until you are signing a check from the other side.
   lists: []
+- template: video-2
+  block: video-2
+  background:
+    color: default
+    overlay:
+      opacity: 0.5
+  video_file: "/uploads/bicycle_accident.mp4"
 - template: faq-2
   block: faq-2
   background:

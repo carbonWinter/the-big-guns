@@ -124,7 +124,7 @@ blocks:
     color: default
     overlay:
       opacity: 0.5
-  video_file: "/uploads/spinal-injurie.jpg"
+  video_file: "/uploads/dog_bites.mp4"
 - template: faq-2
   block: faq-2
   background:

@@ -123,6 +123,13 @@ blocks:
     9. Check your insurance. If your car is not drivable from the scene, check your insurance policy to see if you have roadside assistance, including towing, available.  
     10. Call The Big Guns at 702-500-GUNS for powerful, aggressive representation for your auto accident.  
   lists: []
+- template: video-2
+  block: video-2
+  background:
+    color: default
+    overlay:
+      opacity: 0.5
+  video_file: "/uploads/auto_accidents.mp4"  
 - template: faq-2
   block: faq-2
   background:

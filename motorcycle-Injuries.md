@@ -112,6 +112,13 @@ blocks:
     The same care is taken if you need us because your loved one passed away from the negligence of another while riding their motorcycle. We will work with you to translate the unbearable pain you're feeling from this loss into words a jury can empathize with. Nothing can bring your loved one back, but you should not have to live the rest of your life without the financial support they should have been there to give you.
     If a driver who wasn't paying proper attention causes an accident with you or a loved one, put The Big Guns, motorcycle crash lawyer, in your arsenal and get the money you deserve.
   lists: []
+- template: video-2
+  block: video-2
+  background:
+    color: default
+    overlay:
+      opacity: 0.5
+  video_file: "/uploads/motorcycle_accident.mp4"  
 - template: faq-2
   block: faq-2
   background:
