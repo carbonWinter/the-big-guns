@@ -59,21 +59,12 @@ blocks:
     button:
       text: Learn More
       url: "/las-vegas-nv/automobile-accidents/"
-  - heading: Spinal Injuries
-    copy: Spinal cord injuries affect millions of Americans yearly, and many live
-      with the continuing effects of these injuries. We have extensive experience
-      prosecuting cases in Nevada involving spinal injuries and are ready to help
-      you get the compensation you deserve
-    image: https://via.placeholder.com/500x350
-    button:
-      text: Learn More
-      url: "/las-vegas-nv/spinal/injuries/"
   - heading: Catastrophic Injuries
     copy: When an automobile accident results in catastrophic injuries, you need knowledgeable,
       powerful representation. Catastrophic injuries can include traumatic brain injuries,
       spinal cord injuries, loss of a body part, or other injuries that ultimately
       change the way that you live your daily life.
-    image: https://via.placeholder.com/500x350
+    image: "/uploads/catastrophic-accident_2.jpg"
     button:
       text: Learn More
       url: "/las-vegas-nv/catastrophic-injuries/"
@@ -82,7 +73,7 @@ blocks:
       accident lawyers in your arsenal and get the money you deserve. Every case is
       thoroughly prepared to account for your present and future medical and financial
       needs.
-    image: https://via.placeholder.com/500x350
+    image: "/uploads/bicycle-accident_2.jpg"
     button:
       text: Learn More
       url: "/las-vegas-nv/bicycle-and-pedestrian-accidents/"
@@ -91,7 +82,7 @@ blocks:
       extensive rehab, injections, or surgery. Compensation should include recovery
       of your medical bills for necessary treatment as well as pain and suffering
       and lost wages.
-    image: https://via.placeholder.com/500x350
+    image: "/uploads/motorcycle-accident_2.jpg"
     button:
       text: Learn More
       url: "/las-vegas-nv/motorcycle-injuries/"
@@ -100,7 +91,7 @@ blocks:
       knowledge that it acted unreasonably. Proving this is challenging, but our team
       has the experience and knows how to lock down the facts, inferences, and details
       of the claim to prove your case.
-    image: https://via.placeholder.com/500x350
+    image: "/uploads/insurance-faith_2.jpg"
     button:
       text: Learn More
       url: "/las-vegas-nv/insurance-bad-faith/"
@@ -129,7 +120,7 @@ blocks:
       in Nevada to less and less reasonable claims handling. This handling included
       underpayment and excessive, unwarranted delays in processing claims. Ben now
       represents those who have been wronged by the increasingly greedy insurers.
-    image: https://via.placeholder.com/800x600
+    image: /uploads/DSC_0424.jpg
     overlay:
       color: ''
       opacity: 0.7
@@ -141,7 +132,7 @@ blocks:
       of Nevada. Sean focuses on personal injury and cases against insurance companies
       when they deny your claim, drag their feet, and try to underpay you. He works
       with you to get all the facts and present your case clearly and effectively.
-    image: https://via.placeholder.com/800x600
+    image: /uploads/DSC_0452.jpg
     overlay:
       color: ''
       opacity: 0.55
@@ -154,7 +145,7 @@ blocks:
       clients he helps. He has worked with several different local firms, ranging
       from one of the largest multi-service firms in the state to plaintiff and defense
       personal injury firms.
-    image: https://via.placeholder.com/800x600
+    image: /uploads/DSC_0462.jpg
     overlay:
       color: ''
       opacity: 0.7
@@ -168,7 +159,7 @@ blocks:
       his clients through the litigation process to avoid these traps. With experience
       in both defense and plaintiffs' personal injury cases, Adam is more than qualified
       to handle your case.
-    image: https://via.placeholder.com/800x600
+    image: /uploads/DSC_0411.jpg
     overlay:
       color: ''
       opacity: 0.7

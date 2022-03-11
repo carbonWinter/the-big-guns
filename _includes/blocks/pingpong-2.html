@@ -53,7 +53,7 @@
         </div>
         <div class="uk-width-expand@m uk-text-center{% if thecycle == 'odd' %} uk-flex-first@m{% endif %}">
           {% if card.image != empty %}
-            <div class="uk-position-relative uk-background-cover uk-pingpong-2-image" style="background-image: url('{% if card.image contains 'http' %}{{ card.image }}{% else %}{{ card.image | absolute_url }}{% endif %}');"> 
+            <div class="uk-position-relative uk-background-cover uk-background-top-center uk-pingpong-2-image" style="background-image: url('{% if card.image contains 'http' %}{{ card.image }}{% else %}{{ card.image | absolute_url }}{% endif %}');"> 
               <div class="uk-position-cover"{% if card.overlay.color != 'none' %} style="background: {{ card.overlay.color }}; opacity: {{ card.overlay.opacity }}"{% endif %}></div>
             </div>
           {% endif %}
