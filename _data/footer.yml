@@ -1,7 +1,9 @@
 ---
 layout: layout-2
-phone: "702-500-GUNS"
-address: "10318 East Rosecrans Ave \nBellflower, CA 90706"
+phone: 702-500-GUNS
+address: |-
+  4045 Spencer Street, Suite A47
+  Las Vegas, NV 89119
 hours: []
 copyright: |-
   © 2021 the big guns injury attorneys
