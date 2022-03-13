@@ -89,6 +89,16 @@ blocks:
   block: map-image
   image: "/uploads/map.png"
   link: https://goo.gl/maps/rRjq8Xq2kPWuHs7e7
+
+# - template: map
+#   block: map
+#   locations:
+#   - name: Bellflower Dental Group
+#     address_1: 10318 East Rosecrans Ave
+#     address_2: 'Bellflower, CA 90706 '
+#     latitude: '36.11639660783045'
+#     longitude: "-115.12860571751817"
+#   api_key: AIzaSyDgSfwIXtCUA96SxACvR-O7rU0aDg9LofE
 - template: testimonials-2
   block: testimonials-2
   background:
