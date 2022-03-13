@@ -14,6 +14,8 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: documents
+  templates:
+  - page-post
 - type: heading
   label: Settings
 - type: document
