@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div style="background-color: #efefef;">
+  <div class="uk-container uk-container-small">
+
+    {% for post in paginator.posts %}
+    <article class="uk-article">
+        <h2 class="uk-article-title"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+        <div class="uk-article-excerpt">{{ post.excerpt }}</div>
+    </article>
+    {% endfor %}
+
+    <!-- Pagination links -->
+    <ul class="uk-pagination uk-margin-large-top uk-margin-xlarge-bottom uk-h5">
+        {% if paginator.previous_page %}
+        <li><a class="hvr-back" href="{{ paginator.previous_page_path }}">&larr; Previous</a></li>
+        {% endif %} {% if paginator.next_page %}
+        <li class="uk-margin-auto-left"><a class="hvr-forward" href="{{ paginator.next_page_path }}">Next &rarr;</a></li>
+        {% endif %}
+    </ul>
+  </div>
+</div>
+
+{% for block in site.data.options.blocks %}
+  {% include blocks/{{ block.block }}.html %}
+{% endfor %}

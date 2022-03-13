@@ -398,4 +398,23 @@
     }
   }
 
+  .uk-article-excerpt {
+    font-size: 1.25rem;
+  }
+
+  h2.uk-article-title a:hover {
+    text-decoration: none;
+    color: #000;
+  }
+
+  @media (min-width: $breakpoint-medium) {
+    h1.uk-article-title {
+      font-size: 3.25rem;
+    }
+  }
+
+  .uk-article-content {
+    font-size: 1.125rem
+  }
+
 }

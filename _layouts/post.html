@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="uk-container uk-container-small uk-margin-xlarge-top">
+  <article class="uk-article">
+
+      <h1 class="uk-article-title uk-text-primary uk-text-center">{{ page.title | escape }}</h1>
+
+    <div class="uk-article-content uk-margin-medium-top">
+        {{ content }}
+    </div>
+
+  </article>
+</div>
+{% for block in site.data.options.blocks %}
+  {% include blocks/{{ block.block }}.html %}
+{% endfor %}

@@ -9,6 +9,7 @@ permalink: "/:title/"
 
 plugins:
 - jekyll-sitemap
+- jekyll-paginate
 
 exclude:
 - vendor
@@ -37,3 +38,12 @@ defaults:
     type: pages
   values:
     layout: blocks
+  # _posts
+- scope:
+    path: ""
+    type: posts
+  values:
+    layout: post
+
+paginate:           4 # Number of posts displayed on blog page
+paginate_path:      "/blog/:num/" # Blog path

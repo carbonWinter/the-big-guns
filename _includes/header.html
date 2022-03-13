@@ -1,4 +1,4 @@
-{%- if page.header.height != 'none' -%}
+{%- if page.header.height != 'none' and page.layout != 'post' -%}
   {% unless page.header.transparent_navbar %}
     {% if site.data.navbar.sticky %}
       <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive:{% if page.header.transparent_navbar %} uk-navbar-transparent{% endif %}; top: 200">

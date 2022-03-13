@@ -10,35 +10,7 @@
   
     {% include header.html %}
 
-    {% if page.layout == 'blocks' %}
-      {{ content }}
-    {% else %}
-      <div class="uk-section{% if page.section %} uk-section-{{ page.section }}{% endif %}">
-        <div class="uk-container{% if width %} uk-container-{{ width }}{% endif %}">
-          {% if sidebar_left %}
-            <div class="uk-flex uk-grid-large" data-uk-grid>
-              <div class="uk-width-expand@m">
-                {{ content }}
-              </div>
-              <aside class="uk-width-1-3@m uk-flex-first@m">
-                {% include sidebar.html %}
-              </aside>
-            </div>
-          {% elsif sidebar_right %}
-            <div class="uk-grid-large" data-uk-grid>
-              <div class="uk-width-expand@m">
-                {{ content }}
-              </div>
-              <aside class="uk-width-1-3@m">
-                {% include sidebar.html %}
-              </aside>
-            </div>
-          {% else %}
-            {{ content }}
-          {% endif %}
-        </div>
-      </div>
-    {% endif %}
+    {{ content }}
 
     {% if site.data.footer.layout == 'layout-2' %}
       {% include footer-2.html %}
