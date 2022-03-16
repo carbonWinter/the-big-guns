@@ -3,12 +3,12 @@ layout: blocks
 header:
   height: viewport
   background:
-    background_style: color
+    background_style: video
     background_color: "#E2E2E2"
     overlay: none
     overlay_opacity: 0.7
-    background_image: "/uploads/hero-home.jpg"
-    background_video_file: ''
+    background_image: "/uploads/hero-home-vid.jpg"
+    background_video_file: '/uploads/HomeHeadder.mp4'
     background_slider: []
     gradient: ''
     overlay_color: ''
