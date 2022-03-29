@@ -117,7 +117,7 @@ blocks:
       little requirement of anything from me. I appreciated his professional help
       and would call again if ever I was in need!
     author: Alex F
-    image: https://via.placeholder.com/500x750
+    image: /uploads/testimonial_1.jpg
   - heading: I knew that they always had my best interest in mind...
     copy: I worked with Ben and his team after my car accident. I was nervous about
       the whole process, but they kept me up to date on every aspect and let me know
@@ -125,14 +125,14 @@ blocks:
       They are very professional and look out for their client’s best interest. I
       would highly recommend the team and if needed use them again.
     author: Toriano T
-    image: https://via.placeholder.com/500x750
+    image: /uploads/testimonial_2.jpg
   - heading: I felt involved every step of the way...
     copy: Ben, Sean, and the whole team did a great job with my case. They kept me
       informed, included me in every step of the strategy of the case, and negotiated
       a good settlement for the case. I would recommend them to anyone with a serious
       injury case.
     author: Jpyce R
-    image: https://via.placeholder.com/500x750
+    image: /uploads/testimonial_3.jpg
   superheading: ''
   heading: Testimonials
   text: Check out what our satisfied clients have to say about our services.
