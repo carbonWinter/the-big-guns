@@ -81,7 +81,7 @@ blocks:
     text: Case Quote Calculator
     url: ''
     blank: false
-  image: "/uploads/icon-heart.svg"
+  image: ""
   content: Based on historical data from cases we have litigated, we can provide you with an estimated monetary value of your case. Click the button below, answer the questions in our form to match your circumstances to our data, and we'll provide you with a number.
   appointment_button: true
   section: ''

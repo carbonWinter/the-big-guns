@@ -20,8 +20,7 @@ blocks:
   align: center
   superheading: ''
   heading: 'The Big Guns: We fight for you'
-  text: Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing
-    industries for previewing layouts and visual mockups.
+  text: We aggressively represent all of our clients to get you the settlement you deserve.
   appointment_button: true
   button:
     text: Case Quote Calculator
@@ -48,7 +47,7 @@ blocks:
     overlay:
       opacity: 0.1
       color: ''
-  superheading: "// preview our dental offices in bellflower, California"
+  superheading: ""
   heading: Virtual office tour
   text: ''
   color: light
@@ -62,7 +61,7 @@ blocks:
       color: ''
     image: ''
     video: ''
-  superheading: "// some text our dental offices in bellflower, California"
+  superheading: ""
   heading: Book Online today
   align: center
   color: light
@@ -149,10 +148,9 @@ blocks:
   color: dark
   columns: expand
   gutter: small
-  superheading: Dental Accreditations in Bellflower
+  superheading: 
   heading: Our Professional Affiliations
-  text: We are proud members of these dental organizations and accreditations in Bellflower,
-    Ca
+  text: We are proud members of these Organizations in Las Vegas, NV
   images:
   - image: "/uploads/ico-accreditations-ada.png"
     url: http://ada.org/
@@ -180,9 +178,9 @@ blocks:
   color: light
   columns: '5'
   gutter: small
-  superheading: bellflower dental group on social media
+  superheading: the big guns on social media
   heading: Follow Us
-  text: Stay updated about our practice, get tips and dental deals through our social
+  text: Stay updated about our practice through our social
     media accounts
   images:
   - image: "/uploads/instagram-bellflower-dental-group-1.jpeg"

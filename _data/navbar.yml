@@ -54,6 +54,9 @@ menu_right:
   - text: Contact Us
     url: "/contact-us/"
     blank: false
+  - text: Testimonials
+    url: "/testimonials/"
+    blank: false
   - text: Blog
     url: "/blog/"
     blank: false    
@@ -116,6 +119,9 @@ menu_mobile:
   dropdown:
   - text: Contact Us
     url: "/contact-us/"
+    blank: false
+  - text: Testimonials
+    url: "/testimonials/"
     blank: false
   - text: Blog
     url: "/blog/"

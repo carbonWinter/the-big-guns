@@ -83,7 +83,7 @@ blocks:
     text: Case Quote Calculator
     url: ''
     blank: false
-  image: "/uploads/icon-heart.svg"
+  image: ""
   content: 
     The Big Guns is a team of actual trial lawyers who have been representing insurance companies and their insureds for over a decade. Now representing people injured in accidents, we bring our skills and experience to maximize your settlement or award after a crash. Our team is responsive, focused on client satisfaction, and you can rest assured that the personal injury attorneys assigned to your case will be available. Schedule a free consultation today!
   appointment_button: true

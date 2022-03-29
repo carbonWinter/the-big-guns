@@ -83,7 +83,7 @@ blocks:
     text: Case Quote Calculator
     url: ''
     blank: false
-  image: "/uploads/icon-heart.svg"
+  image: ""
   content: 
     We will work with you to make the process as easy as possible, managing all aspects to maximize your recovery. You can rest assured that you will receive skilled, aggressive representation in your case. Schedule a free consultation with us today!
   appointment_button: true

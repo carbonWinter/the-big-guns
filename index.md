@@ -237,7 +237,7 @@ blocks:
     text: Case Quote Calculator
     url: ''
     blank: false
-  image: "/uploads/icon-heart.svg"
+  image: ""
   content: We know the right experts, the right issues to push, the right laws to
     cite, and the right arguments to present at trial to get you the recovery that
     you deserve. Schedule a free Zoom, phone, or in-person consultation with us today
