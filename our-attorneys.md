@@ -135,7 +135,7 @@ blocks:
     and you can rest assured that the personal injury attorneys assigned to you will
     be available to discuss your case. The Big Guns are Las Vegas lawyers, and the
     attorneys you see on the site are the ones that will represent you in your case.
-    Call us at (555) 555-555 for a no-obligation review of your case.
+    Call us for a no-obligation review of your case.
   lists: []
 - template: cta-1
   block: cta-1
