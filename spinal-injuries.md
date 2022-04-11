@@ -120,12 +120,31 @@ blocks:
   superheading: "// Your Spinal Injury Attorney In Las Vegas, NV Has A Curated Team"
   heading: A Team Of Experts
   text: To maximize compensation in a spinal injury case, we establish and document
-    all relevant data and how those numbers extrapolate into the future. Call The
-    Big Guns
-  content: |-
-    "Every spinal injury case we handle is carefully prepared so that the victim's immediate and future medical and financial needs are accounted for. To maximize compensation for our clients, we consult with recognized medical experts selected for their ability to document, analyze, and persuasively describe their findings concerning the issues of liability and damages. Compensation includes recovery of your medical bills for necessary treatment as well as pain and suffering and lost wages. Pain and suffering is more than just physical pain and also includes impacts on your daily activities, such as sports, hobbies, physical activities, and social life. In certain circumstances, your spouse or other loved ones can also receive compensation because you cannot be there for them in the way they deserve.
-
-    In cases involving permanent, life-altering spinal injury (such as paraplegia (lower-limb paralysis) or quadriplegia (full paralysis)), we work with established healthcare cost data on costs associated with nursing care, medical equipment, and other needed medical care. These costs include required changes to your home or vehicle and the cost of wheelchairs. A physiatrist (physical rehabilitative expert) works with a life care planner to identify and address your physical, medical, and day-to-day needs and prepare individualized plans to help you achieve some level of future independence and a meaningful quality of life. Frequently, an economist is retained to analyze and quantify the loss of income, earning capacity, and loss of enjoyment of life. The economist also examines medical costs associated with the life care plan and prepares a report accounting for rising medical expenses, interest, and inflation. This process prepares one of our experienced trial attorneys to present all the damage issues to you and the jury in clear and understandable terms."
+    all relevant data and how those numbers extrapolate into the future
+  content: "Every spinal injury case we handle is carefully prepared so that the victim's
+    immediate and future medical and financial needs are accounted for. To maximize
+    compensation for our clients, we consult with recognized medical experts selected
+    for their ability to document, analyze, and persuasively describe their findings
+    concerning the issues of liability and damages. Compensation includes recovery
+    of your medical bills for necessary treatment as well as pain and suffering and
+    lost wages. Pain and suffering is more than just physical pain and also includes
+    impacts on your daily activities, such as sports, hobbies, physical activities,
+    and social life. In certain circumstances, your spouse or other loved ones can
+    also receive compensation because you cannot be there for them in the way they
+    deserve. \n\nIn cases involving permanent, life-altering spinal injury (such as
+    paraplegia (lower-limb paralysis) or quadriplegia (full paralysis)), we work with
+    established healthcare cost data on costs associated with nursing care, medical
+    equipment, and other needed medical care. These costs include required changes
+    to your home or vehicle and the cost of wheelchairs. A physiatrist (physical rehabilitative
+    expert) works with a life care planner to identify and address your physical,
+    medical, and day-to-day needs and prepare individualized plans to help you achieve
+    some level of future independence and a meaningful quality of life. Frequently,
+    an economist is retained to analyze and quantify the loss of income, earning capacity,
+    and loss of enjoyment of life. The economist also examines medical costs associated
+    with the life care plan and prepares a report accounting for rising medical expenses,
+    interest, and inflation. This process prepares one of our experienced trial attorneys
+    to present all the damage issues to you and the jury in clear and understandable
+    terms."
   lists: []
 - template: faq-2
   block: faq-2
