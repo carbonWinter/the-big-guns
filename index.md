@@ -265,10 +265,10 @@ blocks:
   content: If you are looking for a law firm that is willing to make this process
     as easy on you as possible, know that at The Big Guns, personal injury cases are
     handled on a contingency fee basis—meaning you owe us nothing until you have received
-    payment in your personal injury case. Give us a call at (702) 500-GUNS today for
-    a no-obligation consultation and fair evaluation of your case. We can give you
-    a good idea of what to expect regarding your claim's value and timelines and outcomes
-    for similar cases.
+    payment in your personal injury case. Give us a call today for a no-obligation
+    consultation and fair evaluation of your case. We can give you a good idea of
+    what to expect regarding your claim's value and timelines and outcomes for similar
+    cases.
   lists: []
 - template: faq-2
   block: faq-2
