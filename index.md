@@ -262,13 +262,13 @@ blocks:
   heading: We Get Paid When You Do
   text: Looking for an attorney so confident in their ability, they'll front the cost...
     Call The Big Guns
-  content: If you are looking for a law firm that is willing to make this process
+  content: "If you are looking for a law firm that is willing to make this process
     as easy on you as possible, know that at The Big Guns, personal injury cases are
     handled on a contingency fee basis—meaning you owe us nothing until you have received
-    payment in your personal injury case. Give us a call today for a no-obligation
+    payment in your personal injury case. \n\nGive us a call today for a no-obligation
     consultation and fair evaluation of your case. We can give you a good idea of
     what to expect regarding your claim's value and timelines and outcomes for similar
-    cases.
+    cases."
   lists: []
 - template: faq-2
   block: faq-2
