@@ -79,13 +79,13 @@ blocks:
     heading: Sean D. Cooney, Partner
     image: "/uploads/DSC_0452.jpg"
   - text: |-
-      Sean has spent most of his life in Las Vegas. His family moved to Las Vegas in 1989, and he graduated from Green Valley High School in 1997. Having grown up in Las Vegas, Sean has seen this city go from less than half a million people to the 2.5 million we have today. When he started driving, he could travel from anywhere in Las Vegas to the other side in less than 30 minutes. It is far larger now.   
+      Sean has spent most of his life in Las Vegas. His family moved to Las Vegas in 1989, and he graduated from Green Valley High School in 1997. Having grown up in Las Vegas, Sean has seen this city go from less than half a million people to the 2.5 million we have today. When he started driving, he could travel from anywhere in Las Vegas to the other side in less than 30 minutes. It is far larger now.
 
-      Shortly after graduation, he served a two-year religious mission in Venezuela. He was able to meet many amazing people and loved his time there. He learned Spanish for the mission, and he remains fluent.   
+      Shortly after graduation, he served a two-year religious mission in Venezuela. He was able to meet many amazing people and loved his time there. He learned Spanish for the mission, and he remains fluent.
 
-      In 2012, Sean moved to Dallas, Texas, where he graduated from Texas A&M School of Law. Sean loved his time in Texas and really enjoyed the culture and the people. Texas is where he learned what a real barbeque is. He now enjoys preparing food for the family and neighbors so long as it includes smoking a brisket, some racks of ribs, and nearly anything else that will fit in his smoker.   
+      In 2012, Sean moved to Dallas, Texas, where he graduated from Texas A&M School of Law. Sean loved his time in Texas and really enjoyed the culture and the people. Texas is where he learned what a real barbeque is. He now enjoys preparing food for the family and neighbors so long as it includes smoking a brisket, some racks of ribs, and nearly anything else that will fit in his smoker.
 
-      As soon as he finished law school, he moved back to Las Vegas to practice law. Sean focuses his law practice on personal injury. He has experience in family law, trust law, workers compensation, and other areas of law which help him incorporate all issues into the personal injury clients he helps.   He has worked with several different local firms, ranging from one of the largest multi-service firms in the state to plaintiff and defense personal injury firms.
+      As soon as he finished law school, he moved back to Las Vegas to practice law. Sean focuses his law practice on personal injury. He has experience in family law, trust law, workers compensation, and other areas of law which help him incorporate all issues into the personal injury clients he helps. He has worked with several different local firms, ranging from one of the largest multi-service firms in the state to plaintiff and defense personal injury firms.
 
       Sean loves spending time with his wife and five children and cooking in his free time. He usually spends time with each child individually and includes them in his activities. His oldest daughter is now better with a shotgun than he is.
     heading: Sean Forbush, Partner
