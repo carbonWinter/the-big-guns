@@ -91,7 +91,7 @@ blocks:
   overlay_size: center
   heading: Try Our Case Calculator
   text: Find out the estimated worth of your case with the right spinal injury attorney
-    in Las Vegas, NV.
+    in Las Vegas, NV
   superheading: ''
   button:
     text: Case Quote Calculator
