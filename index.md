@@ -300,7 +300,7 @@ blocks:
       Big Guns can give you a good idea of what to expect as it relates to your claim's
       value at every stage.
   - heading: What is considered a catastrophic injury?
-    content: DA catastrophic injury from a car accident has no formal definition but
+    content: A catastrophic injury from a car accident has no formal definition but
       can include traumatic brain injuries, spinal injuries, loss of limbs, and even
       disfigurement. Understanding the medicine as it relates to these claims is of
       the utmost importance, and the attorneys at The Big Guns have the experience
