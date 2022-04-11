@@ -127,11 +127,11 @@ blocks:
     for their ability to document, analyze, and persuasively describe their findings
     concerning the issues of liability and damages. Compensation includes recovery
     of your medical bills for necessary treatment as well as pain and suffering and
-    lost wages. Pain and suffering is more than just physical pain and also includes
+    lost wages. \"Pain and suffering\" is more than just physical pain and also includes
     impacts on your daily activities, such as sports, hobbies, physical activities,
     and social life. In certain circumstances, your spouse or other loved ones can
     also receive compensation because you cannot be there for them in the way they
-    deserve. \n\nIn cases involving permanent, life-altering spinal injury (such as
+    deserve. \n\nIn cases involving permanent, life-altering spinal injury, such as
     paraplegia (lower-limb paralysis) or quadriplegia (full paralysis), we work with
     established healthcare cost data on costs associated with nursing care, medical
     equipment, and other needed medical care. These costs include required changes
