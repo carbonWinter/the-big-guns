@@ -59,10 +59,23 @@ blocks:
   heading: Spinal Injury Lawsuit
   text: Our knowledgeable and experienced injury attorneys are ready to help you get
     the compensation you deserve
-  content: |-
-    Spinal cord injuries affect millions of Americans yearly, and many live with the continuing effects of these injuries. These injuries are often caused by the fault of others, whether by car, truck, motorcycle, or bicycle accidents, slip and fall accidents, defective product, construction site, or workplace mishaps. Injuries to the spinal column affect the lives of both victims and their families, and they are often permanent and always life-changing. Injuries to the neck or the back almost always result in months or years of pain, impair the victim's ability to live their best life, and can cause permanent damage to the spinal column.
-     
-    Since the spinal cord connects the body to your brain, damaging it can cause loss of function to one or more parts of your body. Quadriplegia (loss of use of all four limbs) and paraplegia (loss of use of the lower limbs) are catastrophic injuries involving damage to the spinal cord. If you or someone you love has sustained these types of injuries, you need a spinal injury attorney with the knowledge and experience to secure the compensation you deserve. At The Big Guns, we have extensive experience prosecuting cases in Nevada involving spinal injuries and can guide you every step of the way. Call us today at (555) 555-5555 for a no-obligation consultation to review your case.
+  content: "Spinal cord injuries affect millions of Americans yearly, and many live
+    with the continuing effects of these injuries. These injuries are often caused
+    by the fault of others, whether by car, truck, motorcycle, or bicycle accidents,
+    slip and fall accidents, defective product, construction site, or workplace mishaps.
+    Injuries to the spinal column affect the lives of both victims and their families,
+    and they are often permanent and always life-changing. Injuries to the neck or
+    the back almost always result in months or years of pain, impair the victim's
+    ability to live their best life, and can cause permanent damage to the spinal
+    column. \n\nSince the spinal cord connects the body to your brain, damaging it
+    can cause loss of function to one or more parts of your body. Quadriplegia (loss
+    of use of all four limbs) and paraplegia (loss of use of the lower limbs) are
+    catastrophic injuries involving damage to the spinal cord. If you or someone you
+    love has sustained these types of injuries, you need a spinal injury attorney
+    with the knowledge and experience to secure the compensation you deserve. At The
+    Big Guns, we have extensive experience prosecuting cases in Nevada involving spinal
+    injuries and can guide you every step of the way. Call us today for a no-obligation
+    consultation to review your case."
   lists: []
 - template: cta-1
   block: cta-1
