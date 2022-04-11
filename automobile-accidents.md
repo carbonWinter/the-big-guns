@@ -109,8 +109,7 @@ blocks:
   columns: '2'
   superheading: ''
   heading: What Should I Do If I've Been In An Accident?
-  text: Looking for an attorney so confident in their ability, they'll front the cost...
-    Call The Big Guns
+  text: ''
   content: |-
     1. Stay calm. You might be angry or upset with the other driver, but do not lose your cool. Now is not the time to prove your case, nor to express your anger with the other driver.  
     2. Save the video. If you had a dashcam active, be sure that you do what you need to do to ensure that it saves the video footage of the accident. Keep the camera safe. Note whether the other driver's car also had a dashcam.
