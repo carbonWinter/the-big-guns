@@ -8,7 +8,7 @@ header:
     overlay: none
     overlay_opacity: 0.7
     background_image: "/uploads/hero-home-vid.jpg"
-    background_video_file: '/uploads/HomeHeadder.mp4'
+    background_video_file: "/uploads/HomeHeadder.mp4"
     background_slider: []
     gradient: ''
     overlay_color: ''
@@ -120,7 +120,7 @@ blocks:
       in Nevada to less and less reasonable claims handling. This handling included
       underpayment and excessive, unwarranted delays in processing claims. Ben now
       represents those who have been wronged by the increasingly greedy insurers.
-    image: /uploads/DSC_0424.jpg
+    image: "/uploads/DSC_0424.jpg"
     overlay:
       color: ''
       opacity: 0.7
@@ -132,7 +132,7 @@ blocks:
       of Nevada. Sean focuses on personal injury and cases against insurance companies
       when they deny your claim, drag their feet, and try to underpay you. He works
       with you to get all the facts and present your case clearly and effectively.
-    image: /uploads/DSC_0452.jpg
+    image: "/uploads/DSC_0452.jpg"
     overlay:
       color: ''
       opacity: 0.55
@@ -145,7 +145,7 @@ blocks:
       clients he helps. He has worked with several different local firms, ranging
       from one of the largest multi-service firms in the state to plaintiff and defense
       personal injury firms.
-    image: /uploads/DSC_0462.jpg
+    image: "/uploads/DSC_0462.jpg"
     overlay:
       color: ''
       opacity: 0.7
@@ -153,13 +153,13 @@ blocks:
       text: Learn More
       url: ''
   - heading: Adam C. Edwards
-    copy: Adam also has extensive experience in personal injury defense work that
-      has allowed him to understand strategies and tactics that defense attorneys
-      and insurance adjusters use to lower the value of plaintiffs' claims. Adam guides
-      his clients through the litigation process to avoid these traps. With experience
-      in both defense and plaintiffs' personal injury cases, Adam is more than qualified
-      to handle your case.
-    image: /uploads/DSC_0411.jpg
+    copy: Adam has extensive experience in personal injury defense work that has allowed
+      him to understand strategies and tactics that defense attorneys and insurance
+      adjusters use to lower the value of plaintiffs' claims. Adam guides his clients
+      through the litigation process to avoid these traps. With experience in both
+      defense and plaintiffs' personal injury cases, Adam is more than qualified to
+      handle your case.
+    image: "/uploads/DSC_0411.jpg"
     overlay:
       color: ''
       opacity: 0.7
@@ -194,7 +194,7 @@ blocks:
     url: ''
     blank: false
   image: ''
-  section: 'small'
+  section: small
 - template: text-1
   block: text-1
   background:
@@ -237,7 +237,7 @@ blocks:
     text: Case Quote Calculator
     url: ''
     blank: false
-  image: ""
+  image: ''
   content: We know the right experts, the right issues to push, the right laws to
     cite, and the right arguments to present at trial to get you the recovery that
     you deserve. Schedule a free Zoom, phone, or in-person consultation with us today
