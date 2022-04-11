@@ -132,7 +132,7 @@ blocks:
     and social life. In certain circumstances, your spouse or other loved ones can
     also receive compensation because you cannot be there for them in the way they
     deserve. \n\nIn cases involving permanent, life-altering spinal injury (such as
-    paraplegia (lower-limb paralysis) or quadriplegia (full paralysis)), we work with
+    paraplegia (lower-limb paralysis) or quadriplegia (full paralysis), we work with
     established healthcare cost data on costs associated with nursing care, medical
     equipment, and other needed medical care. These costs include required changes
     to your home or vehicle and the cost of wheelchairs. A physiatrist (physical rehabilitative
