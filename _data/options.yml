@@ -20,7 +20,8 @@ blocks:
   align: center
   superheading: ''
   heading: 'The Big Guns: We fight for you'
-  text: We aggressively represent all of our clients to get you the settlement you deserve.
+  text: We aggressively represent all of our clients to get you the settlement you
+    deserve.
   appointment_button: true
   button:
     text: Case Quote Calculator
@@ -47,7 +48,7 @@ blocks:
     overlay:
       opacity: 0.1
       color: ''
-  superheading: ""
+  superheading: ''
   heading: Virtual office tour
   text: ''
   color: light
@@ -61,7 +62,7 @@ blocks:
       color: ''
     image: ''
     video: ''
-  superheading: ""
+  superheading: ''
   heading: Book Online today
   align: center
   color: light
@@ -88,16 +89,6 @@ blocks:
   block: map-image
   image: "/uploads/map.png"
   link: https://goo.gl/maps/rRjq8Xq2kPWuHs7e7
-
-# - template: map
-#   block: map
-#   locations:
-#   - name: Bellflower Dental Group
-#     address_1: 10318 East Rosecrans Ave
-#     address_2: 'Bellflower, CA 90706 '
-#     latitude: '36.11639660783045'
-#     longitude: "-115.12860571751817"
-#   api_key: AIzaSyDgSfwIXtCUA96SxACvR-O7rU0aDg9LofE
 - template: testimonials-2
   block: testimonials-2
   background:
@@ -117,7 +108,7 @@ blocks:
       little requirement of anything from me. I appreciated his professional help
       and would call again if ever I was in need!
     author: Alex F
-    image: /uploads/testimonial_1.jpg
+    image: "/uploads/testimonial_1.jpg"
   - heading: I knew that they always had my best interest in mind...
     copy: I worked with Ben and his team after my car accident. I was nervous about
       the whole process, but they kept me up to date on every aspect and let me know
@@ -125,14 +116,14 @@ blocks:
       They are very professional and look out for their client’s best interest. I
       would highly recommend the team and if needed use them again.
     author: Toriano T
-    image: /uploads/testimonial_2.jpg
+    image: "/uploads/testimonial_2.jpg"
   - heading: I felt involved every step of the way...
     copy: Ben, Sean, and the whole team did a great job with my case. They kept me
       informed, included me in every step of the strategy of the case, and negotiated
       a good settlement for the case. I would recommend them to anyone with a serious
       injury case.
-    author: Jpyce R
-    image: /uploads/testimonial_3.jpg
+    author: Joyce R
+    image: "/uploads/testimonial_3.jpg"
   superheading: ''
   heading: Testimonials
   text: Check out what our satisfied clients have to say about our services.
@@ -148,7 +139,7 @@ blocks:
   color: dark
   columns: expand
   gutter: small
-  superheading: 
+  superheading: ''
   heading: Our Professional Affiliations
   text: We are proud members of these Organizations in Las Vegas, NV
   images:
@@ -180,8 +171,7 @@ blocks:
   gutter: small
   superheading: the big guns on social media
   heading: Follow Us
-  text: Stay updated about our practice through our social
-    media accounts
+  text: Stay updated about our practice through our social media accounts
   images:
   - image: "/uploads/instagram-bellflower-dental-group-1.jpeg"
     url: ''
@@ -233,7 +223,7 @@ offer:
   subheading: Includes full exam and x-rays
   disclaimer: ''
 site_title: The Big Guns
-google_analytics: 'GTM-WGKH7DD'
+google_analytics: GTM-WGKH7DD
 social:
   facebook: "#"
   linkedin: "#"
