@@ -29,7 +29,7 @@ header:
     heading: ''
     text: ''
   page_navigation:
-  - text: What to Do After Accident
+  - text: What To Do After Accident
     id: "3"
   - text: FAQ
     id: faq
@@ -85,7 +85,7 @@ blocks:
     text: Case Quote Calculator
     url: ''
     blank: false
-  image: ""
+  image: ''
   content: The Big Guns is a team of actual trial lawyers who have been representing
     insurance companies and their insureds for over a decade. Now representing people
     injured in car accidents, we bring our skills and experience to maximize your
@@ -129,7 +129,7 @@ blocks:
     color: default
     overlay:
       opacity: 0.5
-  video_file: "/uploads/auto_accidents.mp4"  
+  video_file: "/uploads/auto_accidents.mp4"
 - template: faq-2
   block: faq-2
   background:
