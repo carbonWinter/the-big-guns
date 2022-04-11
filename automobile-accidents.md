@@ -150,7 +150,7 @@ blocks:
   - heading: When should you get a lawyer for a car accident?
     content: Right away! Insurers often look to settle personal injury claims within
       the first few days after an accident, typically via a fast offer of a few thousand
-      dollars and a ""verbal release"" that you can give to speed things along. This
+      dollars and a "verbal release" that you can give to speed things along. This
       is a sure sign that the insurer is concerned about the value of the claim, and
       it is the insurance company's best shot at minimizing what it has to pay you
       for your claim. They are hoping you don't hire good car accident lawyers.
