@@ -23,7 +23,7 @@ header:
   color: light
   col_one:
     heading: Dog Bites
-    text: Get The Top Dog Bite Law Firm In Las Vegas, NV
+    text: Get the top dog bite law firm in Las Vegas, NV
   col_two:
     heading: ''
     text: ''
