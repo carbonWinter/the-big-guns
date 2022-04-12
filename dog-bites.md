@@ -151,8 +151,8 @@ blocks:
     video: ''
   color: light
   superheading: "// Questions For Dog Bite Law Firm Las Vegas, NV"
-  heading: Dog Bite Injury FAQ
-  text: The Big Guns Answer The Most Searched Questions on Dog Bite Litigation
+  heading: Frequently Asked Questions
+  text: The Big Guns answer the most searched questions on dog bite litigation
   faqs:
   - heading: Who is responsible for a dog bite in Nevada?
     content: The dog owner will be responsible, subject to several other factors. 
