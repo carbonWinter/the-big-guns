@@ -164,13 +164,22 @@ blocks:
       out the numerous factors that need to be balanced to determine whether you can,
       or even should, file suit for your bicycle accident. Contact The Big Guns today
       for a free evaluation."
-  - heading: When should you get a lawyer for a car accident?
-    content: Right away! Insurers often look to settle personal injury claims within
-      the first few days after an accident, typically via a fast offer of a few thousand
-      dollars and a ""verbal release"" that you can give to speed things along. This
-      is a sure sign that the insurer is concerned about the value of the claim, and
-      it is the insurance company's best shot at minimizing what it has to pay you
-      for your claim. They are hoping you don't hire good car accident lawyers.
+  - heading: How much compensation will I get for a bike accident?
+    content: "The amount of compensation you can get for your bike accident depends
+      a great deal on the nature, scope, and severity of your injuries in relation
+      to the liability of the other party. Assuming that the other side is at fault
+      for the accident, the costs associated with your medical treatment, the amount
+      of time you lost from work, the additional expenses you incurred as a result
+      of the accident, and other financial losses will constitute “special damages.”
+      This is true even if you had private insurance or government assistance in paying
+      for your treatment. \n\nThe next form of damages that you may be able to collect
+      would be general damages. These are less quantifiable amounts as they pay for
+      your pain and suffering, your emotional distress, and others depending on circumstances.
+      You may also have future special damages in the form of lost future wages or
+      earning capacity, and you might need a life care plan if the injuries are particularly
+      severe. \n\nThe attorneys at The Big Guns can help you determine what the likely
+      value of your case will be based on your injuries and treatment to date. Contact
+      us today to discuss how we can help you with your bicycle accident."
   - heading: Who pays for the attorney in a car accident?
     content: With The Big Guns, you do not pay a dime until we win. Unlike some others,
       we also do not deprive you of your ability, as a client, to decide on settlement
