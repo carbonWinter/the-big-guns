@@ -164,9 +164,9 @@ blocks:
       us today to have your case evaluated.
   - heading: Is it worth getting an accident lawyer?
     content: |-
-      Almost every time, yes.  There are some instances where getting an accident lawyer will not really do much for you.  Typically this is where you have not been injured in the accident, there is no dispute about liability, and the other insurance company is going to take care of your property damage claim without any true hassle.  If this is the case, you probably would not benefit from hiring a lawyer.
-      But if you were injured, it is almost always to your advantage to retain an attorney for your claim early on.  Accident victims who retain counsel generally obtain higher settlements from injury claims than those who do not by a wide margin, and they can help alleviate your stress and workload following an accident by providing responses to the other side’s insurance company’s requests for you.  
-      Contact The Big Guns today to see if you should hire an attorney for your claim.  Consulting with us is free, and we’ll help you figure out what works best for you, even if that answer is not hiring an attorney.
+      Almost every time, yes. There are some instances where getting an accident lawyer will not really do much for you. Typically this is where you have not been injured in the accident, there is no dispute about liability, and the other insurance company is going to take care of your property damage claim without any true hassle. If this is the case, you probably would not benefit from hiring a lawyer. But if you were injured, it is almost always to your advantage to retain an attorney for your claim early on. Accident victims who retain counsel generally obtain higher settlements from injury claims than those who do not by a wide margin, and they can help alleviate your stress and workload following an accident by providing responses to the other side’s insurance company’s requests for you. 
+
+      Contact The Big Guns today to see if you should hire an attorney for your claim. Consulting with us is free, and we’ll help you figure out what works best for you, even if that answer is not hiring an attorney.
   - heading: How long does it take to settle a motorcycle accident?
     content: "The length of time to settle a claim from a motorcycle accident depends
       on even more factors than determining its value. Aside from the questions of
