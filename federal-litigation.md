@@ -108,7 +108,7 @@ blocks:
   text: The Big Guns are ready to fight for you from beginning to end, whether in
     state or federal court
   content: |-
-    For most accident and injury cases, the lawsuit against the responsible party most likely will not fall under federal jurisdiction. Such claims are not based on federal questions and can only be sent to federal court if there is diversity jurisdiction. What this requires, in short, is that all parties on one side (i.e. all plaintiffs) must not reside or have a principal place of business in a state in which any one of the parties on the other side (i.e. all defendants) do. Plus, the amount sought by the plaintiffs must be more than $75,000. If all of these factors are satisfied, the case can be pulled into federal court by the defendant.
+    For most accident and injury cases, the lawsuit against the responsible party most likely will not fall under federal jurisdiction. Such claims are not based on federal questions and can only be sent to Federal Court if there is diversity jurisdiction. What this requires, in short, is that all parties on one side (i.e. all plaintiffs) must not reside or have a principal place of business in a state in which any one of the parties on the other side (i.e. all defendants) do. Plus, the amount sought by the plaintiffs must be more than $75,000. If all of these factors are satisfied, the case can be pulled into federal court by the defendant.
 
     We are comfortable pursuing your case in either state or federal court. Whether the case is pulled out by a defendant early on to federal jurisdiction or if we find good cause to file directly in federal court, we are ready to fight your case.
   lists: []
