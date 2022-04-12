@@ -198,7 +198,7 @@ blocks:
 
       **8. Take notes.** Either write or record your impressions of the incident, including your observations regarding the other driver’s sobriety, their use of a phone, the facts as you recall them, and the like. This will help you later in remembering the details of what happened. A voice recorder or a note program on your smartphone, like Google Keep, Microsoft OneNote, Evernote, and others can help if you brought it on your ride.
 
-      **9. Check your insurance.** If your bike is not drivable from the scene, check your insurance policy to see if you have roadside assistance available.
+      **9. Check your insurance.** If your bike is not ridable from the scene, check your insurance policy to see if you have roadside assistance available.
 
       **10. Contact us.** Call The Big Guns at 702-500-GUNS for powerful, aggressive representation for your bicycle accident.
   - heading: Can a cyclist be at fault?
