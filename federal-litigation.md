@@ -1,10 +1,11 @@
 ---
 layout: blocks
-title: Federal Litigation 
+title: Federal Litigation
 seo_title: ''
 permalink: "/las-vegas-nv/federal-litigation/"
 description: ''
-keywords: federal lawyer las vegas, federal lawyer, federal litigation, federal civil attorney, federal civil attorney near me
+keywords: federal lawyer las vegas, federal lawyer, federal litigation, federal civil
+  attorney, federal civil attorney near me
 header:
   height: viewport
   background:
@@ -56,7 +57,8 @@ blocks:
   columns: '1'
   superheading: "// Experienced Federal Lawyer Las Vegas "
   heading: Federal Litigation
-  text: The Big Guns federal civil attorneys have the knowledge and experience necessary to help you recover what you are entitled to
+  text: The Big Guns federal civil attorneys have the knowledge and experience necessary
+    to help you recover what you are entitled to
   content: |-
     All of the attorneys at The Big Guns have experience in federal litigation. This background is important when you might have to bring a suit against your own insurance company for delaying, denying, or underpaying your claim. It is also useful when bringing suit against a large out-of-state company or someone from a different state where your case value exceeds $75,000. Most insurance companies are not based in Nevada, so they often move state court lawsuits filed directly against them to federal court. Some attorneys are justifiably nervous about pursuing such matters because federal litigation follows different rules, has different deadlines, and can take longer. Discovery is different as well, and the parties often draw from case law that exceeds the borders of Nevada in making decisions.
 
@@ -81,9 +83,11 @@ blocks:
     text: Case Quote Calculator
     url: ''
     blank: false
-  image: ""
-  content: 
-    We will work with you to make the process as easy as possible, managing all aspects to maximize your recovery. You can rest assured that you will receive skilled, aggressive representation in your case. Schedule a free consultation with us today!
+  image: ''
+  content: We will work with you to make the process as easy as possible, managing
+    all aspects to maximize your recovery. You can rest assured that you will receive
+    skilled, aggressive representation in your case. Schedule a free consultation
+    with us today!
   appointment_button: true
   section: ''
 - template: text-1
@@ -99,13 +103,14 @@ blocks:
   color: dark
   align: left
   columns: '2'
-  superheading: '// A Great Federal Civil Attorney Near You In Las Vegas, NV'
+  superheading: "// A Great Federal Civil Attorney Near You In Las Vegas, NV"
   heading: When would your case require Federal Litigation?
-  text: The Big Guns are ready to fight for you from beginning to end, whether in state or federal court
+  text: The Big Guns are ready to fight for you from beginning to end, whether in
+    state or federal court
   content: |-
-    For most accident and injury cases, the lawsuit against the responsible party most likely will not fall under federal jurisdiction. Such claims are not based on federal questions and can only be sent to Federal court if there is diversity jurisdiction. What this requires, in short, is that all parties on one side (i.e. all plaintiffs) must not reside or have a principal place of business in a state in which any one of the parties on the other side (i.e. all defendants) do. Plus, the amount sought by the plaintiffs must be more than $75,000. If all of these factors are satisfied, the case can be pulled into federal court by the defendant.
-    
-    We are comfortable pursuing your case in either state or federal court. Whether the case is pulled out by a defendant early on to Federal jurisdiction or if we find good cause to file directly in federal court, we are ready to fight your case. 
+    For most accident and injury cases, the lawsuit against the responsible party most likely will not fall under federal jurisdiction. Such claims are not based on federal questions and can only be sent to federal court if there is diversity jurisdiction. What this requires, in short, is that all parties on one side (i.e. all plaintiffs) must not reside or have a principal place of business in a state in which any one of the parties on the other side (i.e. all defendants) do. Plus, the amount sought by the plaintiffs must be more than $75,000. If all of these factors are satisfied, the case can be pulled into federal court by the defendant.
+
+    We are comfortable pursuing your case in either state or federal court. Whether the case is pulled out by a defendant early on to federal jurisdiction or if we find good cause to file directly in federal court, we are ready to fight your case.
   lists: []
 - template: faq-2
   block: faq-2
@@ -117,7 +122,7 @@ blocks:
     image: ''
     video: ''
   color: light
-  superheading: '// Las Vegas, NV Federal Litigation'
+  superheading: "// Las Vegas, NV Federal Litigation"
   heading: Questions about Litigation?
   text: The Big Guns have all the answers for you
   faqs:
@@ -128,7 +133,8 @@ blocks:
       Even with that said, some insurance companies are of a form that precludes removal based on diversity jurisdiction- insurance exchanges, mutual insurers from certain states, and other unincorporated forms. Understanding the different entity forms for insurers may impact the strategy pursued in litigating such matters. It is one of the key issues that our experience as insurance bad faith defense attorneys provides as an advantage.
 
       We are always ready to pursue catastrophic injury claims, cases against interstate companies, and, of course, insurance bad faith litigation for our clients.
-  - heading: What are some of the differences? Is Federal Litigation a bigger deal than state litigation?
+  - heading: What are some of the differences? Is Federal Litigation a bigger deal
+      than state litigation?
     content: |-
       "Federal cases are no less and no more important than state cases. They differ in the following ways:
       - The available judges who will hear law and motion issues
@@ -140,9 +146,16 @@ blocks:
 
       We know how to litigate matters in federal court as it can often provide an advantage both to the defendant and to counsel well-versed in the venue. Further, we have actual trial experience in California and Nevada federal courts."
   - heading: Can you keep my case from being pulled into Federal Court?
-    content: Maybe. If your case meets all of the criteria for federal diversity jurisdiction and defense counsel timely files their petition for removal to federal court, there is virtually no chance of preventing removal. Otherwise, there might be a chance. Since all cases are different and have many moving pieces, contact us to determine whether your case should be in state or federal court.
+    content: Maybe. If your case meets all of the criteria for federal diversity jurisdiction
+      and defense counsel timely files their petition for removal to federal court,
+      there is virtually no chance of preventing removal. Otherwise, there might be
+      a chance. Since all cases are different and have many moving pieces, contact
+      us to determine whether your case should be in state or federal court.
   - heading: What other types of Federal Litigation do you handle?
-    content: 
-      There are several federal-question cases that we do not handle at this time- criminal matters, employment litigation based on federal statutes, ERISA claims from health insurance litigation, and environmental law claims. If you have a question about a case outside of these topics, contact us today to discuss whether we can offer our services to help you get the relief you deserve.
+    content: There are several federal-question cases that we do not handle at this
+      time- criminal matters, employment litigation based on federal statutes, ERISA
+      claims from health insurance litigation, and environmental law claims. If you
+      have a question about a case outside of these topics, contact us today to discuss
+      whether we can offer our services to help you get the relief you deserve.
 
 ---
