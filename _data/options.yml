@@ -35,26 +35,26 @@ blocks:
   background:
     color: dark
     overlay:
-      opacity: "0.7"
-      color: ""
-    image: ""
-    video: ""
-  superheading: ""
+      opacity: '0.7'
+      color: ''
+    image: ''
+    video: ''
+  superheading: ''
   heading: Book Online today
   align: center
   color: light
   hours:
     heading: OFFICE HOURS
     hours:
-      - Monday - Friday 8am - 5pm
-      - Saturday Closed
-      - Sunday Closed
+    - Monday - Friday 8am - 5pm
+    - Saturday Closed
+    - Sunday Closed
   appointment:
     heading: Click to schedule or call now
     appointment_button: true
     button:
-      text: ""
-      url: ""
+      text: ''
+      url: ''
       blank: false
   address:
     heading: LOCATION
@@ -103,7 +103,7 @@ blocks:
     image: "/uploads/testimonial_3.jpg"
   superheading: ''
   heading: Testimonials
-  text: Check out what our satisfied clients have to say about our services.
+  text: Check out what our satisfied clients have to say about our services
 - template: images-1
   block: images-1
   background:
@@ -178,27 +178,27 @@ appointments:
   client_id: "307"
   client_name: The Big Guns
   services:
-    - Automobile Accidents
-    - Spinal Injuries
-    - Catastrophic Injuries
-    - Bicycle and Pedestrian Accidents
-    - Motorcycle Injuries
-    - Wrongful Death
-    - Insurance Bad Faith
-    - Dog Bites
-    - Federal Litigation
+  - Automobile Accidents
+  - Spinal Injuries
+  - Catastrophic Injuries
+  - Bicycle and Pedestrian Accidents
+  - Motorcycle Injuries
+  - Wrongful Death
+  - Insurance Bad Faith
+  - Dog Bites
+  - Federal Litigation
   hours:
-    - "[]"
-    - "[8, 18]"
-    - "[8, 18]"
-    - "[8, 18]"
-    - "[8, 18]"
-    - "[8, 18]"
-    - "[]"
+  - "[]"
+  - "[8, 18]"
+  - "[8, 18]"
+  - "[8, 18]"
+  - "[8, 18]"
+  - "[8, 18]"
+  - "[]"
 offer:
   heading: Cosmetic Consultation
   subheading: Includes full exam and x-rays
-  disclaimer: ""
+  disclaimer: ''
 site_title: The Big Guns
 google_analytics: GTM-WGKH7DD
 social:
