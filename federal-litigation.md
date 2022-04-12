@@ -135,33 +135,25 @@ blocks:
       We are always ready to pursue catastrophic injury claims, cases against interstate companies, and, of course, insurance bad faith litigation for our clients.
   - heading: What are some of the differences? Is federal litigation a bigger deal
       than state litigation?
-    content: "Federal cases are no less and no more important than state cases. They
-      differ in the following ways:\n\n* The available judges who will hear law and
-      motion issues\n* Different rules for discovery (the process where the parties
-      learn about the other's case)\n* Shorter deadlines, and post-COVID-19 restrictions,
-      can sometimes result in a faster trial date than our overburdened state courts. 
-      \n* The Ninth Circuit Court will typically hear any appeal of a decision from
-      the Federal Court of Appeals, but state court appeals in Nevada will be heard
-      by either the Court of Appeals or the Nevada Supreme Court. These different
-      appellate courts also have their own differences in rules (and yes, we have
-      done appellate work in both sets of appellate courts).\n\nFederal litigation,
-      particularly at trial, also relies on a different set of rules of evidence,
-      changing what can be presented to a jury. What's more, a Federal jury needs
-      to provide a unanimous verdict to avoid a hung jury, whereas a Nevada district
-      court jury need only reach 75% for one side or the other in civil matters. Law
-      and motion work tends to be stricter in federal court, with magistrate judges
-      hearing most pretrial and discovery motions instead of the trial judge who will
-      decide dispositive motions and most motions in limine.\n\nWe know how to litigate
-      matters in federal court as it can often provide an advantage both to the defendant
-      and to counsel well-versed in the venue. Further, we have actual trial experience
-      in California and Nevada Federal Courts."
+    content: |-
+      Federal cases are no less and no more important than state cases. They differ in the following ways:
+
+      * The available judges who will hear law and motion issues
+      * Different rules for discovery (the process where the parties learn about the other's case)
+      * Shorter deadlines, and post-COVID-19 restrictions, can sometimes result in a faster trial date than our overburdened state courts
+
+      The Ninth Circuit Court will typically hear any appeal of a decision from the Federal Court of Appeals, but state court appeals in Nevada will be heard by either the Court of Appeals or the Nevada Supreme Court. These different appellate courts also have their own differences in rules (and yes, we have done appellate work in both sets of appellate courts).
+
+      Federal litigation, particularly at trial, also relies on a different set of rules of evidence, changing what can be presented to a jury. What's more, a Federal jury needs to provide a unanimous verdict to avoid a hung jury, whereas a Nevada district court jury need only reach 75% for one side or the other in civil matters. Law and motion work tends to be stricter in federal court, with magistrate judges hearing most pretrial and discovery motions instead of the trial judge who will decide dispositive motions and most motions in limine.
+
+      We know how to litigate matters in Federal Court as it can often provide an advantage both to the defendant and to counsel well-versed in the venue. Further, we have actual trial experience in California and Nevada Federal Courts.
   - heading: Can you keep my case from being pulled into Federal Court?
     content: Maybe. If your case meets all of the criteria for federal diversity jurisdiction
       and defense counsel timely files their petition for removal to Federal Court,
       there is virtually no chance of preventing removal. Otherwise, there might be
       a chance. Since all cases are different and have many moving pieces, contact
       us to determine whether your case should be in state or Federal Court.
-  - heading: What other types of Federal Litigation do you handle?
+  - heading: What other types of federal litigation do you handle?
     content: There are several federal-question cases that we do not handle at this
       time- criminal matters, employment litigation based on federal statutes, ERISA
       claims from health insurance litigation, and environmental law claims. If you
