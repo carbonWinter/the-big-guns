@@ -180,12 +180,27 @@ blocks:
       severe. \n\nThe attorneys at The Big Guns can help you determine what the likely
       value of your case will be based on your injuries and treatment to date. Contact
       us today to discuss how we can help you with your bicycle accident."
-  - heading: Who pays for the attorney in a car accident?
-    content: With The Big Guns, you do not pay a dime until we win. Unlike some others,
-      we also do not deprive you of your ability, as a client, to decide on settlement
-      offers during the claim or any lawsuit that follows. We will advise you about
-      your options and provide you with our opinions and recommendations, but you
-      ultimately remain in control of your case's outcome.
+  - heading: What do you do after an injury to a bike?
+    content: |-
+      **1. Stay calm.** You might be angry or upset with the driver of the auto that hit your bicycle, but do not lose your cool.
+
+      **2. Admit nothing.** When speaking with the other driver(s), do not admit fault and do not make any statements about whether you are injured. People are often filled with adrenaline after an accident, and pain from the encounter may only set in hours after the event. Let the other side talk, and later take note of what they said.
+
+      **3. Save your fitness tracker data.** If you were using any sort of fitness tracker that also included mapping and other telemetry from your cycling, save the data immediately. This can help to reconstruct speed, direction, and possibly even the exact time and place of impact from the accident later.
+
+      **4. Obtain information.** Check to see if the registration, insurance, and names all match from the motorists’ information. If not, ask for clarification as to relationships.
+
+      **5. Take photos.** Take as many photographs of the scene, the car(s), your bicycle, and any nearby landmarks before any of them are moved. If the car had to be moved to allow you to get out, that is obviously a priority. Just take the photos where possible, or call a family member or friend to the scene to take the pictures for you. Save them to a location off of your phone after the accident so that they will not be lost, such as with Dropbox, OneDrive, Box, or iCloud. Be sure to get photos of the license plate, any debris on the ground from the accident, and pictures of all of the involved vehicles together in the same picture to show them relative to each other.
+
+      **6. Get names and contact info.** You will want the identities of any witnesses at the scene, including contact information. Also, be sure to note how many people were in each car.
+
+      **7. Call the police.** It is best to get them to document the incident where possible. Sometimes they will not respond to accident calls. If this happens, be sure to later turn in a report to the responsible police department with the information you need.
+
+      **8. Take notes.** Either write or record your impressions of the incident, including your observations regarding the other driver’s sobriety, their use of a phone, the facts as you recall them, and the like. This will help you later in remembering the details of what happened. A voice recorder or a note program on your smartphone, like Google Keep, Microsoft OneNote, Evernote, and others can help if you brought it on your ride.
+
+      **9. Check your insurance.** If your bike is not drivable from the scene, check your insurance policy to see if you have roadside assistance available.
+
+      **10. Contact us.** Call The Big Guns at 702-500-GUNS for powerful, aggressive representation for your bicycle accident.
   - heading: I already accepted a settlement from the insurance company! Is it too
       late to hire you?
     content: Maybe not. Nevada's NRS 10.185 allows a party without an attorney to
