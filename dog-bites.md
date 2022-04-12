@@ -170,7 +170,7 @@ blocks:
       out the value of your case and will do their best to maximize the compensation
       you can get from a dog bite. Contact The Big Guns today to discuss what your
       dog bite case might be worth.
-  - heading: What is a Level 4 dog bite? late to hire you?
+  - heading: What is a Level 4 dog bite?
     content: Dog bite level numbers come from Dr. Ian Dunbar's Dog Bite Scale, which
       is often circulated and employed by various dog trainer organizations. A Level
       4 bite, per the scale, indicates a dog bite where the depth of the bite punctures
@@ -182,7 +182,7 @@ blocks:
       so before. Beyond the scale, the types of injuries that are sustained in what
       would qualify as a Level 4 bite could result in infection, scarring, emotional
       trauma and distress, and more.
-  - heading: What is a Level 5 dog bite? late to hire you?
+  - heading: What is a Level 5 dog bite?
     content: Dog bite level numbers come from Dr. Ian Dunbar's Dog Bite Scale, which
       is often circulated and employed by various dog trainer organizations. A Level
       5 bite, per the scale, is indicative of multiple dog bites in a single incident,
