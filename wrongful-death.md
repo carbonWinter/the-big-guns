@@ -59,7 +59,7 @@ blocks:
   superheading: "// The Big Guns are ready to work for you in Las Vegas, NV "
   heading: Wrongful Death Lawsuit
   text: Our injury attorneys have the knowledge and experience necessary to help you
-    recover what you and your lost loved one are entitled to.
+    recover what you and your lost loved one are entitled to
   content: |-
     If you have lost someone important in your life in a traumatic and unexpected way due to another person's willful or negligent acts, you likely have a wrongful death case. It is important to find an attorney who understands the law's intricacies and will know how to help you through this difficult time. Wrongful death cases are far more complicated than normal injury cases and require significant upfront decisions and attention to detail.
 
@@ -81,7 +81,7 @@ blocks:
   overlay_size: center
   heading: We Are Ready To Help You
   text: If you've lost someone due to wrongful death, it's time to bring out The Big
-    Guns.
+    Guns
   superheading: ''
   button:
     text: Case Quote Calculator
