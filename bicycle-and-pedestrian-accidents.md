@@ -201,11 +201,10 @@ blocks:
       **9. Check your insurance.** If your bike is not drivable from the scene, check your insurance policy to see if you have roadside assistance available.
 
       **10. Contact us.** Call The Big Guns at 702-500-GUNS for powerful, aggressive representation for your bicycle accident.
-  - heading: I already accepted a settlement from the insurance company! Is it too
-      late to hire you?
-    content: Maybe not. Nevada's NRS 10.185 allows a party without an attorney to
-      void the settlement by following specific procedures within a specific amount
-      of time. Contact The Big Guns, auto accident lawyer, as soon as possible to
-      see if we can help you get a bigger recovery than what you previously accepted.
+  - heading: Can a cyclist be at fault?
+    content: |-
+      Yes, a cyclist can be at fault for an accident. Much as people have mistaken notions that pedestrians always have the right of way, bicyclists are not exempt from following traffic laws and common sense when riding their bicycles along with motor vehicle traffic. Nevada law follows a “modified comparative negligence” standard, which means that a party more than fifty percent at fault for an accident cannot recover damages for the same. When determining the percentage of liability is a close call, you can be sure that the other driver’s liability insurance company (or your own, if you made a claim for uninsured motorist liability from the accident) will do its best to present evidence to make it appear that you were more at fault.
+
+      The attorneys at The Big Guns know how to fight issues of liability in bicycle accidents, having done so many times over the decades. Though the facts of each case are unique, there are common patterns of attack that good quality defense counsel and insurers will employ to mitigate their own exposure to loss. We know them because we have used them, time and again. And we know how to defeat them. Contact us today for a free consultation.
 
 ---
