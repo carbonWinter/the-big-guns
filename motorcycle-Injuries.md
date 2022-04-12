@@ -168,10 +168,24 @@ blocks:
       But if you were injured, it is almost always to your advantage to retain an attorney for your claim early on.  Accident victims who retain counsel generally obtain higher settlements from injury claims than those who do not by a wide margin, and they can help alleviate your stress and workload following an accident by providing responses to the other side’s insurance company’s requests for you.  
       Contact The Big Guns today to see if you should hire an attorney for your claim.  Consulting with us is free, and we’ll help you figure out what works best for you, even if that answer is not hiring an attorney.
   - heading: How long does it take to settle a motorcycle accident?
-    content: |-
-      The length of time to settle a claim from a motorcycle accident depends on even more factors than determining its value.  Aside from the questions of liability and value as discussed above, the existence of a valid liability policy held by the at-faul driver will influence settlement.  If there is such a policy, the other insurance carrier may require varying degrees of proof of your injuries and treatment, the damage to your motorcycle, and it might seek additional information from you about how the accident took place.  Other factors will include the ratio of your claimed damages to the size of their policy limit, the identification of independent witness (and who they favor), and the amount of time that you spend treating for your injuries.  
-      On top of this, if either the other driver did not have a valid policy or if it was not enough to cover all of your damages, and depending on what coverage you have available, you might need to present an uninsured/underinsured motorist claim.  This can entail providing the same information about treatment, but may have additional requirements that you will have to comply with, such as a request for a medical examination or an examination under oath.  
-      The Big Guns has extensive experience with these types of claims, and we will do all that we can to present your claims in a manner that speeds the process along. 
+    content: The length of time to settle a claim from a motorcycle accident depends
+      on even more factors than determining its value.  Aside from the questions of
+      liability and value as discussed above, the existence of a valid liability policy
+      held by the at-fault driver will influence settlement.  If there is such a policy,
+      the other insurance carrier may require varying degrees of proof of your injuries
+      and treatment, the damage to your motorcycle, and it might seek additional information
+      from you about how the accident took place.  Other factors will include the
+      ratio of your claimed damages to the size of their policy limit, the identification
+      of independent witness (and who they favor), and the amount of time that you
+      spend treating for your injuries.   On top of this, if either the other driver
+      did not have a valid policy or if it was not enough to cover all of your damages,
+      and depending on what coverage you have available, you might need to present
+      an uninsured/underinsured motorist claim.  This can entail providing the same
+      information about treatment, but may have additional requirements that you will
+      have to comply with, such as a request for a medical examination or an examination
+      under oath.   The Big Guns has extensive experience with these types of claims,
+      and we will do all that we can to present your claims in a manner that speeds
+      the process along.
   - heading: What should I do if I crash my motorcycle?
     content: |-
       1. Stay calm.  You might be angry or upset with the other driver, but do not lose your cool.  Now is not the time to prove your case, nor to express your anger with the other driver.  
