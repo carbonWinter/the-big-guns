@@ -58,7 +58,7 @@ blocks:
   columns: '1'
   superheading: "// The Big Guns Car Crash Law Firm"
   heading: Attorney For Auto Accident
-  text: Get The Best Car Wreck Attorney For Your Case In Las Vegas, NV
+  text: Get the best car wreck attorney for your case in Las Vegas, NV
   content: |-
     A car accident can be a major disruption in anyone's life, but it is even worse when it results in an injury. It is almost always worth hiring a lawyer to represent you for a car accident for many reasons. The nature of your injuries, the types of treatment that are actually effective, how to negotiate with the insurer of the at-fault driver, and even negotiating the replacement or repairs to your car are all issues that take additional time and expertise to understand and process effectively. Insurers know this, and they often seek to make the situation "easy" for claimants by making extraordinarily low offers while you try to deal with the disruption caused by their client.
 
