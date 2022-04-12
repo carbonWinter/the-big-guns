@@ -147,10 +147,10 @@ blocks:
       We know how to litigate matters in federal court as it can often provide an advantage both to the defendant and to counsel well-versed in the venue. Further, we have actual trial experience in California and Nevada federal courts."
   - heading: Can you keep my case from being pulled into Federal Court?
     content: Maybe. If your case meets all of the criteria for federal diversity jurisdiction
-      and defense counsel timely files their petition for removal to federal court,
+      and defense counsel timely files their petition for removal to Federal Court,
       there is virtually no chance of preventing removal. Otherwise, there might be
       a chance. Since all cases are different and have many moving pieces, contact
-      us to determine whether your case should be in state or federal court.
+      us to determine whether your case should be in state or Federal Court.
   - heading: What other types of Federal Litigation do you handle?
     content: There are several federal-question cases that we do not handle at this
       time- criminal matters, employment litigation based on federal statutes, ERISA
