@@ -188,22 +188,14 @@ blocks:
       the process along."
   - heading: What should I do if I crash my motorcycle?
     content: |-
-      1. Stay calm.  You might be angry or upset with the other driver, but do not lose your cool.  Now is not the time to prove your case, nor to express your anger with the other driver.  
-
-      2. Admit nothing.  When speaking with the other driver(s), do not admit fault and do not make any statements about whether you are injured.  People are often filled with adrenaline after an accident, and pain from the encounter may only set in hours after the event.  Let the other side talk, and later take note of what they said.
-
-      3. Exchange information.  Check to see if the registration, insurance, and names all match.  If not, ask for clarification as to relationships.  
-
-      4. Photos!  Take as many photographs of the scene and the vehicles involved as you can.  Save them to a location off of your phone after the accident so that they will not be lost, such as with dropbox, onedrive, box, or icloud.  Be sure to get photos of the license plate, any debris on the ground from the accident, and pictures of all of the involved cars together in the same picture to show them relative to each other.  
-
-      5. Get names and contact info.  You will want the identities of any witnesses at the scene, including contact information.  Also, be sure to note how many people were in each car.
-
-      6. Call the police.  It is best to get them to document the incident where possible.  Sometimes they will not respond to motor vehicle accident calls.  If this happens, be sure to later turn in a report to the responsible police department with the information you need.  
-
-      7. Take Notes.  Either write or record your impressions of the incident, including your observations regarding the other driver’s sobriety, their use of a phone, the facts as you recall them, and the like.  This will help you later in remembering the details of what happened.  A voice recorder or a note program on your smartphone, like Google Keep, Microsoft Onenote, Evernote, and others can help if you do not have a pad and pen handy.  
-
-      8. Check your insurance.  If your motorcycle is not drivable from the scene, check your insurance policy to see if you have roadside assistance, including towing, available.  
-
-      9. Call The Big Guns at 702-500-GUNS for powerful, aggressive representation for your motorcycle accident. 
+      1. **Stay calm.** You might be angry or upset with the other driver, but do not lose your cool. Now is not the time to prove your case, nor to express your anger with the other driver.
+      2. **Admit nothing.** When speaking with the other driver(s), do not admit fault and do not make any statements about whether you are injured. People are often filled with adrenaline after an accident, and pain from the encounter may only set in hours after the event. Let the other side talk, and later take note of what they said.
+      3. **Exchange information.** Check to see if the registration, insurance, and names all match. If not, ask for clarification as to relationships.
+      4. **Take photos.** Take as many photographs of the scene and the vehicles involved as you can. Save them to a location off of your phone after the accident so that they will not be lost, such as with Dropbox, OneDrive, Box, or iCloud. Be sure to get photos of the license plate, any debris on the ground from the accident, and pictures of all of the involved cars together in the same picture to show them relative to each other.
+      5. **Get names and contact info.** You will want the identities of any witnesses at the scene, including contact information. Also, be sure to note how many people were in each car.
+      6. **Call the police.** It is best to get them to document the incident where possible. Sometimes they will not respond to motor vehicle accident calls. If this happens, be sure to later turn in a report to the responsible police department with the information you need.
+      7. **Take notes.** Either write or record your impressions of the incident, including your observations regarding the other driver’s sobriety, their use of a phone, the facts as you recall them, and the like. This will help you later in remembering the details of what happened. A voice recorder or a note program on your smartphone, like Google Keep, Microsoft OneNote, Evernote, and others can help if you do not have a pad and pen handy.
+      8. **Check your insurance.**  If your motorcycle is not drivable from the scene, check your insurance policy to see if you have roadside assistance available, including towing.
+      9. **Contact us.** Call The Big Guns at 702-500-GUNS for powerful, aggressive representation for your motorcycle accident.
 
 ---
