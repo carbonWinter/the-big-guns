@@ -23,7 +23,7 @@
         {% for video in block.videos %}
           <div>
             <video class="uk-width-1-1" playsinline controls>
-              <source src="{% if video contains 'http' %}{{ video }}{% else %}{{ video | absolute_url }}{% endif %}" type="video/mp4">
+              <source src="{% if video.video contains 'http' %}{{ video }}{% else %}{{ video.video | absolute_url }}{% endif %}" type="video/mp4">
             </video>
           </div>
         {% endfor %}
