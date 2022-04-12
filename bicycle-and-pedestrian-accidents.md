@@ -1,10 +1,13 @@
 ---
 layout: blocks
-title: Bicycle and Pedestrian Accidents 
+title: Bicycle and Pedestrian Accidents
 seo_title: ''
 permalink: "/las-vegas-nv/bicycle-and-pedestrian-accidents/"
 description: ''
-keywords: bike accident lawyers las vegas, bike accident lawyers, lawyer for bicycle accident, cycling injury attorney, personal injury bicycle accident, bicycle injury law, bicycle accident lawyer near me, how much compensation will I get for a bike accident?
+keywords: bike accident lawyers las vegas, bike accident lawyers, lawyer for bicycle
+  accident, cycling injury attorney, personal injury bicycle accident, bicycle injury
+  law, bicycle accident lawyer near me, how much compensation will I get for a bike
+  accident?
 header:
   height: viewport
   background:
@@ -56,13 +59,14 @@ blocks:
   columns: '1'
   superheading: "// The Big Guns, Bike Accident Lawyers Las vegas"
   heading: Cyclist Or Pedestrian Injured By A Car
-  text: You need a great bicycle accident lawyer near you to help you get the compensation you deserve 
+  text: You need a great bicycle accident lawyer near you to help you get the compensation
+    you deserve
   content: |-
     Bicycle and pedestrian accidents can occur at any time. You can be crossing the street to catch a bus, trying to maneuver your way through a traffic jam, or simply minding your own business in the bike lane of a busy road. All it takes is one distracted person, in a hurry, or not paying enough attention to make sure their path is clear before they hit you with that big metal box they're driving.
 
     This danger is vast compared to a car because you don't have the same protective cage around you, and you're smaller and harder to see. Let's face it – distracted drivers are an increasing problem on the road these days, and practically every interaction with a car is nerve-wracking. As a pedestrian, you don't wear protective gear, and even a world-class bicycle helmet can only do so much when your life is forever changed by an accident.
 
-    As a result, the injuries suffered when you're hit by a car while walking or riding a bike are more severe – even catastrophic – when compared to those from an automobile accident. Anyone hit by a car knows they were lucky if they escaped with only bruises and road rash. Many suffer broken bones, dislocated joints, or spinal and head injuries. These injuries can lead to months or years of pain that require extensive rehab, injections, or surgery. Even after all this, the pain often never seems to go away entirely. Some injuries can result in paralysis and even death, leaving your loved ones without the companionship and support they need from you. If you have experienced a personal injury bicycle accident, you need The Big Guns. Call us at (702) 500-GUNS for a free no-obligation consultation. 
+    As a result, the injuries suffered when you're hit by a car while walking or riding a bike are more severe – even catastrophic – when compared to those from an automobile accident. Anyone hit by a car knows they were lucky if they escaped with only bruises and road rash. Many suffer broken bones, dislocated joints, or spinal and head injuries. These injuries can lead to months or years of pain that require extensive rehab, injections, or surgery. Even after all this, the pain often never seems to go away entirely. Some injuries can result in paralysis and even death, leaving your loved ones without the companionship and support they need from you. If you have experienced a personal injury bicycle accident, you need The Big Guns. Call us for a free no-obligation consultation.
   lists: []
 - template: cta-1
   block: cta-1
@@ -77,15 +81,20 @@ blocks:
       opacity: '0.65'
   overlay_size: center
   heading: We Are Ready To Help You
-  text: Looking for a great cycling injury attorney? It's time to bring out The Big Guns
+  text: Looking for a great cycling injury attorney? It's time to bring out The Big
+    Guns
   superheading: ''
   button:
     text: Case Quote Calculator
     url: ''
     blank: false
-  image: ""
-  content: 
-    The Big Guns is a team of actual trial lawyers who have been representing insurance companies and their insureds for over a decade. Now representing people injured in accidents, we bring our skills and experience to maximize your settlement or award after a crash. Our team is responsive, focused on client satisfaction, and you can rest assured that the personal injury attorneys assigned to your case will be available. Schedule a free consultation today!
+  image: ''
+  content: The Big Guns is a team of actual trial lawyers who have been representing
+    insurance companies and their insureds for over a decade. Now representing people
+    injured in accidents, we bring our skills and experience to maximize your settlement
+    or award after a crash. Our team is responsive, focused on client satisfaction,
+    and you can rest assured that the personal injury attorneys assigned to your case
+    will be available. Schedule a free consultation today!
   appointment_button: true
   section: ''
 - template: text-1
@@ -101,9 +110,9 @@ blocks:
   color: dark
   align: left
   columns: '2'
-  superheading: '// Lawyer For Bicycle Accident Las Vegas '
+  superheading: "// Lawyer For Bicycle Accident Las Vegas "
   heading: How Can The Big Guns Help You?
-  text: Our Team Is Ready To Fight For You And Get You The Compensation You Deserve 
+  text: Our Team Is Ready To Fight For You And Get You The Compensation You Deserve
   content: |-
     Every pedestrian or bicycle injury case The Big Guns handle is fully prepared so that the present and future needs of the injured are considered medically and financially.  From the beginning, we fully assess each case and consult as needed with medical experts chosen for their ability to analyze and persuasively document their findings with respect to liability and damages that will arise in your case.  We consult recognized experts tailored to each case, including healthcare, medicine, life care planning, and economics to maximize your compensation.
 
