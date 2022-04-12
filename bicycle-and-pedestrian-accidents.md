@@ -145,10 +145,25 @@ blocks:
   heading: Frequently Asked Questions
   text: 
   faqs:
-  - heading: Is it worth hiring an attorney for a car accident?
-    content: The short answer to this is "yes." Hiring a good lawyer for car accidents
-      has been consistently shown via statistics to result in higher recoveries for
-      injured car accident victims.
+  - heading: Can you sue someone for hitting you on a bike?
+    content: "If you were not at fault for the accident and you suffered injuries
+      as a result, yes, you can sue someone for hitting you on a bike. An auto versus
+      bicycle accident is no different from a typical auto versus auto accident save
+      for the types of injuries sustained, the scope of property damage incurred,
+      and the analysis of factors that gave rise to the accident itself. Beyond the
+      legal analysis, there are also numerous other situational factors that should
+      be considered in light of what a prospective jury would consider when hearing
+      the case. The attitudes of the community toward bicyclists plays a role, as
+      well as common perceptions of fault and the behavior of cyclists and motorists
+      on the highways will influence, rightly or wrongly, how a juror may be predisposed
+      to consider liability. \n\nExpert retention can be more important than usual,
+      particularly as it relates to human factors relating to visibility. This is
+      different from an accident reconstructionist, and it is focused more on how
+      people typically react to different circumstances that gave rise to the accident
+      itself. Experienced attorneys, like the ones at The Big Guns, can help figure
+      out the numerous factors that need to be balanced to determine whether you can,
+      or even should, file suit for your bicycle accident. Contact The Big Guns today
+      for a free evaluation."
   - heading: When should you get a lawyer for a car accident?
     content: Right away! Insurers often look to settle personal injury claims within
       the first few days after an accident, typically via a fast offer of a few thousand
