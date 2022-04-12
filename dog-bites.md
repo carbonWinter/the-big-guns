@@ -111,12 +111,27 @@ blocks:
   superheading: "// Las Vegas, NV Animal Bite Attorney "
   heading: What Does Nevada Law Say About Dog Bite Cases?
   text: The Big Guns explain the specifics of the dog bite laws in the state of Nevada
-  content: |-
-    Nevada law is not as certain as other jurisdictions that have statutes that govern what is required for liability from a dog bite. Various Nevada cases interpreting the standards to employ in dog bite cases do not generally afford the ""one bite"" laws that are found in other jurisdictions. The rule generally excuses a dog owner's liability for the first time that a dog actually bites a person. Yet Nevada appears to follow the rules adopted in other states that tend to require the dog owner either knows or should have known that their dog had vicious tendencies before the bite to impose liability on a theory of negligence. This generally will not include whether a dog gets into fights with other dogs or whether the dog tends to bark at passers-by, but would include knowledge of actual bites, intended bites, particularly vicious or vehement behavior toward others, cornering persons, and the like.  
-
-    Complicating matters, the owner of property on which the dog is held may also be liable as well under certain circumstances. This generally requires more than mere knowledge of the dog's vicious tendencies, but also acts that the landowner engaged in to safeguard others from the dog. This is a common occurrence where the dog bite takes place in a multifamily residential development, near or on a commercial property, and in any other situation where the dog bite incident location is somewhere other than the dog owner's personal, self-owned residence.
-
-    In other words, it is very situational as to who might be liable for your dog bite case. Contact The Big Guns today so we can help you figure out your rights under Nevada law for your dog bite case.
+  content: "Nevada law is not as certain as other jurisdictions that have statutes
+    that govern what is required for liability from a dog bite. Various Nevada cases
+    interpreting the standards to employ in dog bite cases do not generally afford
+    the \"one bite\" laws that are found in other jurisdictions. The rule generally
+    excuses a dog owner's liability for the first time that a dog actually bites a
+    person. Yet Nevada appears to follow the rules adopted in other states that tend
+    to require the dog owner either knows or should have known that their dog had
+    vicious tendencies before the bite to impose liability on a theory of negligence.
+    This generally will not include whether a dog gets into fights with other dogs
+    or whether the dog tends to bark at passers-by, but would include knowledge of
+    actual bites, intended bites, particularly vicious or vehement behavior toward
+    others, cornering persons, and the like. \n\nComplicating matters, the owner of
+    property on which the dog is held may also be liable as well under certain circumstances.
+    This generally requires more than mere knowledge of the dog's vicious tendencies,
+    but also acts that the landowner engaged in to safeguard others from the dog.
+    This is a common occurrence where the dog bite takes place in a multifamily residential
+    development, near or on a commercial property, and in any other situation where
+    the dog bite incident location is somewhere other than the dog owner's personal,
+    self-owned residence. \n\nIn other words, it is very situational as to who might
+    be liable for your dog bite case. Contact The Big Guns today so we can help you
+    figure out your rights under Nevada law for your dog bite case."
   lists: []
 - template: video-2
   block: video-2
