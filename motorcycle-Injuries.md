@@ -144,9 +144,24 @@ blocks:
   text: 
   faqs:
   - heading: How much is a motorcycle accident case worth?
-    content: |-
-      The value of a motorcycle accident depends entirely on the facts of the accident, the cost of your treatment, and the long term effects it had on your life.  The first question is always one of liability, and that is determining the degree of fault of the parties involved in an accident.  Beyond this, the cost of your medical treatment factors in as special damages, as well as any other associated out of pocket expenses that you had to pay as a result of the accident.  In addition to this are the general damages for things that are harder to quantify, such as pain and suffering, emotional distress, and other bases for recovery against the at-fault motorist.  Depending on the facts of the case, there may also be a basis to pursue punitive damages  that multiply these figures for a new award that is significantly higher.  
-      Due to the variability of all of these factors, it is often difficult to calculate a proper value for your case, either before filing suit and even after.  The attorneys at The Big Guns have been a go-to source for such calculations and evaluations by numerous insurance companies, and have defended at-fault drivers from such claims in the past.  Turning now to the otherside, The Big Guns brings its extensive experience in such cases to help those who have been injured in motorcycle accidents.  Contact us today to have your case evaluated.
+    content: The value of a motorcycle accident depends entirely on the facts of the
+      accident, the cost of your treatment, and the long term effects it had on your
+      life. The first question is always one of liability, and that is determining
+      the degree of fault of the parties involved in an accident. Beyond this, the
+      cost of your medical treatment factors in as special damages, as well as any
+      other associated out of pocket expenses that you had to pay as a result of the
+      accident. In addition to this are the general damages for things that are harder
+      to quantify, such as pain and suffering, emotional distress, and other bases
+      for recovery against the at-fault motorist. Depending on the facts of the case,
+      there may also be a basis to pursue punitive damages that multiply these figures
+      for a new award that is significantly higher. Due to the variability of all
+      of these factors, it is often difficult to calculate a proper value for your
+      case, either before filing suit and even after. The attorneys at The Big Guns
+      have been a go-to source for such calculations and evaluations by numerous insurance
+      companies, and have defended at-fault drivers from such claims in the past. 
+      Turning now to the otherside, The Big Guns brings its extensive experience in
+      such cases to help those who have been injured in motorcycle accidents. Contact
+      us today to have your case evaluated.
   - heading: Is it worth getting an accident lawyer?
     content: |-
       Almost every time, yes.  There are some instances where getting an accident lawyer will not really do much for you.  Typically this is where you have not been injured in the accident, there is no dispute about liability, and the other insurance company is going to take care of your property damage claim without any true hassle.  If this is the case, you probably would not benefit from hiring a lawyer.
