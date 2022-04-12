@@ -28,67 +28,38 @@ blocks:
     url: ''
     blank: false
   videos:
-  - video: "/uploads/xxx.mp4"
-  - video: "/uploads/xxx.mp4"
+  - video: "/uploads/get_the_most.mp4"
+  - video: "/uploads/being_lawyer.mp4"
 - template: contact-2
   block: contact-2
   background:
     color: dark
     overlay:
-      opacity: '0.7'
-      color: ''
-    image: ''
-    video: ''
-  superheading: ''
+      opacity: "0.7"
+      color: ""
+    image: ""
+    video: ""
+  superheading: ""
   heading: Book Online today
   align: center
   color: light
   hours:
     heading: OFFICE HOURS
     hours:
-    - Monday - Friday 8am - 5pm
-    - Saturday Closed
-    - Sunday Closed
+      - Monday - Friday 8am - 5pm
+      - Saturday Closed
+      - Sunday Closed
   appointment:
     heading: Click to schedule or call now
     appointment_button: true
     button:
-      text: Case Quote Calculator
+      text: ""
       url: ""
       blank: false
-    videos:
-      - video: "/uploads/xxx.mp4"
-      - video: "/uploads/xxx.mp4"
-  - template: contact-2
-    block: contact-2
-    background:
-      color: dark
-      overlay:
-        opacity: "0.7"
-        color: ""
-      image: ""
-      video: ""
-    superheading: ""
-    heading: Book Online today
-    align: center
-    color: light
-    hours:
-      heading: OFFICE HOURS
-      hours:
-        - Monday - Friday 8am - 5pm
-        - Saturday Closed
-        - Sunday Closed
-    appointment:
-      heading: Click to schedule or call now
-      appointment_button: true
-      button:
-        text: ""
-        url: ""
-        blank: false
-    address:
-      heading: LOCATION
-      address: |-
-        4045 Spencer Street, Suite A47
+  address:
+    heading: LOCATION
+    address: |-
+      4045 Spencer Street, Suite A47
 
       Las Vegas, NV 89119
 - template: map-image
