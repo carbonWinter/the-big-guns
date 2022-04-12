@@ -30,29 +30,6 @@ blocks:
   videos:
   - video: "/uploads/xxx.mp4"
   - video: "/uploads/xxx.mp4"
-- template: slider-2
-  block: slider-2
-  slides:
-  - https://via.placeholder.com/1800x800
-  - https://via.placeholder.com/1800x800
-  - https://via.placeholder.com/1800x800
-  - https://via.placeholder.com/1800x800
-  - https://via.placeholder.com/1800x800
-  - https://via.placeholder.com/1800x800
-  - https://via.placeholder.com/1800x800
-  - https://via.placeholder.com/1800x800
-  background:
-    color: dark
-    image: ''
-    video: ''
-    overlay:
-      opacity: 0.1
-      color: ''
-  superheading: ''
-  heading: Virtual office tour
-  text: ''
-  color: light
-  align: center
 - template: contact-2
   block: contact-2
   background:
