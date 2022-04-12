@@ -112,7 +112,7 @@ blocks:
   columns: '2'
   superheading: "// Lawyer For Bicycle Accident Las Vegas "
   heading: How Can The Big Guns Help You?
-  text: Our Team Is Ready To Fight For You And Get You The Compensation You Deserve
+  text: Our team is ready to fight for you and get you the compensation you deserve
   content: |-
     Every pedestrian or bicycle injury case The Big Guns handle is fully prepared so that the present and future needs of the injured are considered medically and financially.  From the beginning, we fully assess each case and consult as needed with medical experts chosen for their ability to analyze and persuasively document their findings with respect to liability and damages that will arise in your case.  We consult recognized experts tailored to each case, including healthcare, medicine, life care planning, and economics to maximize your compensation.
 
