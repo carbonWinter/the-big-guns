@@ -57,8 +57,8 @@ blocks:
   columns: '1'
   superheading: "// Dog Bite Law Firm And Child Dog Bite Lawyer Las Vegas"
   heading: The Right Team
-  text: The Big Guns Animal Bite Attorneys Have The Knowledge And Experience To Get
-    The Compensation You Deserve
+  text: The Big Guns animal bite attorneys have the knowledge and experience to get
+    the compensation you deserve
   content: |-
     Dog bite cases can be some of the most traumatic types of personal injury claims. The injuries are usually fraught with scarring, are likely to get severely infected, and invariably turn much more heavily on questions of who is at fault than one might expect. Coupled with the emotional nature of the incident on both sides of such claims makes for an often protracted, hard-fought claim.
 
@@ -88,7 +88,7 @@ blocks:
     text: Case Quote Calculator
     url: ''
     blank: false
-  image: ""
+  image: ''
   content: We will work with you to make the process as easy as possible, managing
     all aspects to maximize your recovery. You can rest assured that you will receive
     skilled, aggressive representation in your case. Schedule a free consultation
