@@ -321,10 +321,6 @@
         // Connect form with the office email
         const formData = new FormData(frm);
 
-        for(const [key, value] of formData.entries()) {
-          console.log(key, value);
-        }
-
         $.ajax({
           url: "https://formspree.io/f/mzbojrlz",
           method: "POST",
