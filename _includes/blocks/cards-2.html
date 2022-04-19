@@ -25,16 +25,16 @@
     {% for card in block.cards %}
       {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
       <div id="block-offset-{{ forloop.index }}" class="uk-flex uk-flex-middle uk-grid-large uk-child-width-1-2@m uk-{{ block.color | default: 'dark' }}" data-uk-grid>
+        <div class="uk-text-center{% if thecycle == 'even' %} uk-flex-last@m{% endif %}">
+          {% if card.image != empty %}
+            <img class="uk-pingpong-1-image" data-src="{% if card.image contains 'http' %}{{ card.image }}{% else %}{{ card.image | absolute_url }}{% endif %}" data-width data-height src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-uk-img alt="{{ card.heading }}">
+          {% endif %}
+        </div>
         <div>
           <h3 class="uk-h2 uk-margin-remove">{{ card.heading }}</h3>
           {% if card.text != empty %}
             <div class="uk-margin-top uk-text-content">{{ card.text | markdownify }}</div>
           {% endif %}          
-        </div>
-        <div class="uk-text-center{% if thecycle == 'odd' %} uk-flex-first@m{% endif %}">
-          {% if card.image != empty %}
-            <img class="uk-pingpong-1-image" data-src="{% if card.image contains 'http' %}{{ card.image }}{% else %}{{ card.image | absolute_url }}{% endif %}" data-width data-height src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-uk-img alt="{{ card.heading }}">
-          {% endif %}
         </div>
       </div>
     {% endfor %}
