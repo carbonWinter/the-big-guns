@@ -22,8 +22,8 @@
       <div class="uk-child-width-1-2@m uk-flex-center" data-uk-grid>
         {% for video in block.videos %}
           <div>
-            <video class="uk-width-1-1" playsinline controls>
-              <source src="{% if video.video contains 'http' %}{{ video }}{% else %}{{ video.video | absolute_url }}{% endif %}" type="video/mp4">
+            <video class="uk-width-1-1" playsinline controls poster="{{ video.image | absolute_url }}">
+              <source src="{% if video.url contains 'http' %}{{ video }}{% else %}{{ video.url | absolute_url }}{% endif %}" type="video/mp4">
             </video>
           </div>
         {% endfor %}

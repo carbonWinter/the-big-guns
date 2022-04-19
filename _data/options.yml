@@ -28,8 +28,10 @@ blocks:
     url: ''
     blank: false
   videos:
-  - video: "/uploads/get_the_most.mp4"
-  - video: "/uploads/being_lawyer.mp4"
+    - url: "/uploads/get_the_most.mp4"
+      image: /uploads/get_the_most.jpg
+    - url: "/uploads/being_lawyer.mp4"
+      image: /uploads/being_lawyer.jpg
 - template: contact-2
   block: contact-2
   background:
