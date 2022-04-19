@@ -417,4 +417,10 @@
     font-size: 1.125rem
   }
 
+  @media (max-width: $breakpoint-small) {
+    .uk-heading-large {
+      font-size: 3.125rem;
+    }
+  }
+
 }
