@@ -1,11 +1,13 @@
 ---
 layout: blocks
 title: Dog Bites
-seo_title: ''
+seo_title: Dog Bite Law Firm in Las Vegas, NV | Dog Bite Injury Attorneys | The Big
+  Guns
 permalink: "/las-vegas-nv/dog-bites/"
-description: ''
-keywords: dog bite law firm las vegas, dog bite law firm, dog attack attorney, child
-  dog bite lawyer, animal bite attorney
+description: 'The Dog Bite Attorneys at The Big Guns are an experienced firm helping
+  you locally in Las Vegas if you or someone you know has been injured by a dog bite. '
+keywords: dog bite law firm las vegas,dog attack attorney, child dog bite lawyer,
+  animal bite attorney,dog bite law firm,dog bite attorneys,dog bite injury attorney
 header:
   height: viewport
   background:
