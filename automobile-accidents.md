@@ -1,12 +1,14 @@
 ---
 layout: blocks
 title: Car Accident
-seo_title: ''
+seo_title: Car Accident Lawer in Las Vegas, NV | Auto Accident Attorney | The Big
+  Guns
 permalink: "/las-vegas-nv/automobile-accidents/"
-description: ''
-keywords: car accident lawyer las vegas, car accident lawyer, attorney for auto accident,
-  car crash law firm, auto crash lawyer, good lawyer for car accident, best car wreck
-  attorney, good car accident lawyers, auto accident lawyer, local auto accident lawyers
+description: 'Yes, even after a small vehicle accident, you should hire a lawyer.
+  Our expert car accident injury lawyers. will fight to ensure that you receive the
+  compensation that you are entitled to. '
+keywords: car accident lawyer near me,car accident injury lawyer,auto accident lawyer
+  las vegas
 header:
   height: viewport
   background:
