@@ -1,11 +1,13 @@
 ---
 layout: blocks
 title: Federal Litigation
-seo_title: ''
+seo_title: Federal Civil Litigation Attorneys in Las Vegas, NV | The Big Guns
 permalink: "/las-vegas-nv/federal-litigation/"
-description: ''
-keywords: federal lawyer las vegas, federal lawyer, federal litigation, federal civil
-  attorney, federal civil attorney near me
+description: Our skilled federal litigation attorneys at The Big Guns can help you
+  collect the money you deserve. For further information, please contact us.
+keywords: 'federal lawyer las vegas, federal lawyer, federal litigation, federal civil
+  attorney, federal civil attorney near me,federal civil litigation attorney,federal
+  litigation attorney '
 header:
   height: viewport
   background:
