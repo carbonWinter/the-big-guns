@@ -1,12 +1,13 @@
 ---
 layout: blocks
 title: Wrongful Death
-seo_title: ''
+seo_title: Wrongful Death Lawsuit | Death Attorneys in Las Vegas, NV | The Big Guns
 permalink: "/las-vegas-nv/wrongful-death/"
-description: ''
-keywords: wrongful death las vegas, wrongful death, definition wrongful death, accidental
-  death lawyer, wrongful death lawsuit, attorney for wrongful death, wrongful death
-  attorney
+description: Wrongful death law firm The Big Guns will battle for you and your family
+  to receive fair and just recompense for a loved one's death. For further information,
+  please contact us.
+keywords: wrongful death lawsuit,wrongful death law firm,wrongful death attorneys,las
+  vegas wrongful death attorney
 header:
   height: viewport
   background:
