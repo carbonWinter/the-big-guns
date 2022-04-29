@@ -23,10 +23,12 @@ header:
     text: ''
   page_navigation: []
 title: Home
-seo_title: ''
-description: ''
+seo_title: Personal Injury Lawyers in Las Vegas, NV | The Big Guns
+description: The Big Guns' top Las Vegas personal injury lawyers are committed to
+  providing you with the legal representation you require to recover.
 keywords: personal injury lawyer las vegas, personal injury lawyer, personal injury
-  attorney, personal injury lawyer near me, accident lawyer, accident attorney
+  attorney, personal injury lawyer near me, accident lawyer, personal injury law attorneys,
+  personal injury law firms near me,las vegas personal injury attorney law firm
 sticky_cta: false
 offer:
   heading: ''
