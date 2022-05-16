@@ -116,7 +116,7 @@ blocks:
     superheading: ""
     heading: What Should I Do If I've Been In An Accident?
     text: ""
-    content: |2-
+    content: |-
      1. **Stay calm.** You might be angry or upset with the other driver, but do not lose your cool. Now is not the time to prove your case, nor to express your anger with the other driver.
      2. **Save the video.** If you had a dashcam active, be sure that you do what you need to do to ensure that it saves the video footage of the accident. Keep the camera safe. Note whether the other driver's car also had a dashcam.
      3. **Admit nothing.** When speaking with the other driver, do not admit fault and do not make any statements about whether you are injured. People are often filled with adrenaline after an accident, and pain from the encounter may only set in hours after the event. Let the other side talk, and later take note of what they said.
