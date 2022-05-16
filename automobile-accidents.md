@@ -151,7 +151,7 @@ blocks:
     faqs:
       - heading: Is it worth hiring an attorney for a car accident?
         content:
-          The short answer to this is "yes." Hiring a good lawyer for car accidents
+          The short answer to this is yes. Hiring a good lawyer for car accidents
           has been consistently shown via statistics to result in higher recoveries for
           injured car accident victims.
       - heading: When should you get a lawyer for a car accident?
