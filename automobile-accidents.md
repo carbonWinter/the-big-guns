@@ -6,9 +6,9 @@ seo_title:
   Guns
 permalink: "/las-vegas-nv/automobile-accidents/"
 description:
-  "Yes, even after a small vehicle accident, you should hire a lawyer.
+  Yes, even after a small vehicle accident, you should hire a lawyer.
   Our expert car accident injury lawyers. will fight to ensure that you receive the
-  compensation that you are entitled to. "
+  compensation that you are entitled to.
 keywords:
   car accident lawyer near me,car accident injury lawyer,auto accident lawyer
   las vegas
@@ -65,7 +65,7 @@ blocks:
     heading: Attorney For Auto Accident
     text: Get the best car wreck attorney for your case in Las Vegas, NV
     content: |-
-      A car accident can be a major disruption in anyone's life, but it is even worse when it results in an injury. It is almost always worth hiring a lawyer to represent you for a car accident for many reasons. The nature of your injuries, the types of treatment that are actually effective, how to negotiate with the insurer of the at-fault driver, and even negotiating the replacement or repairs to your car are all issues that take additional time and expertise to understand and process effectively. Insurers know this, and they often seek to make the situation "easy" for claimants by making extraordinarily low offers while you try to deal with the disruption caused by their client.
+      A car accident can be a major disruption in anyone's life, but it is even worse when it results in an injury. It is almost always worth hiring a lawyer to represent you for a car accident for many reasons. The nature of your injuries, the types of treatment that are actually effective, how to negotiate with the insurer of the at-fault driver, and even negotiating the replacement or repairs to your car are all issues that take additional time and expertise to understand and process effectively. Insurers know this, and they often seek to make the situation easy for claimants by making extraordinarily low offers while you try to deal with the disruption caused by their client.
 
       As attorneys with actual, substantial experience defending insurance companies and their clients for well over a decade, we know how to handle your personal injury case. We know how to best handle the insurance claim stage and develop the evidence supporting your claim, argue the issues with the insurer's claims handling professionals in a convincing way, and give your claim the best chance of being paid out without the need for a lawsuit. We know what the insurers look at when evaluating your case, and we will do what we can to get them to see your claim's value in the same way we do.
 
