@@ -140,8 +140,8 @@ blocks:
   color: light
   columns: '5'
   gutter: small
-  superheading: ''
-  heading: ''
+  superheading: " "
+  heading: " "
   text: ''
   images:
   - image: "/uploads/instagram-bellflower-dental-group-1.jpeg"
