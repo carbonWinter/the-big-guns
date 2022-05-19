@@ -56,27 +56,6 @@ blocks:
   text: What you see is what you get! These are the actual attorneys ready to fight
     for you
   cards:
-  - heading: Michael Lin
-    text: "Michael is a longtime Las Vegas native and obtained his JD/MBA from the
-      William S. Boyd School of Law, which holds the distinction of having the number
-      1 ranked legal writing and research program by _U.S. News & World Report_, and
-      Lee Business School. Michael’s notable academic accomplishments include serving
-      as a teacher’s aide for the legal writing program, CALI Award recipient in Torts,
-      Lawyering Process II, and Employment Discrimination. During law school, Michael
-      was also an Editor on the Nevada Law Journal (Law Review) and a member of the
-      Society of Advocates, the law school’s invitation only Moot Court Team.\n\n
-      \ \nPrior to the practice of law, Michael worked in the hospitality industry
-      for over decade, having been a corporate trainer for a renowned global restaurant
-      chain. His passion for working with people, and desire to seek the most mutually
-      \ \n beneficial resolution to any matter, carries over to his current work today.\n\n
-      \ \nMichael’s legal practice predominantly focuses on all aspects of insurance
-      and general liability defense, from prelitigation through post trial, with appellate
-      experience. He has defended doctors, insureds, insurance companies,  \n and
-      institutional healthcare organizations. His diverse legal background provides
-      him the unique ability to solve complex legal issues in an efficient and effective
-      manner.\n\n  \nMichael is an avid animal lover, and in his free time, he enjoys
-      the company of his friends, family, and beautiful dogs.\n\n  \nTo better serve
-      our ever-diverse community, Michael is also fluent in conversational Mandarin."
   - heading: Benjamin J. Carman, Partner
     text: |-
       Ben is originally from Reno, where he graduated from Wooster High School as valedictorian and proceeded to the University of Nevada, Reno. He earned his honors bachelor of science in business management and then completed a master of business administration the following year. Ben took a job with a small plaintiff litigation firm in Reno to learn more about legal practice. He learned a great deal about lawsuits and the strategic and tactical elements of practice at that firm, writing motions and oppositions for other attorneys to argue after just a month on the job.  
@@ -129,6 +108,28 @@ blocks:
       In his free time, Adam enjoys going on walks with his wife and puppy, following sports, and traveling.
     heading: Adam C. Edwards, Attorney
     image: "/uploads/DSC_0411.jpg"
+  - heading: Michael Lin, Attorney
+    text: "Michael is a longtime Las Vegas native and obtained his JD/MBA from the
+      William S. Boyd School of Law, which holds the distinction of having the number
+      1 ranked legal writing and research program by _U.S. News & World Report_, and
+      Lee Business School. Michael’s notable academic accomplishments include serving
+      as a teacher’s aide for the legal writing program, CALI Award recipient in Torts,
+      Lawyering Process II, and Employment Discrimination. During law school, Michael
+      was also an Editor on the Nevada Law Journal (Law Review) and a member of the
+      Society of Advocates, the law school’s invitation only Moot Court Team.\n\n
+      \ \nPrior to the practice of law, Michael worked in the hospitality industry
+      for over decade, having been a corporate trainer for a renowned global restaurant
+      chain. His passion for working with people, and desire to seek the most mutually
+      \ \n beneficial resolution to any matter, carries over to his current work today.\n\n
+      \ \nMichael’s legal practice predominantly focuses on all aspects of insurance
+      and general liability defense, from prelitigation through post trial, with appellate
+      experience. He has defended doctors, insureds, insurance companies,  \n and
+      institutional healthcare organizations. His diverse legal background provides
+      him the unique ability to solve complex legal issues in an efficient and effective
+      manner.\n\n  \nMichael is an avid animal lover, and in his free time, he enjoys
+      the company of his friends, family, and beautiful dogs.\n\n  \nTo better serve
+      our ever-diverse community, Michael is also fluent in conversational Mandarin."
+    image: "/uploads/michael-lin-placeholder-700x900.jpg"
   appointment_button: false
   button:
     text: None
