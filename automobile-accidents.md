@@ -87,7 +87,7 @@ blocks:
     text: Free Consult
     url: ''
     blank: false
-  image: ''
+  image: "/uploads/cta-bg-las-vegas-nevada-big-guns-injury-attorneys-we-care.jpg"
   content: The Big Guns is a team of actual trial lawyers who have been representing
     insurance companies and their insureds for over a decade. Now representing people
     injured in car accidents, we bring our skills and experience to maximize your
