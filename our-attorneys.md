@@ -32,6 +32,8 @@ header:
     id: offset-4
   - text: Adam C. Edwards
     id: offset-5
+  - text: Michael Lin
+    id: offset-6
 title: Who We Are
 seo_title: ''
 permalink: "/las-vegas-nv/our-attorneys/"
