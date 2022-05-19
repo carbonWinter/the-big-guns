@@ -71,7 +71,7 @@ blocks:
   color: light
   align: center
   background:
-    image: "/uploads/xxx.jpg"
+    image: "/uploads/cta-bg-las-vegas-nevada-big-guns-injury-attorneys-we-care.jpg"
     color: muted
     video: ''
     overlay:
@@ -85,7 +85,7 @@ blocks:
     text: Free Consult
     url: ''
     blank: false
-  image: "/uploads/cta-bg-las-vegas-nevada-big-guns-injury-attorneys-we-care.jpg"
+  image: ''
   content: We will work with you to make the process as easy as possible, managing
     all aspects to maximize your recovery. You can rest assured that you will receive
     skilled, aggressive representation in your case. Schedule a free consultation
