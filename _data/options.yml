@@ -122,22 +122,10 @@ blocks:
   gutter: small
   superheading: ''
   heading: Our Professional Affiliations
-  text: We are proud members of these Organizations in Las Vegas, NV
+  text: We are proud members of these Organizations in Las Vegas, NV and California
   images:
-  - image: "/uploads/ico-accreditations-ada.png"
-    url: http://ada.org/
-  - image: "/uploads/ico-accreditations-cda.png"
-    url: http://www.cda.org/
-  - image: "/uploads/ico-accreditations-dboc.png"
-    url: http://www.dbc.ca.gov/
-  - image: "/uploads/ico-accreditations-icoi.png"
-    url: http://icoi.org/
-  - image: "/uploads/aapd.png"
-    url: http://www.aapd.org/
-  - image: "/uploads/carecreditlogo.jpg"
-    url: http://www.carecredit.com/
-  - image: "/uploads/learnmore_180x150_e.png"
-    url: https://retailservices.wellsfargo.com/wfha_patient.html
+  - image: "/uploads/ico-state-bar-california.jpg"
+    url: https://www.calbar.ca.gov/
 - template: images-1
   block: images-1
   background:
