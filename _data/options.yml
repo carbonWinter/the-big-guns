@@ -124,6 +124,8 @@ blocks:
   heading: Our Professional Affiliations
   text: We are proud members of these Organizations in Las Vegas, NV and California
   images:
+  - image: "/uploads/ico-state-bar-nevada.jpg"
+    url: https://nvbar.org/
   - image: "/uploads/ico-state-bar-california.jpg"
     url: https://www.calbar.ca.gov/
 - template: images-1
