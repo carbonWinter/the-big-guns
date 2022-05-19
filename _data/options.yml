@@ -140,9 +140,9 @@ blocks:
   color: light
   columns: '5'
   gutter: small
-  superheading: the big guns on social media
-  heading: Follow Us
-  text: Stay updated about our practice through our social media accounts
+  superheading: ''
+  heading: ''
+  text: ''
   images:
   - image: "/uploads/instagram-bellflower-dental-group-1.jpeg"
     url: ''
