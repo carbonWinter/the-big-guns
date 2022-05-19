@@ -100,10 +100,10 @@ blocks:
     text: Free Consult
     url: ''
     blank: false
-  image: ''
-  content: Based on historical data from cases we have litigated, we can provide you
-    with an estimated monetary value of your case. Click the button below, to schedule
-    a free consult and we'll provide you with an estimate for your case.
+  image: "/uploads/cta-bg-las-vegas-nevada-big-guns-injury-attorneys-we-care.jpg"
+  content: 'Based on historical data from cases we have litigated, we can provide
+    you with an estimated monetary value of your case. Click the button below, to
+    schedule a free consult and we''ll provide you with an estimate for your case. '
   appointment_button: true
   section: ''
 - template: text-1
