@@ -85,7 +85,7 @@ blocks:
   color: light
   align: center
   background:
-    image: "/uploads/xxx.jpg"
+    image: "/uploads/cta-bg-las-vegas-nevada-big-guns-injury-attorneys-we-care.jpg"
     color: muted
     video: ''
     overlay:

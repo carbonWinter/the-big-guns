@@ -72,7 +72,7 @@ blocks:
   color: light
   align: center
   background:
-    image: "/uploads/xxx.jpg"
+    image: "/uploads/cta-bg-las-vegas-nevada-big-guns-injury-attorneys-we-care.jpg"
     color: muted
     video: ''
     overlay:
@@ -87,7 +87,7 @@ blocks:
     text: Free Consult
     url: ''
     blank: false
-  image: "/uploads/cta-bg-las-vegas-nevada-big-guns-injury-attorneys-we-care.jpg"
+  image: ''
   content: As a group of attorneys who spent years on the other side of the aisle
     defending insurance companies, we know precisely what to look for in a case. We
     know exactly what types of defenses their attorneys will bring. We also don't
