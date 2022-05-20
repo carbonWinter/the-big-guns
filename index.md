@@ -141,6 +141,21 @@ blocks:
     button:
       text: Learn More
       url: ''
+  - heading: Robert T. Hernandez
+    copy: Rob is a born and raised Las Vegas native. He attended the University of
+      Nevada, Reno, where he graduated cum laude with a Bachelor’s Degree in Criminal
+      Justice. He then attended the William S. Boyd School of Law at the University
+      of Nevada, Las Vegas. Following law school, Rob immediately took the Nevada
+      Bar Exam and passed on his first attempt. Rob has been a licensed attorney since
+      October 2015 and has practiced in various legal fields, including personal injury,
+      contract disputes, construction defect, family law, and criminal law.
+    overlay:
+      opacity: 0.5
+      color: ''
+    image: "/uploads/DSC_0421.jpg"
+    button:
+      text: ''
+      url: ''
   - heading: Sean Forbush
     copy: Sean has experience in family law, trust law, workers compensation, and
       other areas of law which help him incorporate all issues into the personal injury
