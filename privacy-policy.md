@@ -45,7 +45,7 @@ blocks:
   heading_tag: H1
   align: left
   columns: '1'
-  heading: Privacy Policy
+  heading: Privacy Policy and Disclaimer
   content: "### Your Privacy\n\nThe privacy of our visitors to [https://www.getthebigguns.com/](https://www.getthebigguns.com/
     \"https://www.getthebigguns.com/\") is important to us.\n\nWe recognize that the
     privacy of your personal information is important. Here is information on what
