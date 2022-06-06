@@ -321,20 +321,20 @@
         // Connect form with the office email
         const formData = new FormData(frm);
 
-        $.ajax({
-          url: "https://formspree.io/f/mzbojrlz",
-          method: "POST",
-          dataType: "json",
-          data: {
-            selectedService: formData.get('selectService'),
-            appointmentDate: formData.get("apptdate"),
-            appointmentTime: formData.get("appttime"),
-            name: formData.get("inputName"),
-            email: formData.get("inputEmail"),
-            phone: formData.get("inputPhone"),
-            isOkToReceiveOffer: formData.get("checkReceiveOffer") ? true : false
-          }
-        });
+        // $.ajax({
+        //   url: "https://formspree.io/f/mzbojrlz",
+        //   method: "POST",
+        //   dataType: "json",
+        //   data: {
+        //     selectedService: formData.get('selectService'),
+        //     appointmentDate: formData.get("apptdate"),
+        //     appointmentTime: formData.get("appttime"),
+        //     name: formData.get("inputName"),
+        //     email: formData.get("inputEmail"),
+        //     phone: formData.get("inputPhone"),
+        //     isOkToReceiveOffer: formData.get("checkReceiveOffer") ? true : false
+        //   }
+        // });
 
         // CONNECT FORM WITH SALES JET
         fetch("/.netlify/functions/submit-to-salesjet", {
