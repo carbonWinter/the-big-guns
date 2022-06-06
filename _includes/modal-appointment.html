@@ -333,31 +333,32 @@
             email: formData.get("inputEmail"),
             phone: formData.get("inputPhone"),
             isOkToReceiveOffer: formData.get("checkReceiveOffer") ? true : false
-          }
-        });
-
-        // CONNECT FORM WITH SALES JET
-        fetch("/.netlify/functions/submit-to-salesjet", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json"
           },
-          body: JSON.stringify({
-            client_id: formData.get("client_id"),
-            client_name: formData.get("client_name"),
-            selectedService: formData.get("selectService"),
-            appointmentDate: formData.get("apptdate"),
-            appointmentTime: formData.get("appttime"),
-            name: formData.get("inputName"),
-            email: formData.get("inputEmail"),
-            phone: formData.get("inputPhone"),
-            isOkToReceiveOffer: formData.get("checkReceiveOffer") ? true : false
-          })
-        }).then(function(response) {
-          console.log(response);
-          location.assign("/thank-you");
-        }).catch(function(error) {
-          console.warn(error);
+          complete: function() {
+            // CONNECT FORM WITH SALES JET
+            fetch("/.netlify/functions/submit-to-salesjet", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json"
+              },
+              body: JSON.stringify({
+              client_id: formData.get("client_id"),
+              client_name: formData.get("client_name"),
+              selectedService: formData.get("selectService"),
+              appointmentDate: formData.get("apptdate"),
+              appointmentTime: formData.get("appttime"),
+              name: formData.get("inputName"),
+              email: formData.get("inputEmail"),
+              phone: formData.get("inputPhone"),
+              isOkToReceiveOffer: formData.get("checkReceiveOffer") ? true : false
+              })
+            }).then(function(response) {
+              console.log(response);
+              location.assign("/thank-you");
+            }).catch(function(error) {
+              console.warn(error);
+            });
+          }
         });
 
         var frmpost = "?formdata=1";
