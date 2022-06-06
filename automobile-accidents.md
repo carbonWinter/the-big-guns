@@ -116,17 +116,17 @@ blocks:
     superheading: ""
     heading: What Should I Do If I've Been In An Accident?
     text: ""
-    content: |2-
-     1. **Stay calm.** You might be angry or upset with the other driver, but do not lose your cool. Now is not the time to prove your case, nor to express your anger with the other driver.
-     2. **Save the video.** If you had a dashcam active, be sure that you do what you need to do to ensure that it saves the video footage of the accident. Keep the camera safe. Note whether the other driver's car also had a dashcam.
-     3. **Admit nothing.** When speaking with the other driver, do not admit fault and do not make any statements about whether you are injured. People are often filled with adrenaline after an accident, and pain from the encounter may only set in hours after the event. Let the other side talk, and later take note of what they said.
-     4. **Exchange information.** Check to see if the registration, insurance, and names all match. If not, ask for clarification as to relationships.
-     5. **Take photos.** Take as many photographs of the scene and the cars involved as you can. Save them to a location off of your phone after the accident so that they will not be lost, such as with Dropbox, OneDrive, Box, or iCloud. Be sure to get photos of the license plate, any debris on the ground from the accident, and pictures of all of the involved cars together in the same picture to show them relative to each other.
-     6. **Get names and contact info.** You will want the identities of any witnesses at the scene, including contact information. Also, be sure to note how many people were in each car.
-     7. **Call the police.** It is best to get them to document the incident where possible. Sometimes they will not respond to car accident calls. If this happens, be sure to later turn in a report to the responsible police department with the information you need. For your convenience, here is a link to the form.
-     8. **Take notes.** Either write or record your impressions of the incident, including your observations regarding the other driver's sobriety, their use of a phone, the facts as you recall them, and the like. This will help you later in remembering the details of what happened. A voice recorder or a note program on your smartphone, like Google Keep, Microsoft OneNote, Evernote, and others can help if you do not have a pad and pen handy.
-     9. **Check your insurance.** If your car is not drivable from the scene, check your insurance policy to see if you have roadside assistance available, including towing.
-    10. **Contact us.** Call The Big Guns at 702-500-GUNS for powerful, aggressive representation for your auto accident.
+    content:
+      1. **Stay calm.** You might be angry or upset with the other driver, but do not lose your cool. Now is not the time to prove your case, nor to express your anger with the other driver.
+      2. **Save the video.** If you had a dashcam active, be sure that you do what you need to do to ensure that it saves the video footage of the accident. Keep the camera safe. Note whether the other driver's car also had a dashcam.
+      3. **Admit nothing.** When speaking with the other driver, do not admit fault and do not make any statements about whether you are injured. People are often filled with adrenaline after an accident, and pain from the encounter may only set in hours after the event. Let the other side talk, and later take note of what they said.
+      4. **Exchange information.** Check to see if the registration, insurance, and names all match. If not, ask for clarification as to relationships.
+      5. **Take photos.** Take as many photographs of the scene and the cars involved as you can. Save them to a location off of your phone after the accident so that they will not be lost, such as with Dropbox, OneDrive, Box, or iCloud. Be sure to get photos of the license plate, any debris on the ground from the accident, and pictures of all of the involved cars together in the same picture to show them relative to each other.
+      6. **Get names and contact info.** You will want the identities of any witnesses at the scene, including contact information. Also, be sure to note how many people were in each car.
+      7. **Call the police.** It is best to get them to document the incident where possible. Sometimes they will not respond to car accident calls. If this happens, be sure to later turn in a report to the responsible police department with the information you need. For your convenience, here is a link to the form.
+      8. **Take notes.** Either write or record your impressions of the incident, including your observations regarding the other driver's sobriety, their use of a phone, the facts as you recall them, and the like. This will help you later in remembering the details of what happened. A voice recorder or a note program on your smartphone, like Google Keep, Microsoft OneNote, Evernote, and others can help if you do not have a pad and pen handy.
+      9. **Check your insurance.** If your car is not drivable from the scene, check your insurance policy to see if you have roadside assistance available, including towing.
+      10. **Contact us.** Call The Big Guns at 702-500-GUNS for powerful, aggressive representation for your auto accident.
     lists: []
   - template: video-2
     block: video-2

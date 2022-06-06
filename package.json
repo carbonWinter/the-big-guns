@@ -13,6 +13,7 @@
   },
   "homepage": "",
   "dependencies": {
+    "axios": "^0.27.2",
     "uikit": "^3.9.2"
   },
   "devDependencies": {

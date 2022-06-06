@@ -1,0 +1,3 @@
+[dev]
+framework = "jekyll"
+command = "sudo bundle exec jekyll s"

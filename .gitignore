@@ -1,9 +1,13 @@
 # OS or Editor folders
 .DS_Store
 node_modules
+.env
 
 # Jekyllg
 _site
 .sass-cache
 .jekyll-metadata
 .jekyll-cache
+
+# Local Netlify folder
+.netlify
