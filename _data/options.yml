@@ -7,165 +7,153 @@ sticky_cta:
   offer: false
   phone: false
 blocks:
-  - template: video-3
-    block: video-3
-    background:
-      color: default
-      overlay:
-        opacity: "0.7"
-        color: ""
-      image: ""
-      video: ""
+- template: video-3
+  block: video-3
+  background:
+    color: default
+    overlay:
+      opacity: '0.7'
+      color: ''
+    image: ''
+    video: ''
+  color: dark
+  align: center
+  superheading: ''
+  heading: 'The Big Guns: We fight for you'
+  text: We aggressively represent all of our clients to get you the settlement you
+    deserve
+  appointment_button: true
+  button:
+    text: Free Consult
+    url: ''
+    blank: false
+  videos:
+  - url: "/uploads/get_the_most.mp4"
+    image: "/uploads/get_the_most.jpg"
+    video: ''
+  - url: "/uploads/being_lawyer.mp4"
+    image: "/uploads/being_lawyer.jpg"
+    video: ''
+- template: contact-2
+  block: contact-2
+  background:
     color: dark
-    align: center
-    superheading: ""
-    heading: "The Big Guns: We fight for you"
-    text:
-      We aggressively represent all of our clients to get you the settlement you
-      deserve
+    overlay:
+      opacity: '0.7'
+      color: ''
+    image: ''
+    video: ''
+  superheading: ''
+  heading: Book Online today
+  align: center
+  color: light
+  hours:
+    heading: OFFICE HOURS
+    hours:
+    - Monday - Friday 8am - 5pm
+    - Saturday Closed
+    - Sunday Closed
+  appointment:
+    heading: Click to schedule or call now
     appointment_button: true
     button:
-      text: Free Consult
-      url: ""
+      text: ''
+      url: ''
       blank: false
-    videos:
-      - url: "/uploads/get_the_most.mp4"
-        image: /uploads/get_the_most.jpg
-      - url: "/uploads/being_lawyer.mp4"
-        image: /uploads/being_lawyer.jpg
-  - template: contact-2
-    block: contact-2
-    background:
-      color: dark
-      overlay:
-        opacity: "0.7"
-        color: ""
-      image: ""
-      video: ""
-    superheading: ""
-    heading: Book Online today
-    align: center
-    color: light
-    hours:
-      heading: OFFICE HOURS
-      hours:
-        - Monday - Friday 8am - 5pm
-        - Saturday Closed
-        - Sunday Closed
-    appointment:
-      heading: Click to schedule or call now
-      appointment_button: true
-      button:
-        text: ""
-        url: ""
-        blank: false
-    address:
-      heading: LOCATION
-      address: |-
-        4045 Spencer Street, Suite A47
+  address:
+    heading: LOCATION
+    address: |-
+      4045 Spencer Street, Suite A47
 
-        Las Vegas, NV 89119
-  - template: map-image
-    block: map-image
-    image: "/uploads/map.png"
-    link: https://goo.gl/maps/rRjq8Xq2kPWuHs7e7
-  - template: testimonials-2
-    block: testimonials-2
-    background:
-      color: dark
-      overlay:
-        opacity: 0.5
-        color: ""
-      image: ""
-      video: ""
-    color: light
-    testimonials:
-      - heading: They took away all the stress and made the case easy...
-        copy:
-          After my car accident, both my insurance and the other driver's wanted to
-          drag things out and muddy the waters. When I called Sean, he stepped in and
-          lifted that stress off of me. He acted to resolve the issue in my favor, let
-          me know how things were going along the way, and completed the settlement with
-          little requirement of anything from me. I appreciated his professional help
-          and would call again if ever I was in need!
-        author: Alex F
-        image: "/uploads/testimonial_1.jpg"
-      - heading: I knew that they always had my best interest in mind...
-        copy:
-          I worked with Ben and his team after my car accident. I was nervous about
-          the whole process, but they kept me up to date on every aspect and let me know
-          what possible outcomes would happen. They are honest and upfront about the process.
-          They are very professional and look out for their client’s best interest. I
-          would highly recommend the team and if needed use them again.
-        author: Toriano T
-        image: "/uploads/testimonial_2.jpg"
-      - heading: I felt involved every step of the way...
-        copy:
-          Ben, Sean, and the whole team did a great job with my case. They kept me
-          informed, included me in every step of the strategy of the case, and negotiated
-          a good settlement for the case. I would recommend them to anyone with a serious
-          injury case.
-        author: Joyce R
-        image: "/uploads/testimonial_3.jpg"
-    superheading: ""
-    heading: Testimonials
-    text: Check out what our satisfied clients have to say about our services
-  - template: images-1
-    block: images-1
-    background:
-      color: default
-      overlay:
-        opacity: 0.5
-        color: ""
-      image: ""
-      video: ""
+      Las Vegas, NV 89119
+- template: map-image
+  block: map-image
+  image: "/uploads/map.png"
+  link: https://goo.gl/maps/rRjq8Xq2kPWuHs7e7
+- template: testimonials-2
+  block: testimonials-2
+  background:
     color: dark
-    columns: expand
-    gutter: small
-    superheading: ""
-    heading: Our Professional Affiliations
-    text: We are proud members of these Organizations in Las Vegas, NV
-    images:
-      - image: "/uploads/ico-accreditations-ada.png"
-        url: http://ada.org/
-      - image: "/uploads/ico-accreditations-cda.png"
-        url: http://www.cda.org/
-      - image: "/uploads/ico-accreditations-dboc.png"
-        url: http://www.dbc.ca.gov/
-      - image: "/uploads/ico-accreditations-icoi.png"
-        url: http://icoi.org/
-      - image: "/uploads/aapd.png"
-        url: http://www.aapd.org/
-      - image: "/uploads/carecreditlogo.jpg"
-        url: http://www.carecredit.com/
-      - image: "/uploads/learnmore_180x150_e.png"
-        url: https://retailservices.wellsfargo.com/wfha_patient.html
-  - template: images-1
-    block: images-1
-    background:
-      color: dark
-      overlay:
-        opacity: 0.5
-        color: ""
-      image: ""
-      video: ""
-    color: light
-    columns: "5"
-    gutter: small
-    superheading: the big guns on social media
-    heading: Follow Us
-    text: Stay updated about our practice through our social media accounts
-    images:
-      - image: "/uploads/instagram-bellflower-dental-group-1.jpeg"
-        url: ""
-      - image: "/uploads/instagram-bellflower-dental-group-2.jpeg"
-        url: ""
-      - image: "/uploads/instagram-bellflower-dental-group-3.jpeg"
-        url: ""
-      - image: "/uploads/instagram-bellflower-dental-group-4.jpg"
-        url: ""
-      - image: "/uploads/instagram-bellflower-dental-group-5.jpg"
-        url: ""
+    overlay:
+      opacity: 0.5
+      color: ''
+    image: ''
+    video: ''
+  color: light
+  testimonials:
+  - heading: They took away all the stress and made the case easy...
+    copy: After my car accident, both my insurance and the other driver's wanted to
+      drag things out and muddy the waters. When I called Sean, he stepped in and
+      lifted that stress off of me. He acted to resolve the issue in my favor, let
+      me know how things were going along the way, and completed the settlement with
+      little requirement of anything from me. I appreciated his professional help
+      and would call again if ever I was in need!
+    author: Alex F
+    image: "/uploads/testimonial_1.jpg"
+  - heading: I knew that they always had my best interest in mind...
+    copy: I worked with Ben and his team after my car accident. I was nervous about
+      the whole process, but they kept me up to date on every aspect and let me know
+      what possible outcomes would happen. They are honest and upfront about the process.
+      They are very professional and look out for their client’s best interest. I
+      would highly recommend the team and if needed use them again.
+    author: Toriano T
+    image: "/uploads/testimonial_2.jpg"
+  - heading: I felt involved every step of the way...
+    copy: Ben, Sean, and the whole team did a great job with my case. They kept me
+      informed, included me in every step of the strategy of the case, and negotiated
+      a good settlement for the case. I would recommend them to anyone with a serious
+      injury case.
+    author: Joyce R
+    image: "/uploads/testimonial_3.jpg"
+  superheading: ''
+  heading: Testimonials
+  text: Check out what our satisfied clients have to say about our services
+- template: images-1
+  block: images-1
+  background:
+    color: default
+    overlay:
+      opacity: 0.5
+      color: ''
+    image: ''
+    video: ''
+  color: dark
+  columns: expand
+  gutter: small
+  superheading: ''
+  heading: Our Professional Affiliations
+  text: We are proud members of these Organizations in Las Vegas, NV and California
+  images:
+  - image: "/uploads/ico-state-bar-nevada.jpg"
+    url: https://nvbar.org/
+  - image: "/uploads/ico-state-bar-california.jpg"
+    url: https://www.calbar.ca.gov/
+- template: images-1
+  block: images-1
+  background:
+    color: dark
+    overlay:
+      opacity: 0.5
+      color: ''
+    image: ''
+    video: ''
+  color: light
+  columns: '5'
+  gutter: small
+  superheading: " "
+  heading: " "
+  text: ''
+  images:
+  - image: "/uploads/instagram-bellflower-dental-group-1.jpeg"
+    url: ''
+  - image: "/uploads/instagram-bellflower-dental-group-2.jpeg"
+    url: ''
+  - image: "/uploads/instagram-bellflower-dental-group-3.jpeg"
+    url: ''
+  - image: "/uploads/instagram-bellflower-dental-group-4.jpg"
+    url: ''
+  - image: "/uploads/instagram-bellflower-dental-group-5.jpg"
+    url: ''
 fonts:
   body: SFCompactDisplay
   heading: SFCompactDisplay
@@ -179,39 +167,39 @@ backgrounds:
   secondary: "#F44040"
   dark: "#272624"
   muted: "#cccccc"
-phone: 702-500-GUNS
+phone: 702-500-4867
 appointments:
   client_id: "307"
   client_name: The Big Guns
   services:
-    - Automobile Accidents
-    - Spinal Injuries
-    - Catastrophic Injuries
-    - Bicycle and Pedestrian Accidents
-    - Motorcycle Injuries
-    - Wrongful Death
-    - Insurance Bad Faith
-    - Dog Bites
-    - Federal Litigation
+  - Automobile Accidents
+  - Spinal Injuries
+  - Catastrophic Injuries
+  - Bicycle and Pedestrian Accidents
+  - Motorcycle Injuries
+  - Wrongful Death
+  - Insurance Bad Faith
+  - Dog Bites
+  - Federal Litigation
   hours:
-    - "[]"
-    - "[8, 18]"
-    - "[8, 18]"
-    - "[8, 18]"
-    - "[8, 18]"
-    - "[8, 18]"
-    - "[]"
+  - "[]"
+  - "[8, 18]"
+  - "[8, 18]"
+  - "[8, 18]"
+  - "[8, 18]"
+  - "[8, 18]"
+  - "[]"
 offer:
   heading: Cosmetic Consultation
   subheading: Includes full exam and x-rays
-  disclaimer: ""
+  disclaimer: ''
 site_title: The Big Guns
 google_analytics: GTM-WGKH7DD
 social:
-  facebook: https://www.facebook.com/
-  linkedin: https://www.linkedin.com/
-  pinterest: https://www.pinterest.com/
+  facebook: https://www.facebook.com/pages/category/Lawyer---Law-Firm/Carman-Cooney-Forbush-PLLC-2118793748239537/
+  linkedin: https://www.linkedin.com/in/bcarman?trk=people-guest_people_search-card
+  pinterest: ''
   twitter: https://twitter.com/thebiggunsvegas/
-  yelp: https://www.yelp.com/
-  youtube: https://www.youtube.com/
+  yelp: ''
+  youtube: ''
   instagram: https://www.instagram.com/getthebigguns/
