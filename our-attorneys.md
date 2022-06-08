@@ -131,7 +131,7 @@ blocks:
       manner.\n\n  \nMichael is an avid animal lover, and in his free time, he enjoys
       the company of his friends, family, and beautiful dogs.\n\n  \nTo better serve
       our ever-diverse community, Michael is also fluent in conversational Mandarin."
-    image: "/uploads/michael-lin-placeholder-700x900.jpg"
+    image: "/uploads/attorney-michael-lin-the-big-guns-las-vegas-accident-injuyr.jpg"
   appointment_button: false
   button:
     text: None
