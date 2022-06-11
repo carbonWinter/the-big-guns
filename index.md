@@ -183,6 +183,22 @@ blocks:
     button:
       text: Learn More
       url: ''
+  - heading: Michael Lin
+    copy: Michael is a longtime Las Vegas native and obtained his JD/MBA from the
+      William S. Boyd School of Law, which holds the distinction of having the number
+      1 ranked legal writing and research program by _U.S. News & World Report_, and
+      Lee Business School. Michael’s notable academic accomplishments include serving
+      as a teacher’s aide for the legal writing program, CALI Award recipient in Torts,
+      Lawyering Process II, and Employment Discrimination. During law school, Michael
+      was also an Editor on the Nevada Law Journal (Law Review) and a member of the
+      Society of Advocates, the law school’s invitation only Moot Court Team.
+    image: "/uploads/attorney-michael-lin-the-big-guns-las-vegas-accident-injuyr.jpg"
+    overlay:
+      opacity: 0.5
+      color: ''
+    button:
+      text: ''
+      url: ''
   copy: ''
   appointment_button: false
   button:
@@ -358,10 +374,20 @@ blocks:
   heading: Fight All The Way
   text: The Big Guns don't just look to settle quickly if that is not what is best
     for our clients
-  content: |-
-    At The Big Guns, we understand how difficult it can be to find a personal injury attorney after suffering an accident or personal injury. Our team is ready to help injured persons and policyholders involved in car accidents in Henderson, Las Vegas, North Las Vegas, and beyond to maximize your recovery. Most personal injury cases involve significant time and documentation to properly evaluate, investigate, and prepare for trial if necessary. Many personal injury law firms are only interested in dealing with personal injury cases that they can quickly settle without extensive investigation. The Big Guns personal injury lawyers will thoroughly investigate your personal injury case to ensure you receive the settlement you deserve. And if a fair settlement cannot be reached, we have the experience to take your case to trial and are willing to fight for you. 
-
-    We will work with you to make the process as easy as possible, and you can rest assured that you will receive skilled, aggressive representation in your case every step of the way. If you've been injured, it's time to bring out The Big Guns.
+  content: "At The Big Guns, we understand how difficult it can be to find a personal
+    injury attorney after suffering an accident or personal injury. Our team is ready
+    to help injured persons and policyholders involved in car accidents in Henderson,
+    Las Vegas, North Las Vegas, and beyond to maximize your recovery. Most personal
+    injury cases involve significant time and documentation to properly evaluate,
+    investigate, and prepare for trial if necessary. Many personal injury law firms
+    are only interested in dealing with personal injury cases that they can quickly
+    settle without extensive investigation. The Big Guns personal injury lawyers will
+    thoroughly investigate your personal injury case to ensure you receive the settlement
+    you deserve. And if a fair settlement cannot be reached, we have the experience
+    to take your case to trial and are willing to fight for you. \n\nWe will work
+    with you to make the process as easy as possible, and you can rest assured that
+    you will receive skilled, aggressive representation in your case every step of
+    the way. If you've been injured, it's time to bring out The Big Guns."
   lists: []
 
 ---
