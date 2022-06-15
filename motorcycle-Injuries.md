@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: Motorcycle Injuries
-seo_title: Motorcycle Accident Lawyers in Las Vegas, NV
+seo_title: Motorcycle Accident Lawyer in Las Vegas, NV
 permalink: "/las-vegas-nv/motorcycle-Injuries/"
 description: Have you been wounded in a Las Vegas motorbike accident? Our motorcycle
   accident lawyers fight for you and other injured motorcyclists. For a free consultation,
