@@ -3,9 +3,9 @@ layout: blocks
 title: Car Accident
 seo_title: Car Accident Lawyer in Las Vegas, NV
 permalink: "/las-vegas-nv/automobile-accidents/"
-description: Yes, even after a small vehicle accident, you should hire a lawyer. Our
-  expert car accident injury lawyers. will fight to ensure that you receive the compensation
-  that you are entitled to.
+description: 'A car accident can be a major disruption in anyone’s life, but it is
+  even worse when it results in an injury. Get the best car accident attorney for
+  your case in Las Vegas, NV. '
 keywords: car accident lawyer near me,car accident injury lawyer,auto accident lawyer
   las vegas
 header:
