@@ -3,7 +3,7 @@ layout: blocks
 title: Spinal Injuries
 seo_title: Spinal injury Attorney in Las Vegas, NV
 permalink: "/las-vegas-nv/spinal-injuries/"
-description: The Big Guns' spinal cord injury attorneys will be there for you every
+description: The Big Guns' spinal injury attorneys will be there for you at every
   step of the way. We are a well-qualified and award-winning personal injury law firm
   to handle a spinal cord injury case.
 keywords: spinal injury attorney las vegas, spinal injury attorney, spine injury lawyers,spinal
