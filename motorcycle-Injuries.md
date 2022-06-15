@@ -4,8 +4,8 @@ title: Motorcycle Injuries
 seo_title: Motorcycle Accident Lawyer in Las Vegas, NV
 permalink: "/las-vegas-nv/motorcycle-Injuries/"
 description: Have you been wounded in a Las Vegas motorbike accident? Our motorcycle
-  accident lawyers fight for you and other injured motorcyclists. For a free consultation,
-  contact The Big Guns.
+  accident lawyers are here to fight for you. Schedule a free consult and we’ll provide
+  you with an estimate for your case.
 keywords: motorcycle accident law firm las vegas, motorcycle accident law firm, motorcycle
   accident law firm,motorcycle accident law
 header:
