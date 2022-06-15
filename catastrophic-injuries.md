@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: Catastrophic Injuries
-seo_title: Catastrophic Injury Attorneys in Las Vegas, NV | The Big Guns
+seo_title: Catastrophic Injury Attorneys in Las Vegas, NV
 permalink: "/las-vegas-nv/catastrophic-injuries/"
 description: The Big Guns, Las Vegas's experienced and competent catastrophic injury
   attorneys have recovered millions of dollars for those who have suffered serious

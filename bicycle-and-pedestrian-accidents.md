@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: Bicycle and Pedestrian Accidents
-seo_title: Pedestrian Accident Lawer in Las Vegas, NV | The Big Guns
+seo_title: Pedestrian Accident Lawyer in Las Vegas, NV=
 permalink: "/las-vegas-nv/bicycle-and-pedestrian-accidents/"
 description: No matter what caused your pedestrian accident, you can count on the
   Las Vegas pedestrian accident attorneys at The Big Guns to fight for the compensation
