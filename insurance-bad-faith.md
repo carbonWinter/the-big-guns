@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: Insurance Bad Faith
-seo_title: Bad Faith Insurance Attorney in Las Vegas, NV | The Big Guns
+seo_title: Bad Faith Insurance Attorney in Las Vegas, NV
 permalink: "/las-vegas-nv/insurance-bad-faith/"
 description: Our bad faith insurance attorneys at The Big Guns are familiar with the
   methods used by insurance companies to push you to settle for less than you deserve.
