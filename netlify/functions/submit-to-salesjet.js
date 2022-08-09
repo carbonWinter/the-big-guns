@@ -5,13 +5,25 @@ exports.handler = async function (event, context) {
         if (event.httpMethod !== "POST") {
             throw new Error("HTTP Method not supported");
         }
-        if (event.httpMethod !== "POST") {
-            throw new Error("HTTP Method not supported");
-        }
-        const requestBody = JSON.parse(event.body);
-        const { selectedService, appointmentDate, appointmentTime, name, email, phone, isOkToReceiveOffer } = requestBody;
 
-        const response = await axios({
+        const requestBody = JSON.parse(event.body);
+        const {
+            selectedService,
+            appointmentDate,
+            appointmentTime,
+            name,
+            email,
+            phone,
+            isOkToReceiveOffer,
+            utm_source,
+            utm_medium,
+            utm_campaign,
+            utm_term,
+            utm_content,
+            utm_id
+        } = requestBody;
+
+        await axios({
             url: "https://sj-api.com/externalapp/track",
             method: "POST",
             headers: {
@@ -28,13 +40,17 @@ exports.handler = async function (event, context) {
                         "5907c248-a7e5-ec11-a9ab-ff1d79b08822": selectedService,
                         "5a07c248-a7e5-ec11-a9ab-ff1d79b08822": appointmentDate,
                         "7ac88353-a7e5-ec11-a9ab-ff1d79b08822": appointmentTime,
-                        "c603df5d-a7e5-ec11-a9ab-ff1d79b08822": isOkToReceiveOffer
+                        "c603df5d-a7e5-ec11-a9ab-ff1d79b08822": isOkToReceiveOffer,
+                        "16b77a05-ec17-ed11-a9ab-ff1d79b08822": utm_source,
+                        "17b77a05-ec17-ed11-a9ab-ff1d79b08822": utm_medium,
+                        "a0731113-ec17-ed11-a9ab-ff1d79b08822": utm_campaign,
+                        "a1731113-ec17-ed11-a9ab-ff1d79b08822": utm_term,
+                        "61a8421c-ec17-ed11-a9ab-ff1d79b08822": utm_content,
+                        "62a8421c-ec17-ed11-a9ab-ff1d79b08822": utm_id
                     }
                 }
             }
         });
-
-        //console.log(response.data);
 
         return {
             statusCode: 201,

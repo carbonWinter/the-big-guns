@@ -321,6 +321,8 @@
         // Connect form with the office email
         const formData = new FormData(frm);
 
+        const urlSearchParams = new URLSearchParams(window.location.search);
+
         $.ajax({
           url: "https://formspree.io/f/mzbojrlz",
           method: "POST",
@@ -335,6 +337,7 @@
             isOkToReceiveOffer: formData.get("checkReceiveOffer") ? true : false
           },
           complete: function() {
+            console.log("Running Sales Jet");
             // CONNECT FORM WITH SALES JET
             fetch("/.netlify/functions/submit-to-salesjet", {
               method: "POST",
@@ -342,15 +345,21 @@
                 "Content-Type": "application/json"
               },
               body: JSON.stringify({
-              client_id: formData.get("client_id"),
-              client_name: formData.get("client_name"),
-              selectedService: formData.get("selectService"),
-              appointmentDate: formData.get("apptdate"),
-              appointmentTime: formData.get("appttime"),
-              name: formData.get("inputName"),
-              email: formData.get("inputEmail"),
-              phone: formData.get("inputPhone"),
-              isOkToReceiveOffer: formData.get("checkReceiveOffer") ? true : false
+                client_id: formData.get("client_id"),
+                client_name: formData.get("client_name"),
+                selectedService: formData.get("selectService"),
+                appointmentDate: formData.get("apptdate"),
+                appointmentTime: formData.get("appttime"),
+                name: formData.get("inputName"),
+                email: formData.get("inputEmail"),
+                phone: formData.get("inputPhone"),
+                isOkToReceiveOffer: formData.get("checkReceiveOffer") ? true : false,
+                utm_source: urlSearchParams.get("utm_source"),
+                utm_medium: urlSearchParams.get("utm_medium"),
+                utm_campaign: urlSearchParams.get("utm_campaign"),
+                utm_term: urlSearchParams.get("utm_term"),
+                utm_content: urlSearchParams.get("utm_content"),
+                utm_id: urlSearchParams.get("utm_id")
               })
             }).then(function(response) {
               console.log(response);
