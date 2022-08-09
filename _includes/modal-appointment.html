@@ -337,7 +337,6 @@
             isOkToReceiveOffer: formData.get("checkReceiveOffer") ? true : false
           },
           complete: function() {
-            console.log("Running Sales Jet");
             // CONNECT FORM WITH SALES JET
             fetch("/.netlify/functions/submit-to-salesjet", {
               method: "POST",
